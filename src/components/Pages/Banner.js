@@ -11,9 +11,9 @@ const Banner = () => {
 
     return (
         <div className='m-2 my-10'>
-            <div className="h-fit md:h-screen grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-10 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
+            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-10 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
-                    <div className="max-w-md text-white">
+                    <div className="max-w-md text-white p-2">
                         <p className='text-xl font-semibold'>Hello There</p>
                         <h1 className="text-6xl font-bold text-center">I'm <br /> Khalid Bin Alam</h1>
                         <p className="py-6 px-2 text-base md:text-2xl">MERN stack Developer. I also have experience working with ES6, Bootstrap, Tailwind, Node.js, and MongoDB. I can work with Figma and Adobe XD. I have built a few Full-stack applications. At this moment, I am seeking a professional working environment to help build real-life applications and grow as a web developer</p>
