@@ -18,7 +18,7 @@ const Summary = () => {
                 <h1 className='text-2xl font-semibold m-2'>My Skills</h1>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>Here</p>
-                    <BsFillArrowDownCircleFill className='text-4xl m-2 text-accent'></BsFillArrowDownCircleFill>
+                    <BsFillArrowDownCircleFill className='text-5xl  m-2 text-accent'></BsFillArrowDownCircleFill>
                 </div>
             </div>
             <div
