@@ -3,44 +3,240 @@
         "_id": "632de6b68db30a097bd51917",
         "index": 0,
         "isActive": false,
-        "mainPicture": "http://placehold.it/32x32",
-        "name": "Lillie Mejia",
-        "category": "LOCAZONE",
-        "title": "783 Lynch Street, Independence, Oregon, 1051",
-        "description": "Dolor exercitation ex excepteur occaecat. Enim ad irure cupidatat est sit adipisicing velit culpa reprehenderit est dolor ipsum. Lorem veniam esse occaecat veniam commodo sunt Lorem sunt.\r\n",
+        "mainPicture": "https://i.ibb.co/7jDBdhT/Tea-Tree-Main.png",
+        "name": "TeaTree",
+        "category": "MERN Stack",
+        "title": "This is a website for an Tea manufacturing company",
+        "description": "Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs ExpressJs for backend. I found this combination is flexible and productive. It also offers the flexibility to customize in future.\r\n",
         "lastUpdated": "2019-07-18T09:01:23 -06:00",
-        "tags": [
-            "laboris",
-            "laborum",
-            "officia",
-            "excepteur",
-            "eu",
-            "sint",
-            "duis"
+        "frontend": [
+            "React",
+            "Tailwind",
+            "DaizyUI",
+            "React Router Dom",
+            "React Icons",
+            "React Query",
+            "React Firebase Hooks",
+            "Hot Toast",
+            "React Hook Form",
+            "React Spinner Animation",
+            "emailjs"
+        ],
+        "backend": [
+            "Nodejs",
+            "ExpressJs",
+            "cors",
+            "JWT",
+            "MongoDB",
+            "Stripe",
+            "dotenv"
         ],
         "images": [
-            "eiusmod",
-            "et",
-            "tempor",
-            "aliquip",
-            "enim",
-            "qui",
-            "non"
+            "https://i.ibb.co/p1FqRQk/Tea-Tree22.png",
+            "https://i.ibb.co/6wCLhXy/Tea-Tree-1.png",
+            "https://i.ibb.co/6s3SsqY/Tea-Tree-2.png",
+            "https://i.ibb.co/Jx3HBYg/Tea-Tree-3.png",
+            "https://i.ibb.co/pxNf3Kb/Tea-Tree-5.png",
+            "https://i.ibb.co/gJWmng6/Tea-Tree-6.png",
+            "https://i.ibb.co/87jQ6sd/Tea-Tree-7.png",
+            "https://i.ibb.co/7VL03gL/Tea-Tree-8.png",
+            "https://i.ibb.co/SfSXjQR/Tea-Tree-9.png",
+            "https://i.ibb.co/mNsQB30/Tea-Tree-10.png",
+            "https://i.ibb.co/h709CCf/Tea-Tree-11.png"
         ],
         "bulletPoint": [
             {
                 "id": 0,
-                "name": "Thelma Sykes"
+                "name": "Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs Express for the backend."
             },
             {
                 "id": 1,
-                "name": "Berta Holcomb"
+                "name": "I used the admin system and JWT for user safety"
             },
             {
                 "id": 2,
-                "name": "Belinda Owens"
+                "name": "The payment system is also implemented using stripe"
             }
         ],
-        "message": "Hello, Lillie Mejia! You have 3 unread messages."
+        "message": "Warehouse management app."
+    },
+    {
+        "_id": "632de6b68db30a097bd31417",
+        "index": 0,
+        "isActive": false,
+        "mainPicture": "https://i.ibb.co/CVjC421/Blooming-Beauty-Main.png",
+        "name": "Blooming Beauty",
+        "category": "MERN Stack",
+        "title": "This is a website for an Tea manufacturing company",
+        "description": "Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs ExpressJs for backend. I found this combination is flexible and productive. It also offers the flexibility to customize in future.\r\n",
+        "lastUpdated": "2019-07-18T09:01:23 -06:00",
+        "frontend": [
+            "React",
+            "Tailwind",
+            "DaizyUI",
+            "React Router Dom",
+            "React Icons",
+            "React Query",
+            "React Firebase Hooks",
+            "Hot Toast",
+            "React Hook Form",
+            "React Spinner Animation",
+            "emailjs"
+        ],
+        "backend": [
+            "Nodejs",
+            "ExpressJs",
+            "cors",
+            "JWT",
+            "MongoDB",
+            "Stripe",
+            "dotenv"
+        ],
+        "images": [
+            "https://i.ibb.co/HgSFZZJ/Blooming-Beauty22.png",
+            "https://i.ibb.co/Dkz8wHx/Blooming-Beauty-1.png",
+            "https://i.ibb.co/tC4kWzG/Blooming-Beauty-2.png",
+            "https://i.ibb.co/z6DDDgt/Blooming-Beauty-3.png",
+            "https://i.ibb.co/hVKxHMb/Blooming-Beauty-4.png",
+            "https://i.ibb.co/9yD2dkR/Blooming-Beauty-5.png",
+            "https://i.ibb.co/txSWP6n/Blooming-Beauty-6.png"
+        ],
+        "bulletPoint": [
+            {
+                "id": 0,
+                "name": "Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs Express for the backend."
+            },
+            {
+                "id": 1,
+                "name": "I used the admin system and JWT for user safety"
+            },
+            {
+                "id": 2,
+                "name": "The payment system is also implemented using stripe"
+            }
+        ],
+        "message": "Warehouse management app."
+    },
+    {
+        "_id": "632de6b68db30a097bd94317",
+        "index": 0,
+        "isActive": false,
+        "mainPicture": "https://i.ibb.co/7jDBdhT/Tea-Tree-Main.png",
+        "name": "TeaTree",
+        "category": "MERN Stack",
+        "title": "This is a website for an Tea manufacturing company",
+        "description": "Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs ExpressJs for backend. I found this combination is flexible and productive. It also offers the flexibility to customize in future.\r\n",
+        "lastUpdated": "2019-07-18T09:01:23 -06:00",
+        "frontend": [
+            "React",
+            "Tailwind",
+            "DaizyUI",
+            "React Router Dom",
+            "React Icons",
+            "React Query",
+            "React Firebase Hooks",
+            "Hot Toast",
+            "React Hook Form",
+            "React Spinner Animation",
+            "emailjs"
+        ],
+        "backend": [
+            "Nodejs",
+            "ExpressJs",
+            "cors",
+            "JWT",
+            "MongoDB",
+            "Stripe",
+            "dotenv"
+        ],
+        "images": [
+            "https://i.ibb.co/p1FqRQk/Tea-Tree22.png",
+            "https://i.ibb.co/6wCLhXy/Tea-Tree-1.png",
+            "https://i.ibb.co/6s3SsqY/Tea-Tree-2.png",
+            "https://i.ibb.co/Jx3HBYg/Tea-Tree-3.png",
+            "https://i.ibb.co/pxNf3Kb/Tea-Tree-5.png",
+            "https://i.ibb.co/gJWmng6/Tea-Tree-6.png",
+            "https://i.ibb.co/87jQ6sd/Tea-Tree-7.png",
+            "https://i.ibb.co/7VL03gL/Tea-Tree-8.png",
+            "https://i.ibb.co/SfSXjQR/Tea-Tree-9.png",
+            "https://i.ibb.co/mNsQB30/Tea-Tree-10.png",
+            "https://i.ibb.co/h709CCf/Tea-Tree-11.png"
+        ],
+        "bulletPoint": [
+            {
+                "id": 0,
+                "name": "Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs Express for the backend."
+            },
+            {
+                "id": 1,
+                "name": "I used the admin system and JWT for user safety"
+            },
+            {
+                "id": 2,
+                "name": "The payment system is also implemented using stripe"
+            }
+        ],
+        "message": "Warehouse management app."
+    },
+    {
+        "_id": "632de6b68db30a097bd57847",
+        "index": 0,
+        "isActive": false,
+        "mainPicture": "https://i.ibb.co/7jDBdhT/Tea-Tree-Main.png",
+        "name": "TeaTree",
+        "category": "MERN Stack",
+        "title": "This is a website for an Tea manufacturing company",
+        "description": "Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs ExpressJs for backend. I found this combination is flexible and productive. It also offers the flexibility to customize in future.\r\n",
+        "lastUpdated": "2019-07-18T09:01:23 -06:00",
+        "frontend": [
+            "React",
+            "Tailwind",
+            "DaizyUI",
+            "React Router Dom",
+            "React Icons",
+            "React Query",
+            "React Firebase Hooks",
+            "Hot Toast",
+            "React Hook Form",
+            "React Spinner Animation",
+            "emailjs"
+        ],
+        "backend": [
+            "Nodejs",
+            "ExpressJs",
+            "cors",
+            "JWT",
+            "MongoDB",
+            "Stripe",
+            "dotenv"
+        ],
+        "images": [
+            "https://i.ibb.co/p1FqRQk/Tea-Tree22.png",
+            "https://i.ibb.co/6wCLhXy/Tea-Tree-1.png",
+            "https://i.ibb.co/6s3SsqY/Tea-Tree-2.png",
+            "https://i.ibb.co/Jx3HBYg/Tea-Tree-3.png",
+            "https://i.ibb.co/pxNf3Kb/Tea-Tree-5.png",
+            "https://i.ibb.co/gJWmng6/Tea-Tree-6.png",
+            "https://i.ibb.co/87jQ6sd/Tea-Tree-7.png",
+            "https://i.ibb.co/7VL03gL/Tea-Tree-8.png",
+            "https://i.ibb.co/SfSXjQR/Tea-Tree-9.png",
+            "https://i.ibb.co/mNsQB30/Tea-Tree-10.png",
+            "https://i.ibb.co/h709CCf/Tea-Tree-11.png"
+        ],
+        "bulletPoint": [
+            {
+                "id": 0,
+                "name": "Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs Express for the backend."
+            },
+            {
+                "id": 1,
+                "name": "I used the admin system and JWT for user safety"
+            },
+            {
+                "id": 2,
+                "name": "The payment system is also implemented using stripe"
+            }
+        ],
+        "message": "Warehouse management app."
     }
 ]
