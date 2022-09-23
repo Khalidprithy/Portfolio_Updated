@@ -16,7 +16,7 @@ const Banner = () => {
                     <div className="max-w-md text-white p-2">
                         <p className='text-xl font-semibold'>Hello There</p>
                         <h1 className="text-6xl font-bold text-center">I'm <br /> Khalid Bin Alam</h1>
-                        <p className="py-6 px-2 text-base md:text-2xl">MERN stack Developer. I also have experience working with ES6, Bootstrap, Tailwind, Node.js, and MongoDB. I can work with Figma and Adobe XD. I have built a few Full-stack applications. At this moment, I am seeking a professional working environment to help build real-life applications and grow as a web developer</p>
+                        <p className="py-6 px-2 text-base md:text-2xl">MERN stack Developer. I have experience working with ES6, Bootstrap, Tailwind, Node.js, and MongoDB. I can work with Figma and Adobe XD. I have built a few Full-stack applications. At this moment, I am seeking a professional working environment to help build real-life applications and grow as a web developer</p>
                         <a
                             href='#contactMe'
                             className="btn btn-accent text-white">Hire Me</a>

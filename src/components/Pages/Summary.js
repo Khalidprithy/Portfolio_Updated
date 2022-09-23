@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { AiFillHtml5, AiFillApi, AiFillGithub } from 'react-icons/ai';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
+import { FaNpm } from 'react-icons/fa';
 import { DiBootstrap, DiReact, DiNodejs, DiMongodb, DiFirebase } from 'react-icons/di';
-import { SiTailwindcss, SiVisualstudiocode, SiHeroku, SiNetlify } from 'react-icons/si';
+import { SiTailwindcss, SiVisualstudiocode, SiHeroku, SiNetlify, SiPostman, SiExpress, SiFirebase } from 'react-icons/si';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io';
 
 
@@ -34,6 +35,7 @@ const Summary = () => {
                     <DiBootstrap className='text-4xl hover:text-error ease-out duration-300'></DiBootstrap>
                     <SiTailwindcss className='text-4xl hover:text-error ease-out duration-300'></SiTailwindcss>
                     <DiReact className='text-4xl hover:text-error ease-out duration-300'></DiReact>
+                    <FaNpm className='text-4xl hover:text-error ease-out duration-300'></FaNpm>
                 </div>
             </div>
             <div
@@ -44,7 +46,10 @@ const Summary = () => {
                 <h1 className='text-5xl text-center text-accent px-4 ease-in-out duration-1000'>Backend</h1>
                 <div className={` ${openBack ? "hidden md:flex justify-between gap-4 ease-in-out duration-500" : "flex md:hidden"} `}>
                     <DiNodejs className='text-4xl hover:text-error ease-out duration-300'></DiNodejs>
+                    <SiExpress className='text-4xl hover:text-error ease-out duration-300'></SiExpress>
                     <DiMongodb className='text-4xl hover:text-error ease-out duration-300'></DiMongodb>
+                    <SiFirebase className='text-4xl hover:text-error ease-out duration-300'></SiFirebase>
+                    <SiPostman className='text-4xl hover:text-error ease-out duration-300'></SiPostman>
                     <AiFillApi className='text-4xl hover:text-error ease-out duration-300'></AiFillApi>
                 </div>
             </div>

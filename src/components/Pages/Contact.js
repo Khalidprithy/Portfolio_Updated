@@ -22,7 +22,7 @@ const Contact = () => {
 
     return (
         <div className='m-2'>
-            <div id='contactMe' className="h-fit md:h-96 grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-10 bg-white rounded-2xl border-2 shadow-lg w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
+            <div id='contactMe' className="h-fit md:h-96 grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-2 bg-white rounded-2xl border-2 shadow-lg w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
                 <div className="text-center p-4 text-black lg:text-left mx-auto">
                     <h1 className="text-5xl font-bold">Let's get in touch</h1>
                     <p className="py-6">Feel free to contact me to discuss about any kind of Front-end Back-end projects. <br /> I am open learn and try something new.</p>
@@ -38,7 +38,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full md:w-2/3 h-72 flex-shrink-0 mx-auto m-4 shadow-2xl bg-neutral rounded-xl text-white">
+                <div className="w-full md:w-2/3 h-80 flex-shrink-0 mx-auto m-2 shadow-2xl bg-neutral rounded-xl text-white">
                     <div className="px-4 mt-4">
                         <form ref={form} onSubmit={sendEmail}>
                             <div className='flex my-2'>
