@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
@@ -8,13 +8,22 @@ import BloomingBeauty from '../../images/project/BloomingBeautyMain.png'
 import HotelView from '../../images/project/HotelBookingMain.png'
 
 const Projects = () => {
+
+    const navigate = useNavigate();
+
+    const handleNavigate = () => {
+        navigate('/projects')
+    }
+
     return (
         <div className='m-2'>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg outline-1 w-full md:w-10/12 mx-auto h-24 rounded-lg mb-4'>
                 <h1 className='text-2xl font-semibold m-2'>Top Projects</h1>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>All Projects</p>
-                    <BsFillArrowRightCircleFill className='text-5xl m-2 text-accent'></BsFillArrowRightCircleFill>
+                    <BsFillArrowRightCircleFill
+                        onClick={handleNavigate}
+                        className='text-5xl m-2 text-accent'></BsFillArrowRightCircleFill>
                 </div>
             </div>
             <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 mb-4">
