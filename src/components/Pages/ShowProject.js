@@ -3,8 +3,8 @@ import React from 'react';
 const ShowProject = ({ project }) => {
     console.log(project)
     return (
-        <div className='flex flex-col md:flex-row mx-auto bg-neutral rounded-xl text-white hover:scale-105 ease-out duration-300'>
-            <img className='w-1/2 rounded-lg mx-auto' src={project.images[0]} alt="" />
+        <div className='flex flex-col md:flex-row mx-auto bg-neutral rounded-xl text-white'>
+            <img className='w-72 rounded-xl mx-auto p-2' src={project.images[0]} alt="" />
             <div className='flex flex-col gap-2 p-2 relative'>
                 {/* <div id="animation-carousel" class="relative" data-carousel="static">
                     {
@@ -41,7 +41,7 @@ const ShowProject = ({ project }) => {
                         project.backend.map(item => <span className='bg-info text-sm p-1 rounded-lg hover:bg-red-500'>{item}</span>)
                     }
                 </div>
-                <div className=''>
+                <div className='hidden lg:block'>
                     <h1 className='font-semibold'>Features </h1>
 
                     {
@@ -53,7 +53,7 @@ const ShowProject = ({ project }) => {
                 </div>
 
 
-                <div className='flex justify-around gap-2 absolute bottom-0 left-0 m-2'>
+                <div className='flex justify-around gap-2 absolute bottom-0 left-0 m-2 mt-10'>
                     <button className='btn btn-accent btn-xs rounded-md'>Live Site</button>
                     <button className='btn btn-accent btn-xs rounded-md'>Frontend</button>
                     <button className='btn btn-accent btn-xs rounded-md'>Backend</button>
