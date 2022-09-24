@@ -6,7 +6,7 @@ const ShowProject = ({ project }) => {
         <div className='flex flex-col md:flex-row mx-auto bg-neutral rounded-xl text-white hover:scale-105 ease-out duration-300'>
             <img className='w-1/2 rounded-lg mx-auto' src={project.images[0]} alt="" />
             <div className='flex flex-col gap-2 p-2 relative'>
-                <div id="animation-carousel" class="relative" data-carousel="static">
+                {/* <div id="animation-carousel" class="relative" data-carousel="static">
                     {
                         project.images.map(image => <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                             <img className='absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2' src={image} alt="Burger" />
@@ -24,7 +24,7 @@ const ShowProject = ({ project }) => {
                             </button>
                         </div>)
                     }
-                </div>
+                </div> */}
                 <h1 className='text-4xl text-center my-1'>{project.name}</h1>
                 <h4 className='text-gray-300'>{project.title}</h4>
                 <p className='font-semibold text-primary'>{project.category}</p>
@@ -41,11 +41,22 @@ const ShowProject = ({ project }) => {
                         project.backend.map(item => <span className='bg-info text-sm p-1 rounded-lg hover:bg-red-500'>{item}</span>)
                     }
                 </div>
+                <div className=''>
+                    <h1 className='font-semibold'>Features </h1>
+
+                    {
+                        project.bulletPoint.map(item =>
+                            <ul className='text-sm p-1 rounded-lg hover:text-primary mb-2'><span className='font-bold'>{item.id + 1} -</span> {item.name}</ul>
+                        )
+                    }
+
+                </div>
+
 
                 <div className='flex justify-around gap-2 absolute bottom-0 left-0 m-2'>
-                    <button className='btn btn-accent btn-sm'>Live Site</button>
-                    <button className='btn btn-accent btn-sm'>Frontend</button>
-                    <button className='btn btn-accent btn-sm'>Backend</button>
+                    <button className='btn btn-accent btn-xs rounded-md'>Live Site</button>
+                    <button className='btn btn-accent btn-xs rounded-md'>Frontend</button>
+                    <button className='btn btn-accent btn-xs rounded-md'>Backend</button>
                 </div>
             </div>
 
