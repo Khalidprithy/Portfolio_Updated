@@ -121,8 +121,8 @@
         "_id": "632de6b68db30a097bd94317",
         "index": 0,
         "isActive": false,
-        "mainPicture": "https://i.ibb.co/7jDBdhT/Tea-Tree-Main.png",
-        "name": "TeaTree",
+        "mainPicture": "https://i.ibb.co/F04vf2N/Hotel-View22.png",
+        "name": "Hotel View",
         "category": "MERN Stack",
         "title": "This is a website for an Tea manufacturing company",
         "description": "Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs ExpressJs for backend. I found this combination is flexible and productive. It also offers the flexibility to customize in future.\r\n",
@@ -150,7 +150,7 @@
             "dotenv"
         ],
         "images": [
-            "https://i.ibb.co/p1FqRQk/Tea-Tree22.png",
+            "https://i.ibb.co/F04vf2N/Hotel-View22.png",
             "https://i.ibb.co/6wCLhXy/Tea-Tree-1.png",
             "https://i.ibb.co/6s3SsqY/Tea-Tree-2.png",
             "https://i.ibb.co/Jx3HBYg/Tea-Tree-3.png",
