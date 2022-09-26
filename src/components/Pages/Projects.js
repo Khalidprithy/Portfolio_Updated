@@ -16,7 +16,7 @@ const Projects = () => {
     }
 
     return (
-        <div className='m-2'>
+        <div className='m-2 mb-4'>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg outline-1 w-full md:w-10/12 mx-auto h-24 rounded-lg mb-4'>
                 <h1 className='text-2xl font-semibold m-2'>Top Projects</h1>
                 <div className='flex items-center'>
