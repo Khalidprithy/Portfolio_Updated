@@ -16,10 +16,11 @@ const Navbar = () => {
                 className="flex items-center justify-between bg-neutral m-3 mx-auto h-24 w-12/12 md:w-1/2 hover:w-full ease-in-out duration-500 rounded-xl text-white">
                 <div className=" text-white">
                     <div className="dropdown">
-                        <span tabIndex="0" className=" text-2xl md:text-4xl font-semibold text-accent px-2 md:px-10 ml-1">Dev.Kbin</span>
+                        <Link to='/' tabIndex="0" className=" text-2xl md:text-4xl font-semibold text-accent px-2 md:px-10 ml-1">Dev.Kbin</Link>
                         <ul tabIndex="1" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-accent rounded-box w-48">
-                            <Link to='/project'><p className='text-left py-2 mx-2 text-white font-semibold'>Project</p></Link>
-                            <Link to='/about'><p className='text-left py-2 mx-2 text-white font-semibold'>About Me</p></Link>
+                            <Link to='/'><p className='text-left py-2 mx-2 text-white font-semibold'>Home</p></Link>
+                            <Link to='/projects'><p className='text-left py-2 mx-2 text-white font-semibold'>Project</p></Link>
+                            <Link to='/about'><p className='text-left py-2 mx-2 text-white font-semibold'>About</p></Link>
                             <Link to='/blog'><p className='text-left py-2 mx-2 text-white font-semibold'>Blog</p></Link>
                         </ul>
                     </div>
@@ -29,7 +30,7 @@ const Navbar = () => {
                         <ul className="menu menu-horizontal p-0">
                             <Link to='/'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>Home</p></Link>
                             <Link to='/projects'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>Project</p></Link>
-                            <Link to='/about'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>About Me</p></Link>
+                            <Link to='/about'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>About</p></Link>
                             <Link to='/blog'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>Blog</p></Link>
                         </ul>
                     </ul>
