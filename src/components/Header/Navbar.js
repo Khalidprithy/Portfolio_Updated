@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const [open, setOpen] = useState(false);
-    console.log(open)
     return (
         <div className='mx-1 md:mx-4'>
             <div
