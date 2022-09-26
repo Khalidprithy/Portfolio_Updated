@@ -11,7 +11,7 @@ const AllProjects = () => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setProjects(data))
-    }, [projects]);
+    }, []);
     return (
         <div className='min-h-screen m-2'>
             <h1 className='text-4xl font-bold my-6 text-center'>All Projects</h1>
