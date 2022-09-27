@@ -10,7 +10,7 @@ const Blog = () => {
     const [openBlog5, setOpenBlog5] = useState(false);
 
     return (
-        <div>
+        <div >
             <div className='flex items-center justify-center m-4 mt-6'>
                 <div
                     onMouseEnter={() => setOpenBlog1(true)}
