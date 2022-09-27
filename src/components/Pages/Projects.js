@@ -29,18 +29,18 @@ const Projects = () => {
             <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 mb-4">
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
-                        <p className='text-xl font-semibold'>Full-stack application</p>
+                        <p className='text-xl font-semibold'>MERN Stack</p>
                         <h1 className="text-6xl font-bold text-center text-green-400">TeaTree</h1>
-                        <p className="py-6 px-2">MERN stack Developer. I also have experience working with ES6, Bootstrap, Tailwind, Node.js, and MongoDB. I can work with Figma and Adobe XD. I have built a few Full-stack applications. At this moment, I am seeking a professional working environment to help build real-life applications and grow as a web developer</p>
+                        <p className="py-6 px-2">Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs ExpressJs for backend. I found this combination is flexible and productive. It also offers the flexibility to customize in future.</p>
                         <ul className='text-left list-disc list-inside'>
-                            <li>Mobile responsive</li>
-                            <li>Firebase Auth</li>
-                            <li>React firebase hooks</li>
+                            <li>Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs Express for the backend.</li>
+                            <li>I used the admin system and JWT for user safety</li>
+                            <li>The payment system is also implemented using stripe</li>
                         </ul>
                         <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
-                            <a href='1' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
-                            <a href='1' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
-                            <a href='1' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
+                            <a href='https://tea-tree-6ed1f.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
+                            <a href='https://github.com/Khalidprithy/Tea-Tree-Frontend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
+                            <a href='https://github.com/Khalidprithy/Tea-Tree-Backend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
                         </div>
                     </div>
                 </div>
@@ -50,18 +50,18 @@ const Projects = () => {
                 <img src={BloomingBeauty} alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-md mx-auto order-1 md:order-1" />
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-2">
                     <div className="max-w-md text-white">
-                        <p className='text-xl font-semibold'>Full-stack application</p>
+                        <p className='text-xl font-semibold'>MERN Stack</p>
                         <h1 className="text-4xl md:text-5xl font-bold text-center text-pink-400">BloomingBeauty</h1>
-                        <p className="py-6 px-2">MERN stack Developer. I also have experience working with ES6, Bootstrap, Tailwind, Node.js, and MongoDB. I can work with Figma and Adobe XD. I have built a few Full-stack applications. At this moment, I am seeking a professional working environment to help build real-life applications and grow as a web developer</p>
+                        <p className="py-6 px-2">This is a react application for a cosmetics e-commerce site to manage their products and sales. Tailwind and daizyUI CSS is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook.</p>
                         <ul className='text-left list-disc list-inside'>
-                            <li>Mobile responsive</li>
-                            <li>Firebase Auth</li>
-                            <li>React firebase hooks</li>
+                            <li>Login system is implemented and Social login is available.</li>
+                            <li>Error message for wrong input and actions</li>
+                            <li>Mobile and desktop responsive</li>
                         </ul>
                         <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
-                            <a href='1' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
-                            <a href='1' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
-                            <a href='1' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
+                            <a href='https://blooming-beauty-25ee5.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
+                            <a href='https://github.com/Khalidprithy/BloomingBeauty-Frontend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
+                            <a href='https://github.com/Khalidprithy/BloomingBeauty-server' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
                         </div>
                     </div>
                 </div>
@@ -69,18 +69,18 @@ const Projects = () => {
             <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
-                        <p className='text-xl font-semibold'>Full-stack application</p>
+                        <p className='text-xl font-semibold'>MERN Stack</p>
                         <h1 className="text-6xl font-bold text-center text-sky-400">HotelView</h1>
-                        <p className="py-6 px-2">MERN stack Developer. I also have experience working with ES6, Bootstrap, Tailwind, Node.js, and MongoDB. I can work with Figma and Adobe XD. I have built a few Full-stack applications. At this moment, I am seeking a professional working environment to help build real-life applications and grow as a web developer</p>
+                        <p className="py-6 px-2">Hotel Booking website. User can visit hotels on different location. Hotel, resort, apartment, cabin data is loaded dynamically. User can see details about a hotel and available rooms. They can book certain rooms and once a room is booked other user no longer will be able to book same room on same date.</p>
                         <ul className='text-left list-disc list-inside'>
-                            <li>Mobile responsive</li>
-                            <li>Firebase Auth</li>
-                            <li>React firebase hooks</li>
+                            <li>Website to search and book hotel.</li>
+                            <li>I used JWT for user safety and login system</li>
+                            <li>Booking system has used</li>
                         </ul>
                         <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
-                            <a href='1' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
-                            <a href='1' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
-                            <a href='1' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
+                            <a href='https://hotel-booking-3b5e8.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
+                            <a href='https://github.com/Khalidprithy/hotel-booking-frontend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
+                            <a href='https://github.com/Khalidprithy/hotel-booking-backend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
                         </div>
                     </div>
                 </div>
