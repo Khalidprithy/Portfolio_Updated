@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
+import { useNavigate } from 'react-router-dom';
 
 const Blog = () => {
 
@@ -8,6 +9,14 @@ const Blog = () => {
     const [openBlog3, setOpenBlog3] = useState(false);
     const [openBlog4, setOpenBlog4] = useState(false);
     const [openBlog5, setOpenBlog5] = useState(false);
+
+
+    const navigate = useNavigate();
+
+    const handleReactQa = () => {
+        navigate('/react')
+    }
+
 
     return (
         <div >
@@ -47,7 +56,9 @@ const Blog = () => {
                     <h1 className='text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 React interview Q&A</h1>
                     <div className={` ${openBlog3 ? "hidden md:flex justify-between items-center gap-4 ease-in-out duration-500" : "flex md:hidden"} `}>
                         <p className='text-2xl font-bold'>View</p>
-                        <BsFillArrowRightCircleFill className='text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
+                        <BsFillArrowRightCircleFill
+                            onClick={handleReactQa}
+                            className='text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
                     </div>
                 </div>
             </div>

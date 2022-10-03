@@ -4,6 +4,7 @@ import Navbar from './components/Header/Navbar';
 import About from './components/Pages/About';
 import AllProjects from './components/Pages/AllProjects';
 import Blog from './components/Pages/Blog';
+import ReactQA from './components/Pages/Blogs/ReactQA';
 import Home from './components/Pages/Home';
 import Footer from './components/Shared/Footer';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/projects' element={<AllProjects></AllProjects>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path='/react' element={<ReactQA></ReactQA>}></Route>
       </Routes>
 
       <Footer></Footer>
