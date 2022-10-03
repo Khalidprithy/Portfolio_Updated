@@ -2,9 +2,8 @@
     {
         "_id": "633a731fd76e3268fcb37f4a",
         "index": 0,
-        "question": "Gonzales Ramos",
-        "answer": "Voluptate sint qui enim Lorem duis ipsum incididunt dolore ea occaecat commodo ipsum dolor. Minim nostrud nulla duis proident ipsum excepteur reprehenderit ea culpa nostrud et aute. Sit velit officia dolor cupidatat adipisicing laboris nisi veniam amet amet. Laboris est veniam consectetur irure.\r\n",
-        "rating": "Elliott Dickson",
+        "question": "What are the features of React?",
+        "answer": "JSX:  JSX is a syntax extension to JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code.",
         "tags": [
             "ipsum",
             "do",
@@ -18,9 +17,8 @@
     {
         "_id": "633a731fb48460440e6774a1",
         "index": 1,
-        "question": "Holt Holden",
-        "answer": "Et irure Lorem non excepteur pariatur ex culpa minim mollit laboris culpa laborum id consectetur. Adipisicing non velit in quis. Sint est id ut cupidatat proident mollit est ullamco. Irure amet ullamco dolore ipsum. Pariatur laboris velit cupidatat enim Lorem aliquip cillum laborum tempor in magna anim sunt. Aute amet ullamco dolor tempor adipisicing pariatur reprehenderit dolore nostrud elit do.\r\n",
-        "rating": "Shelton Rollins",
+        "question": "What is JSX?",
+        "answer": "JSX is a syntax extension of JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code.",
         "tags": [
             "et",
             "consequat",
@@ -34,8 +32,8 @@
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 2,
-        "question": "Curtis Cortez",
-        "answer": "Velit culpa duis nisi Lorem sunt qui aute nulla. Qui reprehenderit fugiat et sint est fugiat laborum laboris incididunt sint ut incididunt. Officia ullamco irure in culpa non fugiat et reprehenderit exercitation. Reprehenderit commodo id anim quis sunt mollit dolore cupidatat cillum anim reprehenderit. Aliquip labore exercitation culpa incididunt Lorem in aute aute enim. Voluptate qui officia et non do et consectetur duis amet dolor dolore esse.\r\n",
+        "question": "Can web browsers read JSX directly? ",
+        "answer": "Web browsers cannot read JSX directly. This is because they are built to only read regular JS objects and JSX is not a regular JavaScript object. For a web browser to read a JSX file, the file needs to be transformed into a regular JavaScript object. For this, we use Babel",
         "rating": "Nannie Noel",
         "tags": [
             "occaecat",
@@ -50,8 +48,8 @@
     {
         "_id": "633a731f41c1d2a785b89df7",
         "index": 3,
-        "question": "Cooper Mitchell",
-        "answer": "Minim aute excepteur adipisicing ea commodo sint nostrud velit. Elit quis eu id Lorem magna quis laborum excepteur consectetur quis eu minim. Labore in non exercitation culpa voluptate reprehenderit ut est excepteur excepteur. Commodo veniam est est eiusmod mollit aute commodo proident dolor cupidatat. Dolor ex irure nulla do ullamco deserunt voluptate officia.\r\n",
+        "question": "What is the virtual DOM?",
+        "answer": "DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects. React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. When the state of an object changes, the virtual DOM changes only that object in the real DOM, rather than updating all the objects. The following are some of the most frequently asked react interview questions.",
         "rating": "Rowe Mathews",
         "tags": [
             "ut",

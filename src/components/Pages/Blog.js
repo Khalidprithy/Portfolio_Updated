@@ -14,7 +14,7 @@ const Blog = () => {
     const navigate = useNavigate();
 
     const handleReactQa = () => {
-        navigate('/react')
+        navigate('/react_qa')
     }
 
 
