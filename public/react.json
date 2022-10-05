@@ -4,7 +4,7 @@
         "index": 0,
         "question": "What are the features of React?",
         "answer": "JSX:  JSX is a syntax extension to JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code.",
-        "tags": [
+        "points": [
             "ipsum",
             "do",
             "nostrud",
@@ -19,7 +19,7 @@
         "index": 1,
         "question": "What is JSX?",
         "answer": "JSX is a syntax extension of JavaScript. It is used with React to describe what the user interface should look like. By using JSX, we can write HTML structures in the same file that contains JavaScript code.",
-        "tags": [
+        "points": [
             "et",
             "consequat",
             "sit",
@@ -35,7 +35,7 @@
         "question": "Can web browsers read JSX directly? ",
         "answer": "Web browsers cannot read JSX directly. This is because they are built to only read regular JS objects and JSX is not a regular JavaScript object. For a web browser to read a JSX file, the file needs to be transformed into a regular JavaScript object. For this, we use Babel",
         "rating": "Nannie Noel",
-        "tags": [
+        "points": [
             "occaecat",
             "ex",
             "proident",
@@ -51,7 +51,7 @@
         "question": "What is the virtual DOM?",
         "answer": "DOM stands for Document Object Model. The DOM represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, and each node contains objects. React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM. When the state of an object changes, the virtual DOM changes only that object in the real DOM, rather than updating all the objects. The following are some of the most frequently asked react interview questions.",
         "rating": "Rowe Mathews",
-        "tags": [
+        "points": [
             "ut",
             "nostrud",
             "aute",
@@ -67,7 +67,7 @@
         "question": "Humphrey Rhodes",
         "answer": "Officia voluptate irure fugiat exercitation occaecat pariatur. Eiusmod irure id id esse ex deserunt incididunt enim ut id ex Lorem et aliqua. Laborum culpa aute laborum fugiat minim ipsum officia et consectetur. Dolor amet Lorem adipisicing ea mollit minim.\r\n",
         "rating": "Dominguez Keith",
-        "tags": [
+        "points": [
             "incididunt",
             "incididunt",
             "commodo",
@@ -83,7 +83,7 @@
         "question": "Madelyn Velazquez",
         "answer": "Non mollit ea ad dolore esse amet Lorem velit ullamco ea esse qui est fugiat. Sit amet ullamco ex eu velit elit amet aliquip sit eu pariatur veniam ea. Esse irure pariatur ex ex ea ut eu est elit occaecat esse nisi ut. Sunt do qui exercitation Lorem Lorem enim esse veniam id aute eiusmod dolore eu dolore.\r\n",
         "rating": "Witt Dorsey",
-        "tags": [
+        "points": [
             "in",
             "nulla",
             "occaecat",
@@ -99,7 +99,7 @@
         "question": "Tara Buchanan",
         "answer": "Deserunt nostrud do consequat ad consectetur cillum ex voluptate consequat laboris do. Cupidatat irure deserunt deserunt deserunt deserunt culpa esse in est. Exercitation nostrud qui ad ad eiusmod minim minim nisi quis id nostrud. Minim aliquip veniam proident laborum aute id quis irure. Proident cupidatat quis amet aliquip minim anim consectetur est culpa adipisicing. Do do fugiat ut esse. Nisi do nulla ut aute adipisicing ut nulla fugiat eiusmod mollit culpa non et.\r\n",
         "rating": "Maldonado Nicholson",
-        "tags": [
+        "points": [
             "id",
             "do",
             "occaecat",
@@ -115,7 +115,7 @@
         "question": "Roy Oliver",
         "answer": "Ut quis proident proident laboris laboris in labore dolor voluptate ipsum deserunt non cillum consequat. Minim ullamco veniam ea magna sunt ex dolore ut et. Ipsum et nostrud sunt velit commodo. Deserunt cillum consectetur voluptate consequat proident sunt non pariatur anim. Quis veniam amet consequat culpa non excepteur Lorem sit eiusmod ullamco amet qui labore.\r\n",
         "rating": "Barr Conner",
-        "tags": [
+        "points": [
             "excepteur",
             "id",
             "sint",
@@ -131,7 +131,7 @@
         "question": "Evangeline Turner",
         "answer": "Excepteur adipisicing cillum quis cupidatat sit. Occaecat aliquip nostrud consequat do mollit adipisicing voluptate deserunt commodo tempor. Proident commodo eu irure fugiat adipisicing sit. Reprehenderit nisi labore fugiat velit. In eu proident aliquip laborum veniam veniam enim incididunt aliqua aute ut qui aliqua. Officia aute elit tempor incididunt irure voluptate exercitation qui ex adipisicing mollit aliquip est excepteur.\r\n",
         "rating": "Haney Caldwell",
-        "tags": [
+        "points": [
             "aliquip",
             "laboris",
             "nisi",
@@ -147,7 +147,7 @@
         "question": "Phyllis Olson",
         "answer": "Sint laborum aliqua tempor do occaecat nostrud nisi sunt amet sit. Dolor mollit est non in qui culpa tempor et nulla dolor irure aliqua. Ex mollit aliquip cillum veniam eiusmod nulla Lorem. Velit do eu sit exercitation officia.\r\n",
         "rating": "Gould Madden",
-        "tags": [
+        "points": [
             "aliquip",
             "sunt",
             "veniam",
@@ -163,7 +163,7 @@
         "question": "Roberta Curry",
         "answer": "Officia laboris pariatur cillum elit laboris amet ex mollit culpa aliquip cupidatat aliquip. Ad in aliquip ut quis sit in fugiat duis et et proident duis irure. Adipisicing laborum est cillum ut reprehenderit ad ullamco enim. Labore eu commodo excepteur sint exercitation culpa dolor consequat tempor do laboris deserunt pariatur. Aliqua veniam nostrud amet deserunt.\r\n",
         "rating": "Dona Velasquez",
-        "tags": [
+        "points": [
             "deserunt",
             "incididunt",
             "ipsum",
@@ -179,7 +179,7 @@
         "question": "Mattie Graham",
         "answer": "Consectetur est eu ullamco elit aute esse irure ullamco do ex et nostrud pariatur deserunt. Dolore aliquip consequat laboris ipsum officia dolor aliqua sit nulla exercitation incididunt excepteur est anim. Lorem incididunt elit id velit culpa aliqua ex cillum quis excepteur excepteur dolor quis.\r\n",
         "rating": "Meadows Tate",
-        "tags": [
+        "points": [
             "proident",
             "excepteur",
             "proident",
@@ -195,7 +195,7 @@
         "question": "Elinor Pennington",
         "answer": "Excepteur enim ea quis incididunt id voluptate voluptate elit elit enim proident. Cillum anim ullamco ex magna est nostrud quis velit minim culpa. Culpa culpa pariatur nostrud aliqua irure occaecat reprehenderit aliquip adipisicing esse excepteur commodo. Sint fugiat ullamco velit veniam nostrud incididunt ad adipisicing nulla eiusmod elit esse veniam elit. Ex ut do id proident qui. Aliquip enim sit dolore do elit quis do aliqua in amet dolor.\r\n",
         "rating": "Rosalyn Reeves",
-        "tags": [
+        "points": [
             "ex",
             "laboris",
             "excepteur",
@@ -211,7 +211,7 @@
         "question": "Gretchen Nash",
         "answer": "In voluptate ea consequat voluptate esse non commodo. Sunt sint laborum incididunt dolore nostrud nulla minim est elit non nisi officia. Sunt nulla consectetur anim ipsum ut dolore officia labore exercitation aute cillum ea. Dolore mollit aliqua sit enim in magna.\r\n",
         "rating": "Mindy Cardenas",
-        "tags": [
+        "points": [
             "minim",
             "consequat",
             "sint",
@@ -227,7 +227,7 @@
         "question": "Rasmussen Weaver",
         "answer": "Culpa ipsum fugiat ipsum do laborum duis do eu laborum. Sint commodo sunt exercitation labore commodo ipsum do do occaecat ad incididunt. Est laboris eiusmod et dolor dolore commodo ad est et.\r\n",
         "rating": "Shaw Ruiz",
-        "tags": [
+        "points": [
             "et",
             "minim",
             "exercitation",
@@ -243,7 +243,7 @@
         "question": "Stacie Rocha",
         "answer": "Officia qui sunt occaecat ut commodo. Non proident et culpa ullamco reprehenderit ex nostrud esse esse. Magna exercitation labore ut qui laboris sint labore reprehenderit sit do ad. Officia ut velit occaecat excepteur consequat elit eiusmod cillum duis. Do labore ex proident elit cupidatat consectetur consequat fugiat ullamco. Lorem minim excepteur ex cillum sint minim deserunt reprehenderit elit. Ex laboris deserunt aliquip nisi eu sunt ad culpa pariatur do sunt excepteur in id.\r\n",
         "rating": "Marci Hobbs",
-        "tags": [
+        "points": [
             "do",
             "quis",
             "proident",
@@ -259,7 +259,7 @@
         "question": "Edna Lott",
         "answer": "Veniam adipisicing consectetur adipisicing veniam non velit minim occaecat velit. Ex ipsum cupidatat irure qui sint Lorem consectetur cillum velit dolore non irure est. Sunt ea reprehenderit occaecat eiusmod qui non nisi voluptate commodo aliqua reprehenderit est qui. Quis in exercitation et duis exercitation magna Lorem commodo elit nulla. Mollit irure elit ullamco est est incididunt non ea anim exercitation fugiat commodo id ex. Cillum exercitation velit dolor excepteur anim consectetur.\r\n",
         "rating": "Dana Graves",
-        "tags": [
+        "points": [
             "mollit",
             "dolore",
             "ex",
@@ -275,7 +275,7 @@
         "question": "Juana Lyons",
         "answer": "Laboris reprehenderit non ipsum deserunt cupidatat. Occaecat occaecat velit et consequat cupidatat occaecat reprehenderit sint. Consequat culpa laborum qui id labore velit nisi reprehenderit eu amet ullamco. Laborum sunt consequat excepteur et ea laboris consectetur. Consequat id laboris ullamco quis excepteur ut. Non amet amet voluptate consectetur quis laboris.\r\n",
         "rating": "Maureen Klein",
-        "tags": [
+        "points": [
             "consequat",
             "eu",
             "elit",
@@ -291,7 +291,7 @@
         "question": "Tiffany Booker",
         "answer": "Ut enim sint dolor consectetur ut culpa fugiat mollit in dolor adipisicing amet nostrud. Exercitation cupidatat qui amet sint ipsum proident aute. Nostrud quis voluptate ipsum ut non voluptate anim do velit ex dolor. Ullamco id qui nulla consectetur culpa aliquip in et veniam laboris id eiusmod non. Aliquip proident in qui sunt. Ullamco occaecat esse qui labore officia. Sit nostrud ea ad quis occaecat in.\r\n",
         "rating": "Huber Jackson",
-        "tags": [
+        "points": [
             "Lorem",
             "consectetur",
             "consequat",
@@ -307,7 +307,7 @@
         "question": "Simon Golden",
         "answer": "Mollit officia ullamco culpa duis minim. Laborum consectetur pariatur aliquip nisi fugiat. Ea amet do non sint irure est irure aliquip ut velit.\r\n",
         "rating": "Savage Bishop",
-        "tags": [
+        "points": [
             "eu",
             "aute",
             "aliqua",
@@ -323,7 +323,7 @@
         "question": "Tamika Clark",
         "answer": "Lorem et ut anim culpa laboris sunt voluptate excepteur officia dolor cillum est. Aute reprehenderit ea qui pariatur et tempor tempor aliqua cupidatat. Cupidatat pariatur culpa ad ullamco ipsum. Aliquip est magna reprehenderit excepteur magna voluptate. Sit velit irure aliquip dolore elit deserunt duis culpa do non sint esse ea enim. Culpa ad nostrud minim adipisicing sit do nulla adipisicing sint enim laborum deserunt dolor. Laboris enim nisi mollit magna laboris.\r\n",
         "rating": "Hopkins Allen",
-        "tags": [
+        "points": [
             "incididunt",
             "adipisicing",
             "mollit",
@@ -339,7 +339,7 @@
         "question": "Karen Cummings",
         "answer": "Ad nisi irure et ipsum ipsum minim cillum. Adipisicing amet aliquip ea laboris in incididunt anim elit nostrud deserunt labore fugiat. Laboris enim laboris anim ut consectetur nulla. Elit voluptate commodo Lorem ad nisi commodo tempor dolore nostrud nulla mollit nulla eiusmod. Cillum velit elit esse aliquip esse occaecat do commodo veniam adipisicing excepteur laborum magna. Ad ex consequat culpa esse labore velit qui anim consequat id enim adipisicing ut. Esse exercitation nostrud laboris dolor fugiat tempor elit sint culpa magna nostrud enim.\r\n",
         "rating": "Montoya Boyd",
-        "tags": [
+        "points": [
             "occaecat",
             "occaecat",
             "ullamco",
@@ -355,7 +355,7 @@
         "question": "Waller Henson",
         "answer": "Velit labore adipisicing ullamco reprehenderit. Sint laboris quis aute reprehenderit consequat in magna exercitation et culpa. Laborum nulla culpa reprehenderit consequat nisi eiusmod enim eu nostrud ex cupidatat. Deserunt ipsum fugiat do officia commodo nulla. Anim magna mollit ad enim aliqua cillum laborum est cupidatat id cupidatat velit magna.\r\n",
         "rating": "Shields Barrett",
-        "tags": [
+        "points": [
             "cillum",
             "est",
             "laborum",
@@ -371,7 +371,7 @@
         "question": "Leblanc Hughes",
         "answer": "Minim id qui fugiat esse non ullamco deserunt officia non reprehenderit ipsum. Adipisicing ipsum est pariatur ea officia. Adipisicing eu tempor sit qui nulla.\r\n",
         "rating": "Dianna Dudley",
-        "tags": [
+        "points": [
             "velit",
             "minim",
             "do",
@@ -387,7 +387,7 @@
         "question": "Burt Navarro",
         "answer": "Ex irure exercitation ex sunt exercitation incididunt qui quis aliquip voluptate fugiat eiusmod eiusmod. Voluptate veniam cillum labore id qui. Voluptate nulla reprehenderit do qui laboris occaecat.\r\n",
         "rating": "Pierce Brewer",
-        "tags": [
+        "points": [
             "quis",
             "reprehenderit",
             "occaecat",
@@ -403,7 +403,7 @@
         "question": "Ginger Stuart",
         "answer": "Veniam labore Lorem velit velit dolor ea. Qui aliquip pariatur tempor reprehenderit. Do occaecat aliquip nostrud ea nostrud reprehenderit deserunt. Ipsum sunt consequat velit minim. Reprehenderit velit minim labore elit. Excepteur ex nostrud excepteur est.\r\n",
         "rating": "Nash Woods",
-        "tags": [
+        "points": [
             "ea",
             "tempor",
             "nisi",
@@ -419,7 +419,7 @@
         "question": "Benson Pope",
         "answer": "Est amet velit dolore eiusmod nulla esse commodo qui in enim occaecat eu et. Adipisicing quis incididunt ex dolor Lorem amet cillum. Mollit minim cupidatat exercitation sunt.\r\n",
         "rating": "Kent Williamson",
-        "tags": [
+        "points": [
             "sunt",
             "occaecat",
             "Lorem",
@@ -435,7 +435,7 @@
         "question": "Jill Wood",
         "answer": "Aliqua mollit consequat proident ipsum laborum tempor. Officia tempor anim occaecat id quis sit. Magna Lorem cupidatat elit eiusmod. Exercitation quis id do mollit eiusmod reprehenderit eiusmod exercitation ipsum est cillum ut mollit proident. Qui excepteur elit sint officia deserunt aliqua ipsum ad sunt est est eiusmod qui consectetur.\r\n",
         "rating": "Crane Swanson",
-        "tags": [
+        "points": [
             "ad",
             "id",
             "magna",
@@ -451,7 +451,7 @@
         "question": "Rogers Cooley",
         "answer": "Nostrud dolore aute incididunt cupidatat. Nostrud veniam ipsum cupidatat sint ad. Velit sunt nisi nisi anim ex eiusmod consectetur duis ut minim veniam. Adipisicing irure est consequat velit Lorem fugiat minim aliquip enim esse nostrud. Cupidatat irure aute aliqua fugiat labore reprehenderit eu.\r\n",
         "rating": "Dolores Copeland",
-        "tags": [
+        "points": [
             "elit",
             "anim",
             "minim",
@@ -467,7 +467,7 @@
         "question": "Buckley Allison",
         "answer": "Nostrud labore sit ex irure velit consectetur quis id magna reprehenderit. Sint anim excepteur ipsum non mollit nulla duis. Commodo ullamco elit tempor magna enim ea fugiat exercitation. Veniam cillum laborum labore nulla anim occaecat consectetur reprehenderit reprehenderit laboris ex. Adipisicing velit consectetur aliquip eu cillum minim nisi. Veniam ipsum nisi ex adipisicing in. Adipisicing deserunt ut Lorem sint qui minim aute ullamco anim aliqua.\r\n",
         "rating": "Brandy Baird",
-        "tags": [
+        "points": [
             "pariatur",
             "aute",
             "veniam",
@@ -483,7 +483,7 @@
         "question": "Barron Hardy",
         "answer": "Reprehenderit est incididunt voluptate aute labore in eu excepteur aliquip dolor aliqua reprehenderit laborum proident. Ea commodo officia aute nulla. Laborum nulla ea magna id.\r\n",
         "rating": "Payne Burris",
-        "tags": [
+        "points": [
             "dolore",
             "dolore",
             "laboris",
@@ -499,7 +499,7 @@
         "question": "Dixon Richmond",
         "answer": "Nisi do exercitation aliquip aute adipisicing ullamco consectetur fugiat laborum exercitation reprehenderit labore velit aliquip. Duis consequat aute eu laborum eu veniam do fugiat nisi est occaecat cillum fugiat. Officia esse esse ullamco amet enim est dolor duis tempor. Nisi consectetur dolor ad officia nisi aliquip et mollit enim et proident excepteur ullamco proident. Ea pariatur aliquip ad adipisicing aliquip est et ex eu quis est incididunt. Aliqua anim adipisicing sit eu velit proident proident cillum irure consequat dolore incididunt dolore.\r\n",
         "rating": "Mercer Duffy",
-        "tags": [
+        "points": [
             "do",
             "voluptate",
             "eu",
@@ -515,7 +515,7 @@
         "question": "Snow Vega",
         "answer": "Do tempor amet culpa commodo nostrud consequat occaecat ea ut excepteur. Nostrud tempor adipisicing excepteur eu veniam fugiat est cupidatat aliquip duis. Velit incididunt ex aliquip nisi magna. Dolore fugiat tempor deserunt laboris. Irure est dolor incididunt elit cillum enim duis nisi. Do aliquip reprehenderit nostrud minim esse velit deserunt nulla eu laborum ipsum nulla Lorem. Mollit occaecat in pariatur cillum enim nulla minim voluptate ad nostrud esse occaecat voluptate nisi.\r\n",
         "rating": "Willis Serrano",
-        "tags": [
+        "points": [
             "irure",
             "non",
             "dolor",
@@ -531,7 +531,7 @@
         "question": "Misty Clarke",
         "answer": "Enim reprehenderit pariatur incididunt cillum duis velit ex laboris eu est id nulla incididunt. Ut ad enim occaecat quis eu occaecat. Ex aliquip dolore excepteur aute. Aliquip dolor non eu ad veniam voluptate. Sit nisi in ut ex velit magna.\r\n",
         "rating": "Gayle Christian",
-        "tags": [
+        "points": [
             "eiusmod",
             "sunt",
             "mollit",
@@ -547,7 +547,7 @@
         "question": "Calhoun Blake",
         "answer": "Exercitation aliquip quis qui sit officia eu ea nisi incididunt Lorem ea eiusmod. Irure reprehenderit mollit elit excepteur eiusmod incididunt consequat officia minim tempor in qui Lorem incididunt. Mollit anim Lorem adipisicing voluptate ad nostrud et eu.\r\n",
         "rating": "Wendy Harrell",
-        "tags": [
+        "points": [
             "aute",
             "commodo",
             "ad",
@@ -563,7 +563,7 @@
         "question": "Baird Diaz",
         "answer": "Ad proident magna velit consectetur consequat ad quis sint dolor. Consectetur mollit quis cillum id qui. Anim ex pariatur culpa velit amet. Ex minim esse consectetur ea. Cupidatat ad fugiat velit adipisicing esse. Nulla do ex amet nisi cillum incididunt non nulla.\r\n",
         "rating": "Christa Quinn",
-        "tags": [
+        "points": [
             "duis",
             "irure",
             "pariatur",
@@ -579,7 +579,7 @@
         "question": "Simpson Perez",
         "answer": "Dolor veniam est non tempor est Lorem esse proident voluptate. Occaecat veniam aliqua non pariatur qui quis. Ea nostrud sunt enim id eiusmod in amet non nisi fugiat aliquip. Est eu ex nisi velit id incididunt. Occaecat ad eu qui cupidatat do fugiat do incididunt velit nisi dolore labore id mollit.\r\n",
         "rating": "Mckee Kerr",
-        "tags": [
+        "points": [
             "eu",
             "aliqua",
             "dolore",
@@ -595,7 +595,7 @@
         "question": "Winifred Irwin",
         "answer": "Velit elit velit pariatur non nostrud dolor ullamco in elit exercitation. Eu anim fugiat non sit do enim irure id sint voluptate aute. Consequat consequat adipisicing culpa non nostrud et enim. Eiusmod amet pariatur consequat tempor laborum commodo sit sunt consectetur velit culpa cupidatat est. Ea velit non id in officia proident adipisicing laboris. Occaecat quis tempor elit est sit aute velit adipisicing eu. Consectetur occaecat exercitation dolore consequat enim voluptate enim eu ut.\r\n",
         "rating": "Raymond Ayala",
-        "tags": [
+        "points": [
             "amet",
             "aliqua",
             "qui",
@@ -611,7 +611,7 @@
         "question": "Salinas Merrill",
         "answer": "Pariatur mollit tempor veniam duis tempor Lorem duis culpa commodo consequat non. Deserunt ullamco et ullamco ipsum aliqua consequat. Sunt consequat ex anim et est sunt tempor dolor nisi.\r\n",
         "rating": "Santana Watkins",
-        "tags": [
+        "points": [
             "sint",
             "occaecat",
             "laborum",
@@ -627,7 +627,7 @@
         "question": "Vera Davis",
         "answer": "Minim officia enim aute magna anim aliquip do fugiat culpa aliquip Lorem officia minim consectetur. Aliquip minim quis ea ullamco incididunt ea in reprehenderit. Labore dolor ut ea enim proident consectetur amet ex est pariatur ea. Id cillum in sunt quis non eiusmod enim Lorem incididunt elit ad deserunt ad deserunt. Aute proident mollit cillum nulla.\r\n",
         "rating": "Hutchinson Barker",
-        "tags": [
+        "points": [
             "in",
             "veniam",
             "eiusmod",
