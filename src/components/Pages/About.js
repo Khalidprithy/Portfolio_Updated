@@ -13,8 +13,20 @@ const About = () => {
                 </div>
                 <img src="https://i.ibb.co/7WTpJ1K/profile.jpg" alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-full mx-auto order-1 md:order-2 m-10" />
             </div>
-            <div className="h-fit flex justify-center items-center bg-neutral rounded-2xl w-full md:w-8/12 mx-auto ease-in-out duration-500 ">
-                <h1 className='text-center text-4xl text-white py-4'>Services I Provide</h1>
+            <div className="h-fit flex justify-center items-center bg-white border-4 border-neutral rounded-2xl w-full md:w-8/12 mx-auto ease-in-out duration-500 ">
+                <h1 className='text-center text-4xl py-4'>Services I Provide</h1>
+            </div>
+            <div className='bg-neutral h-20 rounded-2xl w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
+                <h1 className='text-4xl'>Frontend Development</h1>
+            </div>
+            <div className='bg-neutral h-20 rounded-2xl w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
+                <h1 className='text-4xl'>Backend Development</h1>
+            </div>
+            <div className='bg-neutral h-20 rounded-2xl w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
+                <h1 className='text-4xl'>React Application</h1>
+            </div>
+            <div className='bg-neutral h-20 rounded-2xl w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
+                <h1 className='text-4xl'>MERN Application</h1>
             </div>
 
         </div>
