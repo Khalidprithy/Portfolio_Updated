@@ -420,9 +420,9 @@
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 35,
         "question": "Why Node.js is single threaded?",
-        "answer": "",
+        "answer": "For async processing, Node.js was created explicitly as an experiment. It is believed that more performance and scalability can be achieved by doing async processing on a single thread under typical web loads than the typical thread based implementation",
         "rating": "Nannie Noel",
-        "summary": "For async processing, Node.js was created explicitly as an experiment. It is believed that more performance and scalability can be achieved by doing async processing on a single thread under typical web loads than the typical thread based implementation",
+        "summary": "",
         "points": []
     },
     {
