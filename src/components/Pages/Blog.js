@@ -20,6 +20,9 @@ const Blog = () => {
     const handleMongoQa = () => {
         navigate('/mongo_qa')
     }
+    const handleNodeQa = () => {
+        navigate('/node_qa')
+    }
 
 
     return (
@@ -44,10 +47,12 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog2(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 CSS interview Q&A</h1>
+                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 Nodejs interview Q&A</h1>
                     <div className={` ${openBlog2 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
-                        <BsFillArrowRightCircleFill className='text-xl md:text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
+                        <BsFillArrowRightCircleFill
+                            onClick={handleNodeQa}
+                            className='text-xl md:text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
                     </div>
                 </div>
             </div>

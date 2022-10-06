@@ -12,238 +12,276 @@
     {
         "_id": "633a731fb48460440e6774a1",
         "index": 1,
-        "question": " What are the features of MongoDB?",
-        "answer": "Following are the important features of MongoDB:",
-        "points": [
-            "A compliant data model in the format of documents.",
-            "consequat",
-            "Agile and extremely scalable database.",
-            "Quicker than traditional databases.",
-            "Demonstrative query language."
-        ]
-    },
-    {
-        "_id": "633a731f2d82b38b6953c4aa",
-        "index": 2,
-        "question": "What type of NoSQL database MongoDB is?",
-        "answer": "MongoDB is a document-oriented database. It stores the data in the form of the BSON structure-oriented databases. We store these documents in a collection.",
-        "rating": "Nannie Noel",
+        "question": "How does Node.js work?",
+        "answer": "Node.js is based on V8 engine, it is a virtual machine that utilizes JavaScript as its scripting language and achieves high output via non-blocking I/O abd single threaded event loop",
         "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
+        "index": 2,
+        "question": "Where can we use Node.js",
+        "answer": "",
+        "rating": "Nannie Noel",
+        "points": [
+            "Web applications",
+            "Distributed systems",
+            "Network applications"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
         "index": 3,
-        "question": "Differentiate MongoDB and MySQL?",
-        "answer": "Despite MySQL and MongoDB being freeware and open source databases, there are several differences between them in terms of a data relationship, transaction, performance speed, querying data, schema design, normalization, etc. The comparison between MongoDB and MySQL is similar to the comparison between Non-relational and Relational databases.",
+        "question": "What do you understand by the term I/O?",
+        "answer": "The term I/O is used to describe any program, operation or device that transfers data to or from a medium and to or from another medium. Every transfer is an output from one medium and an input into another. Medium can be a physical device or network or files within a system",
         "rating": "Nannie Noel",
         "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 4,
-        "question": "What is the use of MongoDB?",
-        "answer": "Here are some use of MongoDB",
+        "question": "Difference between frontend and backend development.",
+        "answer": "Here are some difference",
+        "tableHead": [
+            "Frontend",
+            "Backend"
+        ],
+        "table": [
+            {
+                "row1": [
+                    "Frontend refers to the client-side of an application",
+                    "It is the part of a web application that users can see and interact with",
+                    "It typically includes everything that attributes to the visual aspects if a web application",
+                    "HTML, CSS, JavaScript, Angular JS and React JS are some of the essentials of frontend development"
+                ]
+            },
+            {
+                "row2": [
+                    "Backend refers to the server-side of an application",
+                    "It constitutes everything that happens behind the scenes",
+                    "It generally includes a web server that communicates with a database to serve requests",
+                    "Java, PHP, Python and Node.js are some of the backend development technologies"
+                ]
+            }
+        ],
         "rating": "Nannie Noel",
-        "points": [
-            "Generally, we use MongoDB as the main data store for the operational requirements with live needs. Generally, MongoDB is suitable for 80% of the applications which we develop today. MongoDB is simple to operate and extent in ways that are tough if they are not possible with the relational databases.",
-            "MongoDB stands out in various use cases where the relational databases are not suitable, like applications with semi-structured, structured, along with the big scalability needs or the multi-data center deployments.",
-            "MongoDB cannot be suitable for some applications. For instance, applications that need complex transactions and scan-based applications that access huge subsets of the data largely cannot be suitable for MongoDB.",
-            "Some general uses of MongoDB comprise product catalogs, mobile apps, content management, real-time personalization, and applications providing individual views throughout several systems."
-        ]
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 5,
-        "question": "How do we delete everything from the MongoDB database?",
-        "answer": "By using the following code, we can delete everything from the MongoDB database:",
+        "question": "What is NPM?",
+        "answer": "Do you mean Node Package Manager? NPM stands for Node Package Manager.",
         "rating": "Nannie Noel",
         "points": [
-            "use [database];",
-            "db.dropDatabase();"
+            "NPM is responsible for managing all the packages and modules for Node.js",
+            "It provides online repositories for node.js packages/modules which are searchable on search.node.org",
+            "It also provides command line utility to install Node.js packages, dose version management and dependency management of Node.js packages"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 6,
-        "question": " What is the syntax of the skip() method?",
-        "answer": "skip() method syntax is:",
+        "question": "What are modules in Node.js",
+        "answer": "Modules are like JavaScript libraries that can be used in a Node.js application to include a set of functions. To include a module in a Node.js application, use require() function with the parenthesis containing the name of the module. Some od the Nodejs modules are mentioned bellow ",
         "rating": "Nannie Noel",
         "points": [
-            "db.COLLECTION_NAME.find().limit(NUMBER).skip(NUMBER)"
+            "http- Includes classes, methods and events to create Node.js http server",
+            "util- Includes utility functions useful for developers",
+            "fs- Includes events, classes, and methods to deal with file I/O operations",
+            "url- Includes methods for URL parsing",
+            "querystring- Includes methods for work with query string",
+            "stream- Includes methods to handle streaming data",
+            "zlib- Includes methods to compress or decompress files"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 7,
-        "question": "How do we delete everything from the MongoDB database?",
-        "answer": "MongoDB is a document-oriented database. It stores the data in the form of the BSON structure-oriented databases. We store these documents in a collection.",
+        "question": "Why is Node.js being preferred over other backend technologies like Java and PHP?",
+        "answer": "",
         "rating": "Nannie Noel",
-        "points": []
+        "points": [
+            "Node.js is really fast",
+            "Node Package Manager has over 50000 bundles for at the developers disposal",
+            "Perfect for data intensive, real-time web applications as Node.js never waits for an API to return data"
+        ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 8,
-        "question": " What are the datatypes of MongoDB?",
-        "answer": "Following are the datatypes of MongoDB:",
+        "question": "Which database is more popularly used with Node.js?",
+        "answer": "MongoDB is the most popularly used database used with Node.js, it is a NoSQL, cross-platform, document-oriented database that provides, high performance, high availability, and easy scalability",
         "rating": "Nannie Noel",
-        "points": [
-            "Integer",
-            "String",
-            "Boolean",
-            "Array",
-            "Double",
-            "Date",
-            "Timestamp",
-            "Regular Expression"
-        ]
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 9,
-        "question": "When to use MongoDB?",
-        "answer": "You should use MongoDB when you are building internet and business applications that need to evolve quickly and scale elegantly. MongoDB is popular with developers of all kinds who are building scalable applications using agile methodologies.MongoDB is a great choice if one needs to",
+        "question": "Why is Node.js Single-threaded?",
+        "answer": "Node.js is single-threaded for async processing. By doing async processing on a single-thread under typical web loads, more performance and scalability can be achieved instead of the typical thread-based implementation.",
         "rating": "Nannie Noel",
-        "points": [
-            "Support a rapid iterative development.",
-            "Scale to high levels of read and write traffic - MongoDB supports horizontal scaling through Sharding, distributing data across several machines, and facilitating high throughput operations with large sets of data.",
-            "Scale your data repository to a massive size.",
-            "Evolve the type of deployment as the business changes.",
-            "Store, manage and search data with text, geospatial, or time-series dimensions."
-        ]
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 10,
-        "question": "What do you understand by NoSQL databases? Is MongoDB a NoSQL database?",
-        "answer": "At the present time, the internet is loaded with big data, big users, big complexity etc. and also becoming more complex day by day. NoSQL is answer of all these problems, It is not a traditional database management system, not even a relational database management system (RDBMS). NoSQL stands for Not Only SQL. NoSQL is a type of database that can handle and sort all type of unstructured, messy and complicated data. It is just a new way to think about the database.",
+        "question": "If Node.js is single-threaded, then how does it handle concurrency?",
+        "answer": "The Multi-Threaded Request/Response Stateless Model is not followed by the Node JS Platform, and it adheres to the Single-Threaded Event Loop Model. The Node JS Processing paradigm is heavily influenced by the JavaScript Event-based model and the JavaScript callback system. As a result, Node.js can easily manage more concurrent client requests. The event loop is the processing model's beating heart in Node.js.",
         "rating": "Nannie Noel",
-        "points": [
-            "Yes. MongoDB is a NoSQL database."
-        ]
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 11,
-        "question": " What are the different types of NoSQL databases? ",
-        "answer": "NoSQL database can be classified as 4 basic types:",
+        "question": "Explain callback in Node.js.",
+        "answer": "A callback function is called after a given task. It allows other code to be run in the meantime and prevents any blocking.  Being an asynchronous platform, Node.js heavily relies on callback. All APIs of Node are written to support callbacks.",
         "rating": "Nannie Noel",
-        "points": [
-            "Key value store NoSQL database",
-            "Document store NoSQL database",
-            "Column store NoSQL database",
-            "Graph base NoSQL databse"
-        ],
-        "summary": "There are many NoSQL databases. MongoDB, Cassandra, CouchBD, Hypertable, Redis, Riak, Neo4j, HBASE, Couchbase, MemcacheDB, Voldemort, RevenDB etc. are the examples of NoSQL databases."
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 12,
-        "question": " What is the difference between MongoDB and MySQL?",
-        "answer": "Although MongoDB and MySQL both are free and open source databases, there is a lot of difference between them in the term of data representation, relationship, transaction, querying data, schema design and definition, performance speed, normalization and many more. To compare MySQL with MongoDB is like a comparison between Relational and Non-relational databases.",
+        "question": "What are the advantages of using promises instead of callbacks?",
+        "answer": "",
         "rating": "Nannie Noel",
-        "points": []
+        "points": [
+            "The control flow of asynchronous logic is more specified and structured.",
+            "The coupling is low.",
+            "We've built-in error handling.",
+            "Improved readability."
+        ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 13,
-        "question": "What are Indexes in MongoDB?",
-        "answer": "In MondoDB, Indexes are used to execute query efficiently. Without indexes, MongoDB must perform a collection scan, i.e. scan every document in a collection, to select those documents that match the query statement. If an appropriate index exists for a query, MongoDB can use the index to limit the number of documents it must inspect.",
+        "question": "How is Node.js most frequently used?",
+        "answer": "Node.js is widely used in the following applications:",
         "rating": "Nannie Noel",
-        "points": []
+        "points": [
+            "Real-time chats",
+            "Internet of Things",
+            "Complex SPAs (Single-Page Applications)",
+            "Real-time collaboration tools",
+            "Streaming applications",
+            "Microservices architecture"
+        ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 14,
-        "question": "What is sharding in MongoDB?",
-        "answer": "In MongoDB, Sharding is a procedure of storing data records across multiple machines. It is a MongoDB approach to meet the demands of data growth. It creates horizontal partition of data in a database or search engine. Each partition is referred as shard or database shard.",
+        "question": "What is the purpose of the module .Exports?",
+        "answer": "In Node.js, a module encapsulates all related codes into a single unit of code that can be parsed by moving all relevant functions into a single file. You may export a module with the module and export the function, which lets it be imported into another file with a needed keyword.",
         "rating": "Nannie Noel",
         "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
-        "index": 15,
-        "question": "What is CRUD in MongoDB?",
-        "answer": "MongoDB supports following CRUD operations:",
+        "index": 4,
+        "question": "What are the pros and cons of Node.js?",
+        "answer": "Here are some difference",
+        "tableHead": [
+            "Node.js Pros",
+            "Node.js Cons"
+        ],
+        "table": [
+            {
+                "row1": [
+                    "Fast processing and an event-based model",
+                    "Uses JavaScript, which is well-known amongst developers",
+                    "Node Package Manager has over 50,000 packages that provide the functionality to an application",
+                    "Best suited for streaming huge amounts of data and I/O intensive operations"
+                ]
+            },
+            {
+                "row2": [
+                    "Not suitable for heavy computational tasks",
+                    "Using callback is complex since you end up with several nested callbacks",
+                    "Dealing with relational databases is not a good option for Node.js",
+                    "Since Node.js is single-threaded, CPU intensive tasks are not its strong suit"
+                ]
+            }
+        ],
         "rating": "Nannie Noel",
-        "points": [
-            "Create",
-            "Read",
-            "Update",
-            "Delete"
-        ]
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 16,
-        "question": "In which format MongoDB represents document structure?",
-        "answer": "MongoDB uses BSON to represent document structures.",
+        "question": "What are streams in Node.js?",
+        "answer": "Streams are objects that enable you to read data or write data continuously. There are four types of streams: ",
         "rating": "Nannie Noel",
-        "points": []
-    },
-    {
-        "_id": "633a731f2d82b38b6953c4aa",
-        "index": 17,
-        "question": "Why are MongoDB data files large in size?",
-        "answer": "MongoDB doesn't follow file system fragmentation and pre allocates data files to reserve space while setting up the server. That's why MongoDB data files are large in size.",
-        "rating": "Nannie Noel",
-        "points": []
-    },
-    {
-        "_id": "633a731f2d82b38b6953c4aa",
-        "index": 18,
-        "question": "What is a storage engine in MongoDB?",
-        "answer": "A storage engine is the part of a database that is used to manage how data is stored on disk.",
-        "rating": "Nannie Noel",
-        "summary": "For example: one storage engine might offer better performance for read-heavy workloads, and another might support a higher-throughput for write operations.",
-        "points": []
-    },
-    {
-        "_id": "633a731f2d82b38b6953c4aa",
-        "index": 19,
-        "question": "What is the difference between MongoDB and CouchDB?",
-        "answer": "Difference between MongoDB and CouchDB:",
-        "rating": "Nannie Noel",
-        "summary": "",
         "points": [
-            "MongoDB is faster than CouchDB while CouchDB is safer than MongoDB.",
-            "Triggers are not available in MongoDB while triggers are available in CouchDB.",
-            "MongoDB serializes JSON data to BSON while CouchDB doesn't store data in JSON format."
+            "Readable- Used for reading operations",
+            "Writable- Used for write operations",
+            "Duplex- Can be used for both reading and write operations",
+            "Transform- A type of duplex stream where the output is computed based on input"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
-        "index": 20,
-        "question": "Why MongoDB is known as best NoSQL database?",
-        "answer": "MongoDb is the best NoSQL database because, it is:",
+        "index": 17,
+        "question": "Explain asynchronous and non-blocking APIs in Node.js.",
+        "answer": "",
+        "rating": "Nannie Noel",
+        "points": [
+            "All Node.js library APIs are asynchronous, which means they are also non-blocking",
+            "A Node.js-based server never waits for an API to return data. Instead, it moves to the next API after calling it, and a notification mechanism from a Node.js event responds to the server for the previous API call"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 18,
+        "question": "Explain the concept of middleware in Node.js.",
+        "answer": "Middleware is a function that receives the request and response objects. Most tasks that the middleware functions perform are:",
         "rating": "Nannie Noel",
         "summary": "",
         "points": [
-            "Document Oriented",
-            "Rich Query language",
-            "High Performance",
-            "Highly Available",
-            "Easily Scalable"
+            "Execute any code",
+            "Update or modify the request and the response objects",
+            "Finish the request-response cycle",
+            "Invoke the next middleware in the stack"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 19,
+        "question": "What does event-driven programming mean?",
+        "answer": "An event-driven programming approach uses events to trigger various functions. An event can be anything, such as typing a key or clicking a mouse button. A call-back function is already registered with the element executes whenever an event is triggered.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 20,
+        "question": "What are the two types of API functions in Node.js?",
+        "answer": "The two types of API functions in Node.js are:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "Asynchronous, non-blocking functions",
+            "Synchronous, blocking functions"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 21,
-        "question": "Explain the structure of ObjectID in MongoDB.",
-        "answer": "ObjectID is a 12-byte BSON type. These are:",
+        "question": "What is node.js streams?",
+        "answer": "Streams are instances of EventEmitter which can be used to work with streaming data in Node.js. They can be used for handling and manipulating streaming large files(videos, mp3, etc) over the network. They use buffers as their temporary storage.",
         "rating": "Nannie Noel",
         "summary": "",
         "points": [
-            "4 bytes value representing seconds",
-            "3 byte machine identifier",
-            "2 byte process id",
-            "3 byte counter"
+            "Writable: streams to which data can be written (for example, fs.createWriteStream()).",
+            "Readable: streams from which data can be read (for example, fs.createReadStream()).",
+            "Duplex: streams that are both Readable and Writable (for example, net.Socket).",
+            "Transform: Duplex streams that can modify or transform the data as it is written and read (for example, zlib.createDeflate())"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 22,
-        "question": "What language you can use with MongoDB?",
-        "answer": "MongoDB client drivers supports all the popular programming languages so there is no issue of language, you can use any language that you want.",
+        "question": "Why should you separate Express app and server?",
+        "answer": "The server is responsible for initializing the routes, middleware, and other application logic whereas the app has all the business logic which will be served by the routes initiated by the server. This ensures that the business logic is encapsulated and decoupled from the application logic which makes the project more readable and maintainable",
         "rating": "Nannie Noel",
         "summary": "",
         "points": []
@@ -251,17 +289,24 @@
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 23,
-        "question": "Do the MongoDB databases have schema?",
-        "answer": "Yes. MongoDB databases have dynamic schema. There is no need to define the structure to create collections.",
+        "question": "How is Node.js most frequently used?",
+        "answer": "Node.js is widely used in the following applications:",
         "rating": "Nannie Noel",
         "summary": "",
-        "points": []
+        "points": [
+            "Real-time chats",
+            "Internet of Things",
+            "Complex SPAs (Single-Page Applications)",
+            "Real-time collaboration tools",
+            "Streaming applications",
+            "Microservices architecture"
+        ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 24,
-        "question": " Which are the storage engines used by MongoDB?",
-        "answer": "MMAPv1 and WiredTiger are two storage engine used by MongoDB.",
+        "question": "What is the purpose of the module .Exports?",
+        "answer": "In Node.js, a module encapsulates all related codes into a single unit of code that can be parsed by moving all relevant functions into a single file. You may export a module with the module and export the function, which lets it be imported into another file with a needed keyword.",
         "rating": "Nannie Noel",
         "summary": "",
         "points": []
@@ -269,8 +314,8 @@
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 25,
-        "question": "How does MongoDB provide concurrency?",
-        "answer": "MongoDB uses reader-writer locks for concurrency. Reader-writer locks allow concurrent readers shared access to a resource, such as a database or collection, but give exclusive access to a single write operation.",
+        "question": "Which database is more popularly used with Node.js?",
+        "answer": "MongoDB is the most common database used with Node.js. It is a NoSQL, cross-platform, document-oriented database that provides high performance, high availability, and easy scalability.",
         "rating": "Nannie Noel",
         "summary": "",
         "points": []
@@ -278,17 +323,20 @@
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 26,
-        "question": "What is a replica set?",
-        "answer": "We can specify the replica as a set of the mongo instances which host a similar data set. In the replica set, one node will be primary, and another one will be secondary. We replicate all the data from the primary to the secondary nodes.",
+        "question": "What are some of the most commonly used libraries in Node.js?",
+        "answer": "There are two commonly used libraries in Node.js:",
         "rating": "Nannie Noel",
         "summary": "",
-        "points": []
+        "points": [
+            "ExpressJS - Express is a flexible Node.js web application framework that provides a wide set of features to develop web and mobile applications.",
+            "Mongoose - Mongoose is also a Node.js web application framework that makes it easy to connect an application to a database."
+        ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 27,
-        "question": "Explain the primary and secondary replica set?",
-        "answer": "In MongoDB, primary nodes are the nodes that accept writing. Primary nodes are also called master nodes. Replication in MongoDB is a single master. Therefore, only one node will accept the write operations at once.",
+        "question": "What does event-driven programming mean?",
+        "answer": "An event-driven programming approach uses events to trigger various functions. An event can be anything, such as typing a key or clicking a mouse button. A call-back function is already registered with the element executes whenever an event is triggered.",
         "rating": "Nannie Noel",
         "summary": "",
         "points": []
@@ -296,66 +344,62 @@
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 28,
-        "question": "Explain Storage Encryption?",
-        "answer": "Storage encryption encodes all the MongoDB data over the storage or over the operating systems for assuring that only authenticated processes will access the safeguarded data.",
-        "rating": "Nannie Noel",
-        "summary": "",
-        "points": []
-    },
-    {
-        "_id": "633a731f2d82b38b6953c4aa",
-        "index": 29,
-        "question": "What is the purpose of the DB command?",
-        "answer": "We use the “DB” command to get the name of the presently selected database.",
-        "rating": "Nannie Noel",
-        "summary": "",
-        "points": []
-    },
-    {
-        "_id": "633a731f2d82b38b6953c4aa",
-        "index": 30,
-        "question": "When should we normalize the data in MongoDB?",
-        "answer": "It relies on our objectives. Normalization provides an updated effective data representation. Denormalisation makes data reading effective. Generally, we utilize embedded data models when:",
+        "question": "What are the two types of API functions in Node.js?",
+        "answer": "The two types of API functions in Node.js are:",
         "rating": "Nannie Noel",
         "summary": "",
         "points": [
-            "When we have “contains” relationships between the entities.",
-            "When we have one-to-many relationships between the entities. In the relationships, “many”  or the child documents display in the context of the parent documents.",
-            "When embedding results in duplication of the data yet they will not give enough read performance advantages to prevail the duplication implications.",
-            "For representing more difficult many-to-many relationships.",
-            "For modeling the big hierarchical data sets."
+            "Asynchronous, non-blocking function",
+            "Synchronous, blocking functions"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
-        "index": 31,
-        "question": "How do we perform sorting and Explain Project in MongoDB?",
-        "answer": "For finding any data in MongoDB, we use the find() method. The discovery () method returns the collection’s documents over which we invoked this method. We can use the “Where” clause in the MongoDB query in order to restrict the output by using MongoDB projection. Anytime we execute the find() method, MongoDB returns all the documents associated with a particular collection. ",
+        "index": 29,
+        "question": "What is the package.json file?",
+        "answer": "The package.json file is the heart of a Node.js system. This file holds the metadata for a particular project. The package.json file is found in the root directory of any Node application or module",
         "rating": "Nannie Noel",
         "summary": "",
         "points": [
-            "db.<collection_name>.find({ }, {<key_Name>:<Flag to display>})"
+            "This is what a package.json file looks like immediately after creating a Node.js project using the command: npm init",
+            "You can edit the parameters when you create a Node.js project."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 30,
+        "question": "What is the Express.js package?",
+        "answer": "Express is a flexible Node.js web application framework that provides a wide set of features to develop both web and mobile applications",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 31,
+        "question": "How do you create a simple Express.js application?",
+        "answer": "",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "The request object represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on",
+            "The response object represents the HTTP response that an Express app sends when it receives an HTTP request"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 32,
-        "question": "What do you know about NoSQL databases? What are the various types of NoSQL databases?",
-        "answer": "NoSQL refers to “Not Only SQL”. NoSQL is a kind of database that handles and sorts all kinds of structured, massive, and difficult data. It is a new method to think about databases. Kinds of NoSQL databases:",
+        "question": "What is the control flow function?",
+        "answer": "The control flow function is a piece of code that runs in between several asynchronous function calls.",
         "rating": "Nannie Noel",
         "summary": "",
-        "points": [
-            "Key-Value",
-            "Graph",
-            "Column Oriented",
-            "Document Oriented"
-        ]
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 33,
-        "question": "How do we remove a document from the collection?",
-        "answer": "By using the remove() method, we remove a document from the collection.",
+        "question": "What is piping in Node.js?",
+        "answer": "Piping is a mechanism used to connect the output of one stream to another stream. It is normally used to retrieve data from one stream and pass output to another stream",
         "rating": "Nannie Noel",
         "summary": "",
         "points": []
@@ -363,63 +407,51 @@
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 34,
-        "question": "What are the points we should consider while creating a schema in MongoDB?",
-        "answer": "We must consider the following points while creating a schema:",
+        "question": "How would you connect a MongoDB database to Node.js?",
+        "answer": "To create a database in MongoDB:",
         "rating": "Nannie Noel",
         "summary": "",
         "points": [
-            "Designing the Scheme based on the user requirements.",
-            "Combining the objects into one document, if we have to use them jointly, or else, separate them.",
-            "Perform joins while on write, and not while it is reading.",
-            "For most general application scenarios, maximize the schema.",
-            "Perform complex aggregations in the schema."
+            "Start by creating a MongoClient object",
+            "Specify a connection URL with the correct IP address and the name of the database you want to create"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 35,
-        "question": "Explain Vertical Scaling and Horizontal Scaling?",
+        "question": "Why Node.js is single threaded?",
         "answer": "",
         "rating": "Nannie Noel",
-        "summary": "",
-        "points": [
-            "Vertical Scaling: Vertical Scaling increases storage and CPU resources for expanding the capacity.",
-            "Horizontal Scaling: Horizontal Scaling splits the datasets and circulates the data over multiple shards or servers."
-        ]
+        "summary": "For async processing, Node.js was created explicitly as an experiment. It is believed that more performance and scalability can be achieved by doing async processing on a single thread under typical web loads than the typical thread based implementation",
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 36,
-        "question": "What are the elements of the Sharded Cluster?",
-        "answer": "Following are the elements of the Sharded Cluster:",
+        "question": "Can you access DOM in node?",
+        "answer": "No, you cannot access DOM in node.",
         "rating": "Nannie Noel",
         "summary": "",
-        "points": [
-            "Query routers",
-            "Shards",
-            "Config servers"
-        ]
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 37,
-        "question": "What are the substitutes for MongoDB?",
-        "answer": "Following are the substitutes to MongoDB:",
+        "question": "Using the event loop what are the tasks that should be done asynchronously?",
+        "answer": "",
         "rating": "Nannie Noel",
         "summary": "",
         "points": [
-            "Hbase",
-            "CouchDB",
-            "Cassandra",
-            "Redis",
-            "Riak"
+            "I/O operations",
+            "Heavy computation",
+            "Anything requiring blocking"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 38,
-        "question": "Does MongoDB require plenty of RAM?",
-        "answer": "No, MongoDB does not require plenty of RAM. It can run on a small amount of memory. MongoDB dynamically assigns and unassigns RAM according to the needs of other processes.",
+        "question": "Why node.js is quickly gaining attention from JAVA programmers?",
+        "answer": "Node.js is quickly gaining attention as it is a loop based server for JavaScript. Node.js gives user the ability to write the JavaScript on the server, which has access to things like HTTP stack, file I/O, TCP and databases.",
         "rating": "Nannie Noel",
         "summary": "",
         "points": []
@@ -427,32 +459,24 @@
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 39,
-        "question": "How do we control the MongoDB Performance?",
-        "answer": "We can control the MongoDB Performance by:",
+        "question": "What are the two arguments that async.queue takes?",
+        "answer": "The two arguments that async.queue takes",
         "rating": "Nannie Noel",
         "summary": "",
         "points": [
-            "Locking the Performance",
-            "Identifying the number of connections",
-            "Database Profiling",
-            "Full-time Diagnostic Data Capture"
+            "Task function",
+            "Concurrency value",
+            "Database Profiling"
         ]
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
         "index": 40,
-        "question": "What are the different kinds of Indexes in MongoDB?",
-        "answer": "Following are the different kinds of Indexes in MongoDB:",
+        "question": "What does it mean “non-blocking” in node.js?",
+        "answer": "In node.js “non-blocking” means that its IO is non-blocking. Node uses “libuv” to handle its IO in a platform-agnostic way. On windows, it uses completion ports for unix it uses epoll or kqueue etc. So, it makes a non-blocking request and upon a request, it queues it within the event loop which call the JavaScript ‘callback’ on the main JavaScript thread.",
         "rating": "Nannie Noel",
         "summary": "",
-        "points": [
-            "Default: It is the “_id” that MongoDB creates.",
-            "Compound: It is useful for multiple fields.",
-            "Multi-key: It indexes the array data.",
-            "Single field: It sorts and indexes over a single field.",
-            "Geospatial: It is useful for querying the location data.",
-            "Hashed: It indexes the hashes of the multiple fields."
-        ]
+        "points": []
     },
     {
         "_id": "633a731f2d82b38b6953c4aa",
