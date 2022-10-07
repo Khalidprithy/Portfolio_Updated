@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Blog = () => {
 
     const [openBlog0, setOpenBlog0] = useState(false);
+    const [openBlogC, setOpenBlogC] = useState(false);
     const [openBlog1, setOpenBlog1] = useState(false);
     const [openBlog2, setOpenBlog2] = useState(false);
     const [openBlog3, setOpenBlog3] = useState(false);
@@ -17,6 +18,12 @@ const Blog = () => {
 
     const handleHTMLQa = () => {
         navigate('/html_qa')
+    }
+    const handleCSSQa = () => {
+        navigate('/css_qa')
+    }
+    const handleJavaScriptQa = () => {
+        navigate('/javascript_qa')
     }
     const handleReactQa = () => {
         navigate('/react_qa')
@@ -48,14 +55,31 @@ const Blog = () => {
             </div>
             <div className='flex items-center justify-center m-4 mt-6'>
                 <div
+                    onMouseEnter={() => setOpenBlogC(true)}
+                    onMoonClick={handleNodeQa} useLeave={() => setOpenBlogC(false)}
+                    className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
+                >
+                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>25 CSS interview Q&A</h1>
+                    <div className={` ${openBlogC ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
+                        <p className='text-xl md:text-2xl font-bold'>View</p>
+                        <BsFillArrowRightCircleFill
+                            onClick={handleCSSQa}
+                            className='text-xl md:text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
+                    </div>
+                </div>
+            </div>
+            <div className='flex items-center justify-center m-4 mt-6'>
+                <div
                     onMouseEnter={() => setOpenBlog1(true)}
                     onMouseLeave={() => setOpenBlog1(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>50 JavaScript interview Q&A</h1>
+                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>45 JavaScript interview Q&A</h1>
                     <div className={` ${openBlog1 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
-                        <BsFillArrowRightCircleFill className='text-xl md:text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
+                        <BsFillArrowRightCircleFill
+                            onClick={handleJavaScriptQa}
+                            className='text-xl md:text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
                     </div>
                 </div>
             </div>

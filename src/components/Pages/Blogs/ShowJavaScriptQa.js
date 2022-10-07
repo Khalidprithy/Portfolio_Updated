@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHandPointRight } from 'react-icons/fa';
 
-const ShowHtmlQa = ({ question }) => {
+const ShowJavaScriptQa = ({ question }) => {
     return (
         <div className='p-2 w-full md:w-8/12 mx-auto rounded-lg border hover:border-neutral'>
             <h1 className='text-2xl font-semibold'>{question.index + 1}. {question.question}</h1>
@@ -23,4 +23,4 @@ const ShowHtmlQa = ({ question }) => {
     );
 };
 
-export default ShowHtmlQa;
+export default ShowJavaScriptQa;
