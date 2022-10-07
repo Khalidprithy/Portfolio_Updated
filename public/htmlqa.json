@@ -1,0 +1,298 @@
+[
+    {
+        "_id": "633ff42a504cf9b20676796b",
+        "index": 0,
+        "image": "http://placehold.it/32x32",
+        "question": "What is HTML?",
+        "answer": "HTML is the short form of Hypertext Markup Language. HTML is used to design and display pages on the web. It makes the text content more attractive and dynamic. We can create tables, add images, videos, links in our text. We can also add animation to our page to make it more attractive. Every HTML page starts with <html> tag and end with </html> tag. It has two main parts head section and body section.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a413099e114604f4b",
+        "index": 1,
+        "image": "http://placehold.it/32x32",
+        "question": "Which HTML tags don’t have an end tag?",
+        "answer": "There are some HTML tags that don’t have closing tag like <br>, <hr>, <input> and <image> tag.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42acafeae598edd17e6",
+        "index": 2,
+        "image": "http://placehold.it/32x32",
+        "question": "What do you mean by HTML tags?",
+        "answer": "Html tags have the following format:\r\n",
+        "points": [
+            "An opening tag – content – closing tag",
+            "Some tags don’t have a closing tag. HTML tags are main part of HTML. We can create HTML documents and render their properties with HTML tags and properties may differ for different tags."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42ad694781e5cfa5040",
+        "index": 3,
+        "image": "http://placehold.it/32x32",
+        "question": "Explain different heading types?",
+        "answer": "There are six different heading types defined with <h1> to <h6> tags. Each heading tag displays the content with different size. <h1> tag is the largest heading tag and <h6> is the smallest heading tag.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a516ff5f3b11353f3",
+        "index": 4,
+        "image": "http://placehold.it/32x32",
+        "question": "How to differentiate HTML elements and HTML tags?",
+        "answer": "When we form HTML tag HTML elements are enclosed by brackets <> . HTML elements are used to communicate with a browser and to render text. Most of HTML tags are in pairs, and they cover the text.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42aa71ad892e7890c45",
+        "index": 5,
+        "image": "http://placehold.it/32x32",
+        "question": "Describe semantic HTML?",
+        "answer": "It is coding style that we can use to reinforce the meaning of the content. For example In semantic HTML we use <strong> </strong> tag for bold statement as well as <em> </em> tag for italic statement insted of using <b> </b> and <i></i> tags.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a2b9e8e649839607a",
+        "index": 6,
+        "image": "http://placehold.it/32x32",
+        "question": "Explain an image map.",
+        "answer": "We can link many different web pages using a single image in the Image map. We can also define shapes in images that you want to take part in an image mapping. It is represented by <map> tag.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42ad6141d28eaf13b8a",
+        "index": 7,
+        "image": "http://placehold.it/32x32",
+        "question": "How to create a nested webpage in HTML?",
+        "answer": "We can use the iframe tag to represent a webpage within a webpage. It defines an inline frame on the HTML page.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a7742daf7e18070a6",
+        "index": 8,
+        "image": "http://placehold.it/32x32",
+        "question": " When are comments used in HTML?",
+        "answer": "To understand the code easily, you can add code comments to your HTML document. These are not displayed in the browser, but they help you in leaving notes for yourself and other developers as to what a section of HTML is for. The start of the comment is denoted by <!– and the end is marked by — >. Anything in the middle will be completely ignored, even if it contains valid HTML.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42aa872c7ce79054425",
+        "index": 9,
+        "image": "http://placehold.it/32x32",
+        "question": "How to create a Hyperlink in HTML?",
+        "answer": "The HTML provides an anchor tag to create a hyperlink that links one page to another page. These tags can appear in any of the following ways:\r\n",
+        "points": [
+            "Unvisited link – It is displayed, underlined and blue.",
+            "Visited link – It is displayed, underlined and purple.",
+            "Active link – It is displayed, underlined and red"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a4433810702a2ab9c",
+        "index": 10,
+        "image": "http://placehold.it/32x32",
+        "question": "Name some common lists that are used when designing a page.",
+        "answer": "There are many common lists used for design a page. You can choose any or a combination of the following list types:\r\n",
+        "points": [
+            "Ordered list – The ordered list displays elements in a numbered format. It is represented by <ol> tag.",
+            "Unordered list – The unordered list displays elements in a bulleted format. It is represented by <ul> tag.",
+            "Definition list – The definition list displays elements in definition form like in a dictionary. The <dl>, <dt> and <dd> tags are used to define description list."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a8eda20c15a840034",
+        "index": 11,
+        "image": "http://placehold.it/32x32",
+        "question": "What is semantic HTML?",
+        "answer": "Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a7da01d63b8c5a164",
+        "index": 12,
+        "image": "http://placehold.it/32x32",
+        "question": "What are the tags used to separate a section of texts?",
+        "answer": "There are three tags that can be used to separate the texts:\r\n",
+        "points": [
+            "<br> tag – Usually <br> tag is used to separate the line of text. It breaks the current line and conveys the flow to the next line",
+            "<p> tag – This contains the text in the form of a new paragraph.",
+            "<blockquote> tag – It is used to define a large quoted section. If you have a large quotation, then put the entire text within <blockquote>……….</blockquote> tag."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42acd595d9764fdb0de",
+        "index": 13,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the purpose of using alternative texts in images?",
+        "answer": "The purpose of using alternative texts is to define what the image is about. During an image mapping, it can be confusing and difficult to understand what hotspots correspond to a particular link. These alternative texts come in action here and put a description at each link which makes it easy for users to understand the hotspot links easily\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42ae191436f8841a91b",
+        "index": 14,
+        "image": "http://placehold.it/32x32",
+        "question": "What are the entities in HTML?",
+        "answer": "The HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a5a7a85ff403e48e2",
+        "index": 15,
+        "image": "http://placehold.it/32x32",
+        "question": " What is the use of a span tag? Explain with example.",
+        "answer": "The span tag is used for following things:\r\n",
+        "points": [
+            "For adding color on text",
+            "To add background on text",
+            "Highlight any color text"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42ae156f897b2c86784",
+        "index": 16,
+        "image": "http://placehold.it/32x32",
+        "question": " Explain The Key Differences Between LocalStorage And SessionStorage Objects.",
+        "answer": "The key differences between localStorage and sessionStorage objects are as follows:\r\n",
+        "points": [
+            "The localStorage object stores the data without an expiry date. However, sessionStorage object stores the data for only one session.",
+            "In the case of a localStorage object, data will not delete when the browser window closes. However, the data gets deleted if the browser window closes, in the case of sessionStorage objects.",
+            "The data in sessionStorage is accessible only in the current window of the browser. But, the data in the localStorage can be shared between multiple windows of the browser."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a786822f5bad2e8a2",
+        "index": 17,
+        "image": "http://placehold.it/32x32",
+        "question": "How are active links different from normal links?",
+        "answer": "The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link. Whereas, others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42ad30751d2fc009c33",
+        "index": 18,
+        "image": "http://placehold.it/32x32",
+        "question": "What is difference between HTML and XHTML?",
+        "answer": "The differences between HTML and XHTML are:\r\n",
+        "points": [
+            "HTML is an application of Standard Generalized Markup Language. Whereas, XML is an application of Extensible Markup Language.",
+            "The first one is a static Web Page whereas the later one is a dynamic Web Page.",
+            "HTML allows programmer to perform changes in the tags and use attribute minimization whereas XHTML when user need a new markup tag then user can define it in this.",
+            "HTML is about displaying information whereas XHTML is about describing the information."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42ae31827db15603e88",
+        "index": 19,
+        "image": "http://placehold.it/32x32",
+        "question": "How many types of CSS can be included in HTML?",
+        "answer": "There are three ways to include the CSS with HTML: \r\n",
+        "points": [
+            "Inline CSS: It is used for styling small contexts. To use inline styles add the style attribute in the relevant tag.",
+            "External Style Sheet: This is used when the style is applied to many pages. Each page must link to the style sheet using the <link> tag. The <link> tag goes inside the head section.",
+            "Internal Style Sheet: It is used when a single document has a unique style. Internal styles sheet needs to put in the head section of an HTML page, by using the <style> tag in the following way:"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a6df2c5c6cd913035",
+        "index": 20,
+        "image": "http://placehold.it/32x32",
+        "question": "How can you apply JavaScript to a web page?",
+        "answer": "In order to make your webpage more interactive, you need JavaScript. It is a scripting language that allows you to interact with certain elements on the page, based on user input. As with CSS, there are three main ways of including JavaScript:\r\n",
+        "points": [
+            "Certain HTML elements allow you to execute a piece of JavaScript when a certain event occurs. For example, a button allows you to run a script when you click on it. These events are accessed through attributes and differ based on the events that are available on each element",
+            "You can define a script block anywhere on the page, which will get executed as soon as the browser reaches that part of the document. This can be inside the <head> or <body> section of your document."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42aa8a061f9cc313521",
+        "index": 21,
+        "image": "http://placehold.it/32x32",
+        "question": "What is Cell Spacing and Cell Padding?",
+        "answer": "Cell Spacing is referred to as the space or gap between the two cells of the same table. Whereas, Cell Padding is referred to as the gap or space between the content of the cell and cell wall or cell border\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42aa97f64fdadc52807",
+        "index": 22,
+        "image": "http://placehold.it/32x32",
+        "question": "List the media types and formats supported by HTML.",
+        "answer": "HTML supports a wide range of media formats for sound, music, videos, movies, and animations. Some of the extensions supported by each media format are:\r\n",
+        "points": [
+            "Images– png, jpg, jpeg, gif, apng, svg, bmp, BMP ico, png ico",
+            "Audio– MIDI, RealAudio, WMA, AAC, WAV, Ogg, MP3, MP4",
+            "Video– MPEG, AVI, WMV, QuickTime, RealVideo, Flash, Ogg, WebM, MPEG-4 or MP4"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a58df2280d99133b5",
+        "index": 23,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the advantage of grouping several checkboxes together?",
+        "answer": "The checkboxes don’t affect one another. But, grouping these checkboxes together help to organize them. Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes.\r\n",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "633ff42a6ff12d781c19535f",
+        "index": 24,
+        "image": "http://placehold.it/32x32",
+        "question": "Explain the layout of HTML.",
+        "answer": "HTML layout specifies a way in which the web page is arranged. Every website has a specific layout to display content in a specific manner. Following are different HTML elements which are used to define the different parts of a webpage:\r\n",
+        "points": [
+            "<header>: It is used to define a header for a document or a section.",
+            "<nav>: This defines a container for navigation links",
+            "<section>: It is used to define a section in a document",
+            "<article>: This is used to define an independent, self-contained article",
+            "<aside>: It is used to define content aside from the content",
+            "<footer>: It is used to define a footer for a document or a section"
+        ],
+        "images": [],
+        "bulletPoint": []
+    }
+]

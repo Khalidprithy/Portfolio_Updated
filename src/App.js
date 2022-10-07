@@ -4,6 +4,7 @@ import Navbar from './components/Header/Navbar';
 import About from './components/Pages/About';
 import AllProjects from './components/Pages/AllProjects';
 import Blog from './components/Pages/Blog';
+import HtmlQA from './components/Pages/Blogs/HtmlQA';
 import MongoQA from './components/Pages/Blogs/MongoQA';
 import NodeQA from './components/Pages/Blogs/NodeQA';
 import ReactQA from './components/Pages/Blogs/ReactQA';
@@ -20,6 +21,7 @@ function App() {
         <Route path='/projects' element={<AllProjects></AllProjects>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
+        <Route path='/html_qa' element={<HtmlQA></HtmlQA>}></Route>
         <Route path='/react_qa' element={<ReactQA></ReactQA>}></Route>
         <Route path='/mongo_qa' element={<MongoQA></MongoQA>}></Route>
         <Route path='/node_qa' element={<NodeQA></NodeQA>}></Route>
