@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Blog = () => {
 
+    const [openBlog7, setOpenBlog7] = useState(false);
     const [openBlog0, setOpenBlog0] = useState(false);
-    const [openBlogC, setOpenBlogC] = useState(false);
     const [openBlog1, setOpenBlog1] = useState(false);
     const [openBlog2, setOpenBlog2] = useState(false);
     const [openBlog3, setOpenBlog3] = useState(false);
@@ -55,12 +55,12 @@ const Blog = () => {
             </div>
             <div className='flex items-center justify-center m-4 mt-6'>
                 <div
-                    onMouseEnter={() => setOpenBlogC(true)}
-                    onMoonClick={handleNodeQa} useLeave={() => setOpenBlogC(false)}
+                    onMouseEnter={() => setOpenBlog7(true)}
+                    onMouseLeave={() => setOpenBlog7(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
                     <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>25 CSS interview Q&A</h1>
-                    <div className={` ${openBlogC ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
+                    <div className={` ${openBlog7 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill
                             onClick={handleCSSQa}

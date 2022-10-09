@@ -3,274 +3,103 @@
         "_id": "634019a49acff49993fdcd82",
         "index": 0,
         "image": "http://placehold.it/32x32",
-        "question": "978 Gerry Street, Tolu, Wisconsin, 9482",
-        "answer": "Pariatur consectetur incididunt ullamco mollit do fugiat laborum non aliquip tempor ullamco. Sit consectetur sint in id irure irure aute culpa dolor sit elit dolor ipsum. Consequat ea qui elit ipsum id duis irure laboris do non est. Esse pariatur velit ex ipsum ea culpa nulla exercitation ad nostrud fugiat eiusmod culpa.\r\n",
+        "question": "What is the difference between the equality operators == and ===?",
+        "answer": "Triple equals (===) checks for strict equality, which means both the type and value must be the same. Double equals (==) on the other hand first performs type coercion so that both operands are of the same type and then applies strict comparison.\r\n",
         "points": [
-            "non",
-            "nostrud",
-            "et",
-            "in",
-            "id",
-            "voluptate",
-            "consectetur"
+            "Whenever possible, use triple equals to test equality because loose equality == can have unintuitive results.",
+            "Type coercion means the values are converted into the same type.",
+            "Mention of falsy values and their comparison."
         ],
-        "images": [
-            "ipsum",
-            "labore",
-            "culpa",
-            "non",
-            "commodo",
-            "ipsum",
-            "nisi"
-        ],
-        "bulletPoint": [
-            {
-                "id": 0,
-                "name": "Carson Nolan"
-            },
-            {
-                "id": 1,
-                "name": "Tran Bell"
-            },
-            {
-                "id": 2,
-                "name": "Luann Chandler"
-            }
-        ]
+        "images": [],
+        "bulletPoint": []
     },
     {
         "_id": "634019a433f4646b3693d96f",
         "index": 1,
         "image": "http://placehold.it/32x32",
-        "question": "122 Duryea Court, Croom, Idaho, 446",
-        "answer": "Elit irure in nisi proident quis veniam nisi tempor. Aliquip pariatur ullamco magna aliquip aliqua occaecat. Deserunt est sit do sint exercitation ipsum ipsum ea ipsum veniam tempor. Tempor ea pariatur esse nulla esse proident ex. Consectetur incididunt anim fugiat Lorem amet.\r\n",
+        "question": "What is the difference between the postfix i++ and prefix ++i increment operators?",
+        "answer": "Both increment the variable value by 1. The difference is what they evaluate to.\r\n",
         "points": [
-            "amet",
-            "amet",
-            "non",
-            "esse",
-            "duis",
-            "consequat",
-            "sit"
+            "The postfix increment operator evaluates to the value before it was incremented.",
+            "The prefix increment operator evaluates to the value after it was incremented."
         ],
-        "images": [
-            "exercitation",
-            "duis",
-            "eu",
-            "culpa",
-            "ad",
-            "reprehenderit",
-            "ad"
-        ],
-        "bulletPoint": [
-            {
-                "id": 0,
-                "name": "Bean Velasquez"
-            },
-            {
-                "id": 1,
-                "name": "Norton Vaughan"
-            },
-            {
-                "id": 2,
-                "name": "Simmons Sawyer"
-            }
-        ]
+        "images": [],
+        "bulletPoint": []
     },
     {
         "_id": "634019a4d6c0e3c6a01d3fce",
         "index": 2,
         "image": "http://placehold.it/32x32",
-        "question": "963 Stockholm Street, Rivera, Georgia, 1230",
-        "answer": "In exercitation duis consequat incididunt officia qui est reprehenderit. Cillum deserunt laboris veniam sunt laborum cillum velit. Deserunt commodo est do anim aute culpa. In do dolore magna sint fugiat.\r\n",
+        "question": "In which states can a Promise be?",
+        "answer": "A Promise is in one of these states:\r\n",
         "points": [
-            "Lorem",
-            "ipsum",
-            "mollit",
-            "proident",
-            "minim",
-            "minim",
-            "laboris"
+            "pending: initial state, neither fulfilled nor rejected",
+            "fulfilled: meaning that the operation completed successfully",
+            "rejected: meaning that the operation failed."
         ],
-        "images": [
-            "veniam",
-            "consequat",
-            "consectetur",
-            "ipsum",
-            "dolore",
-            "dolor",
-            "ad"
-        ],
-        "bulletPoint": [
-            {
-                "id": 0,
-                "name": "Charles Burgess"
-            },
-            {
-                "id": 1,
-                "name": "Obrien Whitfield"
-            },
-            {
-                "id": 2,
-                "name": "Sheila Hammond"
-            }
-        ]
+        "images": [],
+        "bulletPoint": [],
+        "summary": "A pending promise can either be fulfilled with a value, or rejected with a reason (error). When either of these options happens, the associated handlers queued up by a promise's then method are called."
     },
     {
         "_id": "634019a43e6252073cbc6ad0",
         "index": 3,
         "image": "http://placehold.it/32x32",
-        "question": "949 Monitor Street, Coleville, Washington, 6172",
-        "answer": "Amet consectetur esse dolore velit magna ex laboris incididunt consequat. Anim Lorem minim anim fugiat Lorem. Pariatur magna exercitation ad mollit eiusmod reprehenderit Lorem. Ea tempor dolor eiusmod anim nulla nostrud sint officia culpa. Laborum reprehenderit fugiat sit quis nulla reprehenderit ipsum proident quis minim ullamco.\r\n",
+        "question": "How do you compare two objects in JavaScript?",
+        "answer": "Even though two different objects can have the same properties with equal values, they are not considered equal when compared using == or ===. This is because they are being compared by their reference (location in memory), unlike primitive values which are compared by value.\r\n",
         "points": [
-            "excepteur",
-            "nulla",
-            "veniam",
-            "incididunt",
-            "ipsum",
-            "consequat",
-            "excepteur"
+            "In order to test if two objects are equal in structure, a helper function is required. It will iterate through the own properties of each object to test if they have the same values, including nested objects. Optionally, the prototypes of the objects may also be tested for equivalence by passing true as the 3rd argument."
         ],
-        "images": [
-            "proident",
-            "ad",
-            "sunt",
-            "aute",
-            "aute",
-            "officia",
-            "anim"
-        ],
-        "bulletPoint": [
-            {
-                "id": 0,
-                "name": "April Lawrence"
-            },
-            {
-                "id": 1,
-                "name": "Meyers Rich"
-            },
-            {
-                "id": 2,
-                "name": "Bonner Slater"
-            }
-        ]
+        "images": [],
+        "bulletPoint": [],
+        "summary": "Note: this technique does not attempt to test equivalence of data structures other than plain objects, arrays, functions, dates and primitive values."
     },
     {
         "_id": "634019a4ded8216ae34cf774",
         "index": 4,
         "image": "http://placehold.it/32x32",
-        "question": "883 Beaumont Street, Bendon, Minnesota, 7265",
-        "answer": "Elit do fugiat incididunt est. Do sunt quis dolore est esse veniam. Velit laborum aliqua nostrud nulla sunt elit adipisicing et tempor. Nisi velit ut ea quis reprehenderit sunt cupidatat aliquip commodo.\r\n",
+        "question": "What is the DOM?",
+        "answer": "The DOM (Document Object Model) is a cross-platform API that treats HTML and XML documents as a tree structure consisting of nodes. These nodes (such as elements and text nodes) are objects that can be programmatically manipulated and any visible changes made to them are reflected live in the document. In a browser, this API is available to JavaScript where DOM nodes can be manipulated to change their styles, contents, placement in the document, or interacted with through event listeners\r\n",
         "points": [
-            "ex",
-            "consequat",
-            "exercitation",
-            "consequat",
-            "adipisicing",
-            "consectetur",
-            "irure"
+            "The DOM was designed to be independent of any particular programming language, making the structural representation of the document available from a single, consistent API.",
+            "The DOM is constructed progressively in the browser as a page loads, which is why scripts are often placed at the bottom of a page, in the <head> with a defer attribute, or inside a DOMContentLoaded event listener. Scripts that manipulate DOM nodes should be run after the DOM has been constructed to avoid errors.",
+            "document.getElementById() and document.querySelector() are common functions for selecting DOM nodes.",
+            "Setting the innerHTML property to a new value runs the string through the HTML parser, offering an easy way to append dynamic HTML content to a node."
         ],
-        "images": [
-            "exercitation",
-            "officia",
-            "magna",
-            "dolor",
-            "sit",
-            "esse",
-            "ea"
-        ],
-        "bulletPoint": [
-            {
-                "id": 0,
-                "name": "Decker Roberts"
-            },
-            {
-                "id": 1,
-                "name": "Pat Chambers"
-            },
-            {
-                "id": 2,
-                "name": "Hardy Little"
-            }
-        ]
+        "images": [],
+        "bulletPoint": []
     },
     {
         "_id": "634019a4ca58421b78ecaa50",
         "index": 5,
         "image": "http://placehold.it/32x32",
-        "question": "764 Fuller Place, Disautel, Oregon, 282",
-        "answer": "Minim aliqua aliqua officia nisi veniam aliqua consequat. Duis commodo magna eiusmod qui deserunt aliqua nostrud exercitation laboris consectetur veniam. Magna ea pariatur ex laboris ipsum cupidatat non exercitation minim mollit. Id enim officia sunt quis et voluptate est. Fugiat in ea commodo commodo et eu laborum elit elit veniam. In dolore excepteur dolore esse do proident nulla sit. Sunt elit voluptate adipisicing consequat ex aute quis.\r\n",
+        "question": "What is the difference between an expression and a statement in JavaScript?",
+        "answer": "There are two main syntactic categories in JavaScript: expressions and statements. A third one is both together, referred to as an expression statement. They are roughly summarized as:\r\n",
         "points": [
-            "irure",
-            "sit",
-            "non",
-            "excepteur",
-            "est",
-            "esse",
-            "cupidatat"
+            "Expression: produces a value",
+            "Statement: performs an action",
+            "Expression statement: produces a value and performs an action"
         ],
-        "images": [
-            "proident",
-            "enim",
-            "excepteur",
-            "occaecat",
-            "in",
-            "proident",
-            "sint"
-        ],
-        "bulletPoint": [
-            {
-                "id": 0,
-                "name": "Castro Bradford"
-            },
-            {
-                "id": 1,
-                "name": "Maritza Craig"
-            },
-            {
-                "id": 2,
-                "name": "Jordan Avila"
-            }
-        ]
+        "images": [],
+        "bulletPoint": []
     },
     {
         "_id": "634019a4b1be04f90a284790",
         "index": 6,
         "image": "http://placehold.it/32x32",
-        "question": "797 Rock Street, Bladensburg, Missouri, 9873",
-        "answer": "Pariatur laboris anim labore minim nostrud ut ea consectetur id consectetur. Exercitation sunt eiusmod aliqua sunt ipsum. Qui mollit dolor adipisicing irure aute incididunt ad. Fugiat anim non ad deserunt ut. Fugiat adipisicing elit ullamco officia aliqua esse. Eu esse irure sit pariatur exercitation esse aute incididunt aute.\r\n",
+        "question": "What are truthy and falsy values in JavaScript?",
+        "answer": "A value is either truthy or falsy depending on how it is evaluated in a Boolean context. Falsy means false-like and truthy means true-like. Essentially, they are values that are coerced to true or false when performing certain operations. There are 6 falsy values in JavaScript. They are:\r\n",
         "points": [
-            "reprehenderit",
-            "laboris",
-            "ad",
-            "non",
-            "ad",
-            "nisi",
-            "aute"
+            "false",
+            "undefined",
+            "null",
+            "null",
+            "NaN",
+            "0 (both +0 and -0)"
         ],
-        "images": [
-            "occaecat",
-            "veniam",
-            "voluptate",
-            "et",
-            "incididunt",
-            "reprehenderit",
-            "Lorem"
-        ],
-        "bulletPoint": [
-            {
-                "id": 0,
-                "name": "Laurel Kirby"
-            },
-            {
-                "id": 1,
-                "name": "Holt Abbott"
-            },
-            {
-                "id": 2,
-                "name": "Booth Whitehead"
-            }
-        ]
+        "images": [],
+        "bulletPoint": [],
+        "summary": "Every other value is considered truthy."
     },
     {
         "_id": "634019a4d8906c80e14b088c",

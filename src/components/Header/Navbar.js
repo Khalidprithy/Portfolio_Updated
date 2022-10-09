@@ -19,7 +19,7 @@ const Navbar = () => {
                         <Link to='/' tabIndex="0" className=" text-2xl md:text-4xl font-semibold text-accent px-2 md:px-10 ml-1">Dev.Kbin</Link>
                         <ul tabIndex="1" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-accent rounded-box w-48">
                             <Link to='/'><p className='text-left py-2 mx-2 text-white font-semibold'>Home</p></Link>
-                            <Link to='/projects'><p className='text-left py-2 mx-2 text-white font-semibold'>Project</p></Link>
+                            <Link to='/projects'><p className='text-left py-2 mx-2 text-white font-semibold'>Projects</p></Link>
                             <Link to='/about'><p className='text-left py-2 mx-2 text-white font-semibold'>About</p></Link>
                             <Link to='/blog'><p className='text-left py-2 mx-2 text-white font-semibold'>Blog</p></Link>
                         </ul>

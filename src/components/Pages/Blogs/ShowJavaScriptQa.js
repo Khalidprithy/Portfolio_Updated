@@ -19,6 +19,7 @@ const ShowJavaScriptQa = ({ question }) => {
                     </li>)
                 }
             </ul>
+            <p className='p-2'>{question?.summary}</p>
         </div>
     );
 };

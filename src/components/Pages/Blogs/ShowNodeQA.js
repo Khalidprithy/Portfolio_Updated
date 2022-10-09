@@ -19,6 +19,7 @@ const ShowNodeQA = ({ question }) => {
                     </li>)
                 }
             </ul>
+            <p>{question?.summary}</p>
         </div>
     );
 };

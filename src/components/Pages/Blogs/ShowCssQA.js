@@ -13,9 +13,9 @@ const ShowCssQA = ({ question }) => {
             <ul className='ml-2 flex flex-col'>
                 {
                     question.points &&
-                    question?.points.map(point => <li className='flex items-center gap-1'>
-                        <FaHandPointRight className='w-10'></FaHandPointRight>
-                        <p className=''>{point}</p>
+                    question?.points.map(point => <li className=''>
+
+                        <p className='flex items-baseline gap-1'><FaHandPointRight className='w-10'></FaHandPointRight>{point}</p>
                     </li>)
                 }
             </ul>
