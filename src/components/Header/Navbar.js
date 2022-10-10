@@ -29,7 +29,7 @@ const Navbar = () => {
                     <ul className="menu menu-horizontal p-0">
                         <ul className="menu menu-horizontal p-0">
                             <Link to='/'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>Home</p></Link>
-                            <Link to='/projects'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>Project</p></Link>
+                            <Link to='/projects'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>Projects</p></Link>
                             <Link to='/about'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>About</p></Link>
                             <Link to='/blog'><p className='text-2xl px-2 text-white font-semibold hover:text-accent'>Blog</p></Link>
                         </ul>
