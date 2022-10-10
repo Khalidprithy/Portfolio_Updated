@@ -20,7 +20,6 @@ const Contact = () => {
             });
     };
 
-
     return (
         <div className='m-2'>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg w-full md:w-8/12 mx-auto h-24 rounded-xl mb-6'>

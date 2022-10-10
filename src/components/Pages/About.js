@@ -20,15 +20,14 @@ const About = () => {
                 <h1 className='text-4xl'>Frontend Development</h1>
             </div>
             <div className='bg-neutral h-20 rounded-2xl w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
-                <h1 className='text-4xl'>Backend Development</h1>
+                <h1 className='text-4xl'>React Application</h1>
             </div>
             <div className='bg-neutral h-20 rounded-2xl w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
-                <h1 className='text-4xl'>React Application</h1>
+                <h1 className='text-4xl'>Backend Development</h1>
             </div>
             <div className='bg-neutral h-20 rounded-2xl w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
                 <h1 className='text-4xl'>MERN Application</h1>
             </div>
-
         </div>
     );
 };

@@ -14,7 +14,6 @@ const Projects = () => {
     const handleNavigate = () => {
         navigate('/projects')
     }
-
     return (
         <div className='m-2 mb-4'>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg outline-1 w-full md:w-8/12 mx-auto h-24 rounded-xl mb-4'>
@@ -38,7 +37,7 @@ const Projects = () => {
                             <li>The payment system is also implemented using stripe</li>
                         </ul>
                         <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
-                            <a href='https://tea-tree-6ed1f.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
+                            <a href='https://tea-tree-6ed1f.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-white hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
                             <a href='https://github.com/Khalidprithy/Tea-Tree-Frontend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
                             <a href='https://github.com/Khalidprithy/Tea-Tree-Backend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
                         </div>
@@ -59,7 +58,7 @@ const Projects = () => {
                             <li>Mobile and desktop responsive</li>
                         </ul>
                         <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
-                            <a href='https://blooming-beauty-25ee5.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
+                            <a href='https://blooming-beauty-25ee5.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-white hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
                             <a href='https://github.com/Khalidprithy/BloomingBeauty-Frontend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
                             <a href='https://github.com/Khalidprithy/BloomingBeauty-server' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
                         </div>
@@ -78,7 +77,7 @@ const Projects = () => {
                             <li>Booking system has used</li>
                         </ul>
                         <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
-                            <a href='https://hotel-booking-3b5e8.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-neutral hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
+                            <a href='https://hotel-booking-3b5e8.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-white hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite></CgWebsite> Live Site</a>
                             <a href='https://github.com/Khalidprithy/hotel-booking-frontend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
                             <a href='https://github.com/Khalidprithy/hotel-booking-backend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
                         </div>
