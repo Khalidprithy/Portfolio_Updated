@@ -13,7 +13,7 @@ const AllProjects = () => {
             .then(data => setProjects(data))
     }, []);
     return (
-        <div className='min-h-screen m-2'>
+        <div className='min-h-screen m-4'>
             <h1 className='text-4xl font-bold my-6 text-center'>All Projects</h1>
             <div className='grid grid-cols-1 lg:grid-cols-2 w-full mx-auto gap-4 md:gap-10'>
                 {

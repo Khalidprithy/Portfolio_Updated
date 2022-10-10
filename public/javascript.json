@@ -511,7 +511,7 @@
         "index": 38,
         "image": "http://placehold.it/32x32",
         "question": "Why you should not use innerHTML in JavaScript?",
-        "answer": "Why you should not use innerHTML in JavaScript?",
+        "answer": "innerHTML content is refreshed every time and thus is slower. There is no scope for validation in innerHTML. Therefore, it is easier to insert rogue code in the document and make the web page unstable.",
         "points": [],
         "images": [],
         "bulletPoint": []

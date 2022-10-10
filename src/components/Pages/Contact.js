@@ -23,7 +23,7 @@ const Contact = () => {
 
     return (
         <div className='m-2'>
-            <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg w-full md:w-10/12 mx-auto h-24 rounded-lg mb-6'>
+            <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg w-full md:w-8/12 mx-auto h-24 rounded-xl mb-6'>
                 <h1 className='text-2xl font-semibold m-2'>Contact me</h1>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>Here</p>

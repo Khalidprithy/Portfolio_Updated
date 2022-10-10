@@ -3,12 +3,12 @@ import React from 'react';
 const ShowProject = ({ project }) => {
     console.log(project.links[0].link)
     return (
-        <div className='flex flex-col md:flex-row mx-auto bg-neutral rounded-xl text-white relative'>
+        <div className='flex flex-col md:flex-row mx-auto bg-neutral rounded-md text-white relative'>
             <img className='w-72 rounded-xl mx-auto p-2' src={project.images[0]} alt="" />
             <div className='flex flex-col gap-2 p-2'>
                 <div className='flex justify-between my-2'>
                     <h1 className='text-4xl'>{project.name}</h1>
-                    <a href={project.links[0].link} target="_blank" rel="noreferrer" className='btn btn-info btn-sm rounded-sm'>Visit</a>
+                    <a href={project.links[0].link} target="_blank" rel="noreferrer" className='btn btn-info btn-sm rounded-md'>Visit</a>
                 </div>
                 <h4 className='text-gray-300'>{project.title}</h4>
                 <p className='font-semibold text-primary'>{project.category}</p>
@@ -27,25 +27,21 @@ const ShowProject = ({ project }) => {
                 </div>
                 <div className='hidden lg:block'>
                     <h1 className='font-semibold'>Features </h1>
-
                     {
                         project.bulletPoint.map(item =>
                             <ul key={item.id} className='text-sm p-1 rounded-lg hover:text-primary mb-2'><span className='font-bold'>{item.id + 1} -</span> {item.name}</ul>
                         )
                     }
-
                 </div>
-
                 <h1 className='text-center text-xl font-medium'>Live Site and GitHub links</h1>
                 <div className='flex justify-around gap-2'>
                     {
                         project.links.map(link =>
-                            <a key={link.id} href={link.link} target="_blank" rel="noreferrer" className='btn btn-success btn-xs rounded-md'>{link.name}</a>
+                            <a key={link.id} href={link.link} target="_blank" rel="noreferrer" className='btn btn-success btn-xs hover:bg-green-600 rounded-sm'>{link.name}</a>
                         )
                     }
                 </div>
             </div>
-
         </div>
     );
 };
