@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
