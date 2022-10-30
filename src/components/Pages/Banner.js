@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'
 
 const Banner = () => {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+    const [open, setOpen] = useState(false);
 
     const handleLearnMore = () => {
         navigate('/about')
@@ -11,8 +12,15 @@ const Banner = () => {
 
     return (
         <div className='m-2 my-10'>
-            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-10 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
-                <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
+            <div
+
+                onMouseEnter={() => setOpen(true)}
+                onMouseLeave={() => setOpen(false)}
+
+                className="h-fit flex justify-center items-center pt-0 md:pt-10 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
+                <div
+                    className={` ${open ? "hidden text-center mx-2 my-4 md:mx-auto order-2 md:order-1 md:block ease-in-out duration-500" : "hidden"} `}
+                >
                     <div className="max-w-md text-white p-2">
                         <p className='text-xl font-semibold'>Hello There</p>
                         <h1 className="text-6xl font-bold text-center">I'm <br /> Khalid Bin Alam</h1>
@@ -25,7 +33,7 @@ const Banner = () => {
                             className="btn btn-info text-white ml-2">Learn More</button>
                     </div>
                 </div>
-                <img src="https://i.ibb.co/7WTpJ1K/profile.jpg" alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-full mx-auto order-1 md:order-2 m-10" />
+                <img src="https://i.ibb.co/7WTpJ1K/profile.jpg" alt="" className="w-2/4 md:w-2/4 shadow-2xl rounded-full mx-auto order-1 md:order-2 m-10" />
             </div>
         </div>
     );
