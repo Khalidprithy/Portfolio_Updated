@@ -46,7 +46,7 @@ const Navbar = () => {
                     <a href='https://www.instagram.com/mdkhalidbinalam/' target="_blank" rel="noreferrer" className="btn btn-ghost btn-circle">
                         <img src={InstaIcon} alt="" className='rounded-full mr-1 md:mr-6 w-8 md:w-full' />
                     </a>
-                    <a href='https://drive.google.com/file/d/1Gy9qYOA3UzY77SEGyhu3unkHq28VotTb/view?usp=sharing' rel="noreferrer" className="btn btn-sm text-base-100 border-0 rounded-md bg-red-400 hover:bg-red-600 mr-2" target="_blank" download>Resume</a>
+                    <a href='https://drive.google.com/file/d/1gNC3eMyc6kcoQaB-vq8Xb-hLbAKXI-1d/view?usp=sharing' rel="noreferrer" className="btn btn-sm text-base-100 border-0 rounded-md bg-red-400 hover:bg-red-600 mr-2" target="_blank" download>Resume</a>
                 </div>
             </div>
         </div>
