@@ -29,7 +29,7 @@ const Projects = () => {
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
-                        <h1 className="text-6xl font-bold text-center text-green-400">TeaTree</h1>
+                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-green-400">TeaTree</h1>
                         <p className="py-6 px-2">Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs ExpressJs for backend. I found this combination is flexible and productive. It also offers the flexibility to customize in future.</p>
                         <ul className='text-left list-disc list-inside'>
                             <li>Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs Express for the backend.</li>
@@ -50,7 +50,7 @@ const Projects = () => {
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-2">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
-                        <h1 className="text-4xl md:text-5xl font-bold text-center text-pink-400">BloomingBeauty</h1>
+                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-pink-400">BloomingBeauty</h1>
                         <p className="py-6 px-2">This is a react application for a cosmetics e-commerce site to manage their products and sales. Tailwind and daizyUI CSS is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook.</p>
                         <ul className='text-left list-disc list-inside'>
                             <li>Login system is implemented and Social login is available.</li>
@@ -69,7 +69,7 @@ const Projects = () => {
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
-                        <h1 className="text-6xl font-bold text-center text-sky-400">HotelView</h1>
+                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-sky-400">HotelView</h1>
                         <p className="py-6 px-2">Hotel Booking website. User can visit hotels on different location. Hotel, resort, apartment, cabin data is loaded dynamically. User can see details about a hotel and available rooms. They can book certain rooms and once a room is booked other user no longer will be able to book same room on same date.</p>
                         <ul className='text-left list-disc list-inside'>
                             <li>Website to search and book hotel.</li>
