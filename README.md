@@ -111,11 +111,11 @@ welcome to my GitHub Page. I am Khalid an MERN stack Developer, I learn new thin
 
 ## Recent GitHub Activity ✅
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#24](https://github.com/Khalidprithy/beautify-github-profile/issues/24) in [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile)
-2. ❌ Closed PR [#12](https://github.com/Khalidprithy/file_validator/pull/12) in [rzashakeri/file_validator](https://github.com/Khalidprithy/file_validator)
-3. 💪 Opened PR [#12](https://github.com/Khalidprithy/file_validator/pull/12) in [rzashakeri/file_validator](https://github.com/Khalidprithy/file_validator)
-4. 🎉 Merged PR [#11](https://github.com/Khalidprithy/file_validator/pull/11) in [rzashakeri/file_validator](https://github.com/Khalidprithy/file_validator)
-5. 🎉 Merged PR [#23](https://github.com/Khalidprithy/beautify-github-profile/pull/23) in [rzashakeri/beautify-github-profile](https://github.com/Khalidprithy/beautify-github-profile)
+1. 🗣 Commented on [#24](https://github.com/Khalidprithy/beautify-github-profile/issues/24) in [Khalidprithy/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile)
+2. ❌ Closed PR [#12](https://github.com/Khalidprithy/file_validator/pull/12) in [Khalidprithy/file_validator](https://github.com/Khalidprithy/file_validator)
+3. 💪 Opened PR [#12](https://github.com/Khalidprithy/file_validator/pull/12) in [Khalidprithy/file_validator](https://github.com/Khalidprithy/file_validator)
+4. 🎉 Merged PR [#11](https://github.com/Khalidprithy/file_validator/pull/11) in [Khalidprithy/file_validator](https://github.com/Khalidprithy/file_validator)
+5. 🎉 Merged PR [#23](https://github.com/Khalidprithy/beautify-github-profile/pull/23) in [Khalidprithy/beautify-github-profile](https://github.com/Khalidprithy/beautify-github-profile)
 <!--END_SECTION:activity-->
 
 ## GitHub Profile Trophy 🏆
