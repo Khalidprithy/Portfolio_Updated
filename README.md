@@ -99,24 +99,24 @@ welcome to my GitHub Page. I am Khalid an MERN stack Developer, I learn new thin
   <summary>Activity Graph 📈</summary>
   <br/>
  
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="rzashakeri's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=rzashakeri&bg_color=ffffff&color=000000&line=00ea70&point=403d3d&area=true&hide_border=true" /></a>
+<a href="https://github.com/Khalidprithy/github-readme-activity-graph"><img alt="Khalidprithy's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=Khalidprithy&bg_color=ffffff&color=000000&line=00ea70&point=403d3d&area=true&hide_border=true" /></a>
 </details>
 
 <details>
   <summary>Profile Views 👁️</summary>
   <br/>
-  <img src="https://komarev.com/ghpvc/?username=rzashakerie&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen">
+  <img src="https://komarev.com/ghpvc/?username=Khalidprithy&label=PROFILE+VIEWS&style=for-the-badge&color=brightgreen">
 
 </details>
 
 ## Recent GitHub Activity ✅
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#24](https://github.com/rzashakeri/beautify-github-profile/issues/24) in [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile)
-2. ❌ Closed PR [#12](https://github.com/rzashakeri/file_validator/pull/12) in [rzashakeri/file_validator](https://github.com/rzashakeri/file_validator)
-3. 💪 Opened PR [#12](https://github.com/rzashakeri/file_validator/pull/12) in [rzashakeri/file_validator](https://github.com/rzashakeri/file_validator)
-4. 🎉 Merged PR [#11](https://github.com/rzashakeri/file_validator/pull/11) in [rzashakeri/file_validator](https://github.com/rzashakeri/file_validator)
-5. 🎉 Merged PR [#23](https://github.com/rzashakeri/beautify-github-profile/pull/23) in [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile)
+1. 🗣 Commented on [#24](https://github.com/Khalidprithy/beautify-github-profile/issues/24) in [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile)
+2. ❌ Closed PR [#12](https://github.com/Khalidprithy/file_validator/pull/12) in [rzashakeri/file_validator](https://github.com/Khalidprithy/file_validator)
+3. 💪 Opened PR [#12](https://github.com/Khalidprithy/file_validator/pull/12) in [rzashakeri/file_validator](https://github.com/Khalidprithy/file_validator)
+4. 🎉 Merged PR [#11](https://github.com/Khalidprithy/file_validator/pull/11) in [rzashakeri/file_validator](https://github.com/Khalidprithy/file_validator)
+5. 🎉 Merged PR [#23](https://github.com/Khalidprithy/beautify-github-profile/pull/23) in [rzashakeri/beautify-github-profile](https://github.com/Khalidprithy/beautify-github-profile)
 <!--END_SECTION:activity-->
 
 ## GitHub Profile Trophy 🏆
-[![trophy](https://github-profile-trophy.vercel.app/?username=rzashakeri&row=1&margin-w=40)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Khalidprithy&row=1&margin-w=40)](https://github.com/ryo-ma/github-profile-trophy)
