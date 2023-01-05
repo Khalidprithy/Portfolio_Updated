@@ -1,3 +1,5 @@
+<img align="center" alt="Coding" width="300" src="https://media.tenor.com/CeDk6XdCgOUAAAAi/develop-web.gif">
+
 <h1 align="center">Hi 👋, I'm Khalid Bin Alam</h1>
 <h3 align="center">A passionate MERN stack developer from Bangladesh</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=khalidprithy&label=Profile%20views&color=0e75b6&style=flat" alt="khalidprithy" /> </p>
