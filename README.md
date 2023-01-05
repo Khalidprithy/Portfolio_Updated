@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Khalid Bin Alam</h1>
 <h3 align="center">A passionate MERN stack developer from Bangladesh</h3>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=khalidprithy&label=Profile%20views&color=0e75b6&style=flat" alt="khalidprithy" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=khalidprithy" alt="khalidprithy" /></a> </p>
 <img align="right" alt="Coding" width="300" src="https://mir-s3-cdn-cf.behance.net/project_modules/hd/dfe73269796077.5b8e2a3fc5deb.gif">
 
 - 🔭 I’m currently working on **DevApp**
@@ -42,8 +42,7 @@
 
 <p><a href="https://www.buymeacoffee.com/devkbin101j"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="devkbin101j" /></a></p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=khalidprithy&label=Profile%20views&color=0e75b6&style=flat" alt="khalidprithy" /> </p>
-
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=khalidprithy" alt="khalidprithy" /></a> </p>
 <h3 align="left">States:</h3>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=khalidprithy&show_icons=true&locale=en&layout=compact" alt="khalidprithy" /></p>
