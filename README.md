@@ -1,4 +1,4 @@
-<img align="center" alt="Coding" width="1080" src="https://media.tenor.com/CeDk6XdCgOUAAAAi/develop-web.gif">
+<img align="center" alt="Coding" width="1080" src="https://art.pixilart.com/16c3630a9147a08.gif">
 
 <h1 align="center">Hi 👋, I'm Khalid Bin Alam</h1>
 <h3 align="center">A passionate MERN stack developer from Bangladesh</h3>
