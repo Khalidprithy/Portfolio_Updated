@@ -10,7 +10,7 @@ const Banner = () => {
 
 
     return (
-        <div className='m-2 my-10'>
+        <div className='m-2 my-5'>
             <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-10 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white p-2">

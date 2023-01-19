@@ -14,7 +14,7 @@ const Experience = () => {
                 <h1 className='text-2xl font-semibold m-2'>Experience</h1>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>Here</p>
-                    <BsFillArrowDownCircleFill className='text-5xl  m-2 text-accent'></BsFillArrowDownCircleFill>
+                    <BsFillArrowDownCircleFill className='text-5xl hover:rotate-90 m-2 text-accent ease-out duration-300'></BsFillArrowDownCircleFill>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ const Experience = () => {
                 className='flex items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto hover:w-10/12 h-32 rounded-xl ease-in-out duration-500 mb-4 px-4'>
                 <div className='flex items-center justify-center px-6'>
                     <img className='w-16 hidden rounded-full ring-2 ring-sky-600 m-2 md:block' src={StarticIcon} alt="" />
-                    <div className='text-left'>
+                    <div className='text-left '>
                         <h1 className='text-xl md:text-3xl text-sky-600 ease-in-out duration-1000'>Startic Field</h1>
                         <h4 className='text-sm md:text-base font-medium text-gray-300'>Frontend Developer</h4>
                     </div>
@@ -63,8 +63,6 @@ const Experience = () => {
                 </div>
 
             </div>
-
-
         </div>
     );
 };

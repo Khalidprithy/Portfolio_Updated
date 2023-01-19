@@ -1,9 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import GitIcon from '../../images/git_icon.svg.png'
-import LinkedIcon from '../../images/linkedIn_icon.svg.png'
-import InstaIcon from '../../images/Instagram-Icon.png'
 import { Link } from 'react-router-dom';
+import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
 
 const Navbar = () => {
 
@@ -37,14 +35,11 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="flex items-center gap-0 md:gap-2">
-                    <a href='https://github.com/Khalidprithy' target="_blank" rel="noreferrer" className="btn btn-ghost btn-circle">
-                        <img src={GitIcon} alt="" className='rounded-full mr-1 md:mr-6 w-8 md:w-full' />
+                    <a href='https://github.com/Khalidprithy' target="_blank" rel="noreferrer"> <AiFillGithub className='text-3xl md:text-4xl lg:text-5xl text-white'></AiFillGithub>
                     </a>
-                    <a href='https://www.linkedin.com/in/khalidbinalam/' target="_blank" rel="noreferrer" className="btn btn-ghost btn-circle">
-                        <img src={LinkedIcon} alt="" className='rounded-full mr-1 md:mr-6 w-8 md:w-full' />
+                    <a href='https://www.linkedin.com/in/khalidbinalam/' target="_blank" rel="noreferrer"> <AiFillLinkedin className='text-3xl md:text-4xl lg:text-5xl text-info'></AiFillLinkedin>
                     </a>
-                    <a href='https://www.instagram.com/mdkhalidbinalam/' target="_blank" rel="noreferrer" className="btn btn-ghost btn-circle">
-                        <img src={InstaIcon} alt="" className='rounded-full mr-1 md:mr-6 w-8 md:w-full' />
+                    <a href='https://www.instagram.com/mdkhalidbinalam/' target="_blank" rel="noreferrer"> <AiFillInstagram className='text-3xl md:text-4xl lg:text-5xl text-red-400'></AiFillInstagram>
                     </a>
                     <a href='https://drive.google.com/file/d/1gNC3eMyc6kcoQaB-vq8Xb-hLbAKXI-1d/view?usp=sharing' rel="noreferrer" className="btn btn-sm text-base-100 border-0 rounded-md bg-red-400 hover:bg-red-600 mr-2" target="_blank" download>Resume</a>
                 </div>

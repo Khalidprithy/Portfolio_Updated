@@ -22,11 +22,11 @@ const Projects = () => {
                     <p className='text-2xl font-semibold m-2'>All Projects</p>
                     <BsFillArrowRightCircleFill
                         onClick={handleNavigate}
-                        className='text-5xl m-2 text-accent'></BsFillArrowRightCircleFill>
+                        className='text-5xl m-2 text-accent cursor-pointer'></BsFillArrowRightCircleFill>
                 </div>
             </div>
             <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 mb-4">
-                <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
+                <div className="text-center my-4 order-2 md:order-1 mx-1 md:mx-auto">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
                         <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-green-400">TeaTree</h1>
@@ -47,7 +47,7 @@ const Projects = () => {
             </div>
             <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 mb-4">
                 <img src={BloomingBeauty} alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-md mx-auto order-1 md:order-1" />
-                <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-2">
+                <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-2">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
                         <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-pink-400">BloomingBeauty</h1>
@@ -66,7 +66,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
-                <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
+                <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
                         <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-sky-400">HotelView</h1>
