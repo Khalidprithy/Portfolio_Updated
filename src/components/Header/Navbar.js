@@ -12,7 +12,7 @@ const Navbar = () => {
             <div
                 onMouseEnter={() => setOpen(true)}
                 onMouseLeave={() => setOpen(false)}
-                className="flex items-center justify-between bg-neutral m-3 mx-auto h-24 w-12/12 md:w-2/3 lg:1/2 hover:w-full ease-in-out duration-500 rounded-xl text-white">
+                className="flex items-center justify-between bg-neutral mb-3 mx-auto h-24 w-12/12 md:w-2/3 lg:1/2 hover:w-full ease-in-out duration-500 rounded-xl text-white">
                 <div className=" text-white">
                     <div className="dropdown">
                         <Link to='/' tabIndex="0" className=" text-2xl md:text-4xl font-semibold text-accent px-2 md:px-10 ml-1">Dev.Kbin</Link>

@@ -16,7 +16,7 @@ import Footer from './components/Shared/Footer';
 
 function App() {
   return (
-    <div >
+    <div className='bg-white dark:bg-gray-700 pt-3'>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
