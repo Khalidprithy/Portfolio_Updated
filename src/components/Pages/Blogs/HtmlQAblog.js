@@ -304,7 +304,19 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">20.
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">19. What is a style sheet?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    A style sheet is a document that contains instructions for how to present the layout, colors, fonts, and other visual elements of a website or application. Style sheets are typically written in a language called CSS (Cascading Style Sheets), which is used to describe the layout and presentation of documents written in markup languages such as HTML and XML. Style sheets can be linked to a web page or application by using a link element in the HTML or XML source code. They allow developers to separate the presentation of a website or application from its structure and content, making it easier to maintain and update the visual design.
+                                </p>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">20. What is a marquee?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    A marquee is a type of HTML element that can be used to create a scrolling text or image on a web page. The text or image is displayed in a box called the "marquee" and scrolls horizontally or vertically across the web page. The behavior and appearance of the marquee can be controlled using various attributes such as the direction of scrolling, the speed of scrolling, and the behavior when the text or image reaches the end of the marquee. Marquees are generally considered to be an outdated feature of web design as they can be distracting to users and can affect the accessibility of the website. Alternative ways of displaying such information include using CSS animations or JavaScript.
+                                </p>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">21.
                                     How many types of CSS can be included in HTML?</h1>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     There are three main types of CSS that can be included in HTML:
@@ -322,6 +334,72 @@ const HtmlQAblog = () => {
                                     <br />
                                     <br />
                                     In summary, there are three types of CSS that can be included in HTML: Inline CSS, Internal CSS, and External CSS. Each of them has its own advantages and disadvantages, and the choice of which type to use will depend on the specific requirements of the project.
+                                </p>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">22.
+                                    Which type of video formats are supported by HTML5?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    HTML 5 supports three types of video format:
+                                </p>
+                                <ul class="list-disc ml-4 text-gray-600 dark:text-gray-300">
+                                    <li><span className='font-medium'>mp4</span></li>
+                                    <li><span className='font-medium'>webM</span></li>
+                                    <li><span className='font-medium'>ogg</span></li>
+                                </ul>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">23.
+                                    Is audio tag supported in HTML 5?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    Yes. It is used to add sound or music files on the web page. There are three supported file formats for HTML 5 audio tag.
+                                </p>
+                                <ul class="list-disc ml-4 text-gray-600 dark:text-gray-300">
+                                    <li><span className='font-medium'>mp3</span></li>
+                                    <li><span className='font-medium'>WAV</span></li>
+                                    <li><span className='font-medium'>Ogg</span></li>
+                                </ul>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">24.
+                                    What is the difference between progress and meter tag?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    The progress tag is used to represent the progress of the task only while the meter tag is used to measure data within a given range
+                                </p>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">25.
+                                    What is the use of details and summary tag?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    The details tag is used to specify some additional details on the web page. It can be viewed or hidden on demand. The summary tag is used with details tag.
+                                </p>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">25.
+                                    If I do not put !DOCTYPE html will HTML 5 work?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly..
+                                </p>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">26.
+                                    What is HTML?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    HTML is the short form of Hypertext Markup Language. HTML is used to design and display pages on the web. It makes the text content more attractive and dynamic. We can create tables, add images, videos, links in our text. We can also add animation to our page to make it more attractive. Every HTML page starts with  &lt;html&gt; tag and end with &lt;html/&gt; tag. It has two main parts head section and body section.
+                                </p>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">27.
+                                    What is the advantage of grouping several checkboxes together?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    The checkboxes don’t affect one another. But, grouping these checkboxes together help to organize them. Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes.
+                                </p>
+                            </div>
+                            <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
+                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">27.
+                                    What is Cell Spacing and Cell Padding?</h1>
+                                <p className='text-gray-600 dark:text-gray-300 mb-2'>
+                                    Cell Spacing is referred to as the space or gap between the two cells of the same table. Whereas, Cell Padding is referred to as the gap or space between the content of the cell and cell wall or cell border
                                 </p>
                             </div>
                         </div>
