@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'
+import profileImg from '../../images/profile.jpg'
 
 const Banner = () => {
     const navigate = useNavigate()
@@ -25,7 +26,7 @@ const Banner = () => {
                             className="btn btn-info text-white ml-2">Learn More</button>
                     </div>
                 </div>
-                <img src="https://i.ibb.co/7WTpJ1K/profile.jpg" alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-full mx-auto order-1 md:order-2 m-10" />
+                <img src={profileImg} alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-full mx-auto order-1 md:order-2 m-10" />
             </div>
         </div>
     );

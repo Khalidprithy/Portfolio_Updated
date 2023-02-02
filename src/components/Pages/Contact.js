@@ -50,15 +50,15 @@ const Contact = () => {
                         <form ref={form} onSubmit={sendEmail}>
                             <div className='flex my-2'>
                                 <label className='font-bold mr-2'>Name</label>
-                                <input className='rounded-md px-3 w-full h-8' type="text" name="user_name" required autoComplete="off" />
+                                <input className='rounded-md px-3 py-1 text-black w-full h-8' type="text" name="user_name" required autoComplete="off" />
                             </div>
                             <div className='flex my-2'>
                                 <label className='font-bold mr-3'>Email</label>
-                                <input className='rounded-md px-3 w-full h-8' type="email" name="user_email" required autoComplete="off" />
+                                <input className='rounded-md px-3 py-1 text-black w-full h-8' type="email" name="user_email" required autoComplete="off" />
                             </div>
                             <div className='flex flex-col my-2'>
                                 <label className='font-bold mr-3 text-left'>Message</label>
-                                <textarea className='rounded-md px-3 mt-1 h-24' name="message" />
+                                <textarea className='rounded-md px-3 py-1 text-black mt-1 h-24' name="message" />
                             </div>
                             <input className='btn btn-sm btn-info mb-2 w-1/2 flex' type="submit" value="Send" />
                         </form>

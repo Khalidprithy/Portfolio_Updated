@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../../images/project/TeaTreeMain.png'
 
 const ShowProject = ({ project }) => {
     console.log(project.links[0].link)

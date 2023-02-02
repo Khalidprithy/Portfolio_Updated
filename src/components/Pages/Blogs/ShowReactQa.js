@@ -1,6 +1,5 @@
 import React from 'react';
-import SyntaxHighlighter from 'react-syntax-highlighter/dist/esm/default-highlight';
-import { dark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import profileImg from '../../../images/profile.jpg'
 
 const ShowReactQa = () => {
 
@@ -12,7 +11,7 @@ const ShowReactQa = () => {
                         <header class="mb-4 lg:mb-6 not-format">
                             <address class="flex items-center mb-6 not-italic">
                                 <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
-                                    <img class="mr-4 w-16 h-16 rounded-full" src="https://i.ibb.co/7WTpJ1K/profile.jpg" alt="Khalid" />
+                                    <img class="mr-4 w-16 h-16 rounded-full" src={profileImg} alt="Khalid" />
                                     <div>
                                         <a href="#" rel="author" class="text-xl font-bold text-gray-900 dark:text-white">Khalid Bin Alam</a>
                                         <p class="text-base font-light text-gray-500 dark:text-gray-400">MERN Stack Developer</p>

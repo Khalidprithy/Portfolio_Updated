@@ -3,7 +3,7 @@
         "_id": "632de6b68db30a097bd51917",
         "index": 0,
         "isActive": false,
-        "mainPicture": "https://i.ibb.co/7jDBdhT/Tea-Tree-Main.png",
+        "mainPicture": "../../images/project/TeaTreeMain.png",
         "name": "TeaTree",
         "category": "MERN Stack",
         "title": "This is a website for an Tea manufacturing company",

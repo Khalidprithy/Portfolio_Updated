@@ -34,6 +34,12 @@ const Blog = () => {
     const handleNodeQa = () => {
         navigate('/node_qa')
     }
+    const handleWakeUp = () => {
+        navigate('/wake_up')
+    }
+    const handleWorkOut = () => {
+        navigate('/work_out')
+    }
 
 
     return (
@@ -138,7 +144,9 @@ const Blog = () => {
                     <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>Why waking up early is the best habit</h1>
                     <div className={` ${openBlog5 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
-                        <BsFillArrowRightCircleFill className='text-xl md:text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
+                        <BsFillArrowRightCircleFill
+                            onClick={handleWakeUp}
+                            className='text-xl md:text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
                     </div>
                 </div>
             </div>
@@ -151,7 +159,9 @@ const Blog = () => {
                     <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>10 benefits of working out</h1>
                     <div className={` ${openBlog6 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
-                        <BsFillArrowRightCircleFill className='text-xl md:text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
+                        <BsFillArrowRightCircleFill
+                            onClick={handleWorkOut}
+                            className='text-xl md:text-5xl hover:text-error ease-out duration-300'></BsFillArrowRightCircleFill>
                     </div>
                 </div>
             </div>

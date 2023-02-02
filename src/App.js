@@ -10,6 +10,8 @@ import JavaScriptQA from './components/Pages/Blogs/JavaScriptQA';
 import MongoQA from './components/Pages/Blogs/MongoQA';
 import NodeQA from './components/Pages/Blogs/NodeQA';
 import ReactQA from './components/Pages/Blogs/ReactQA';
+import WakeUpBlog from './components/Pages/Blogs/WakeUpBlog';
+import WorkOutBlog from './components/Pages/Blogs/WorkOutBlog';
 import Home from './components/Pages/Home';
 import Footer from './components/Shared/Footer';
 
@@ -29,6 +31,8 @@ function App() {
         <Route path='/react_qa' element={<ReactQA></ReactQA>}></Route>
         <Route path='/mongo_qa' element={<MongoQA></MongoQA>}></Route>
         <Route path='/node_qa' element={<NodeQA></NodeQA>}></Route>
+        <Route path='/wake_up' element={<WakeUpBlog />}></Route>
+        <Route path='/work_out' element={<WorkOutBlog />}></Route>
       </Routes>
 
       <Footer></Footer>

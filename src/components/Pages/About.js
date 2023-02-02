@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImg from '../../images/profile.jpg'
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
                         <h4 className='mt-2 font-semibold'>MERN Stack Developer</h4>
                     </div>
                 </div>
-                <img src="https://i.ibb.co/7WTpJ1K/profile.jpg" alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-full mx-auto order-1 md:order-2 m-10" />
+                <img src={profileImg} alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-full mx-auto order-1 md:order-2 m-10" />
             </div>
             <div className="h-fit flex justify-center items-center bg-white border-4 border-neutral rounded-2xl w-full md:w-8/12 mx-auto ease-in-out duration-500 ">
                 <h1 className='text-center text-4xl py-4'>Services I Provide</h1>
