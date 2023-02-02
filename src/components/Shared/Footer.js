@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-        <div className='mx-1 md:mx-4'>
+        <div className='mx-1 md:mx-4 pb-1'>
             <footer className="flex items-center justify-between bg-neutral m-3 mx-auto h-24 w-12/12 md:w-2/3 lg:1/2 hover:w-full ease-in-out duration-500 rounded-xl text-white">
 
                 <div className="items-center grid-flow-col mx-2">
