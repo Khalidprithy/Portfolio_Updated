@@ -151,6 +151,40 @@ const DailyBlogMERN = () => {
                     </ol>
 
                 </div>
+                <div>
+                    <h4 class="mb-4 text-xl text-center font-semibold text-gray-900 dark:text-white">Working with JavaScript</h4>
+
+                    <ul class="space-y-4 text-lg font-medium text-gray-800 list-disc list-inside dark:text-gray-400">
+                        <li>
+                            Engines
+                            <ul class="pl-5 mt-2 space-y-1 text-base font-normal list-decimal list-inside">
+                                <li>V8 - Google</li>
+                                <li>SpiderMonkey = Mozilla</li>
+                                <li>Chakra - Microsoft</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Browser
+                        </li>
+                        <li>
+                            Nodejs
+                        </li>
+                        <li>
+                            Online platform
+                            <ul class="pl-5 mt-2 space-y-1 text-base font-normal list-decimal list-inside">
+                                <li>code stackblitz</li>
+                                <li>code sandbox</li>
+                                <li>Browser devtool</li>
+                            </ul>
+                        </li>
+                        <li>
+                            VS Code
+                        </li>
+
+                    </ul>
+
+
+                </div>
 
             </article>
         </div>
