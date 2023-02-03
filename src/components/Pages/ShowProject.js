@@ -17,13 +17,13 @@ const ShowProject = ({ project }) => {
                 <div className='flex flex-wrap gap-1'>
                     <h1 className='font-semibold'>Frontend: </h1>
                     {
-                        project.frontend.map(item => <span className='bg-primary text-sm px-2 p-1 rounded-full hover:bg-red-500'>{item}</span>)
+                        project.frontend.map(item => <span className='bg-teal-600 text-sm px-2 p-1 rounded hover:bg-red-500'>{item}</span>)
                     }
                 </div>
                 <div className='flex flex-wrap gap-1'>
                     <h1 className='font-semibold'>Backend: </h1>
                     {
-                        project.backend.map(item => <span className='bg-info text-sm px-2 p-1 rounded-full hover:bg-red-500'>{item}</span>)
+                        project.backend.map(item => <span className='bg-sky-600 text-sm px-2 p-1 rounded hover:bg-red-500'>{item}</span>)
                     }
                 </div>
                 <div className='hidden lg:block'>

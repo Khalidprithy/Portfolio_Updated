@@ -5,6 +5,7 @@ import About from './components/Pages/About';
 import AllProjects from './components/Pages/AllProjects';
 import Blog from './components/Pages/Blog';
 import CssQA from './components/Pages/Blogs/CssQA';
+import DailyBlogMERN from './components/Pages/Blogs/DailyBlogMERN';
 import HtmlQA from './components/Pages/Blogs/HtmlQA';
 import JavaScriptQA from './components/Pages/Blogs/JavaScriptQA';
 import MongoQA from './components/Pages/Blogs/MongoQA';
@@ -33,6 +34,7 @@ function App() {
         <Route path='/node_qa' element={<NodeQA></NodeQA>}></Route>
         <Route path='/wake_up' element={<WakeUpBlog />}></Route>
         <Route path='/work_out' element={<WorkOutBlog />}></Route>
+        <Route path='/daily_blog' element={<DailyBlogMERN />}></Route>
       </Routes>
 
       <Footer></Footer>
