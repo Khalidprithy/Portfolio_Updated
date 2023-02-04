@@ -1,12 +1,20 @@
 import React from 'react';
-import img from '../../images/project/TeaTreeMain.png'
+import PerfectScrollbar from 'react-perfect-scrollbar'
+import 'react-perfect-scrollbar/dist/css/styles.css';
 
 const ShowProject = ({ project }) => {
+
     console.log(project.links[0].link)
+
     return (
         <div className='flex flex-col md:flex-row mx-auto bg-neutral rounded-md text-white relative'>
-            <img className='w-72 rounded-xl mx-auto p-2' src={project.images[0]} alt="" />
-            <div className='flex flex-col gap-2 p-2'>
+            <div className='w-full md:w-4/12 h-[400px] md:h-[500px] lg:h-[600px] overflow-auto overflow-x-hidden shadow-2xl rounded-md mx-auto order-1 md:order-2'>
+                <PerfectScrollbar>
+                    <img src={project.images[0]} alt="" className="p-1 rounded-lg" />
+                </PerfectScrollbar>
+            </div>
+            {/* <img className='w-72 h-[300px] overflow-scroll rounded-xl mx-auto p-2' src={project.images[0]} alt="" /> */}
+            <div className='w-full md:w-8/12 flex flex-col gap-2 p-2'>
                 <div className='flex justify-between my-2'>
                     <h1 className='text-4xl'>{project.name}</h1>
                     <a href={project.links[0].link} target="_blank" rel="noreferrer" className='btn btn-info btn-sm rounded-md'>Visit</a>
