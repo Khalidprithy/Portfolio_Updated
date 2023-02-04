@@ -107,6 +107,29 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
+                <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-1">
+                    <div className="max-w-md text-white">
+                        <p className='text-xl font-semibold'>MERN Stack</p>
+                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-sky-400">HotelView</h1>
+                        <p className="py-6 px-2">Hotel Booking website. User can visit hotels on different location. Hotel, resort, apartment, cabin data is loaded dynamically. User can see details about a hotel and available rooms. They can book certain rooms and once a room is booked other user no longer will be able to book same room on same date.</p>
+                        <ul className='text-left list-disc list-inside'>
+                            <li>Website to search and book hotel.</li>
+                            <li>I used JWT for user safety and login system</li>
+                            <li>Booking system has used</li>
+                        </ul>
+                        <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
+                            <a href='https://hotel-booking-3b5e8.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-white hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite className='block md:hidden lg:block'></CgWebsite> Live Site</a>
+                            <a href='https://github.com/Khalidprithy/hotel-booking-frontend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
+                            <a href='https://github.com/Khalidprithy/hotel-booking-backend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
+                        </div>
+                    </div>
+                </div>
+                <div className='max-h-[400px] overflow-x-scroll shadow-2xl rounded-md mx-auto order-1 md:order-2'>
+                    <img src={HomeStudio} alt="" className="" />
+                </div>
+            </div>
+
         </div>
     );
 };
