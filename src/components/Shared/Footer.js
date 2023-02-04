@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
 const Footer = () => {
     return (
         <div className='mx-1 md:mx-4 pb-1'>
-            <footer className="flex items-center justify-between bg-neutral m-3 mx-auto h-24 w-12/12 md:w-2/3 lg:1/2 hover:w-full ease-in-out duration-500 rounded-xl text-white">
+            <footer className="flex items-center justify-between bg-neutral m-3 mx-auto h-24 w-12/12 md:w-2/3 lg:1/2 hover:w-full ease-in-out duration-500 rounded-xl text-white px-0 md:px-20">
 
                 <div className="items-center grid-flow-col mx-2">
                     <p className='text-white text-xl mx:text-2xl'>Copyright © Dev.Kbin</p>
@@ -18,6 +18,7 @@ const Footer = () => {
                     </a>
                 </div>
             </footer>
+            <img className='block md:hidden rounded-md' src="https://raw.githubusercontent.com/gist/MedRedha/fd8e2481bde2610c96b9aafde543879c/raw/88624e8d31c4295973dcb7c900dacf0edc0a6d99/coding.gif" alt="" />
         </div>
     );
 };
