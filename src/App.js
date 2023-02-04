@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-to-top';
 import './App.css';
 import Navbar from './components/Header/Navbar';
 import About from './components/Pages/About';
@@ -15,6 +16,7 @@ import WakeUpBlog from './components/Pages/Blogs/WakeUpBlog';
 import WorkOutBlog from './components/Pages/Blogs/WorkOutBlog';
 import Home from './components/Pages/Home';
 import Footer from './components/Shared/Footer';
+import { ReactComponent as MySVG } from "./arrow.svg";
 
 
 function App() {
@@ -38,6 +40,7 @@ function App() {
       </Routes>
 
       <Footer></Footer>
+      <ScrollToTop smooth component={<MySVG className='p-1 bg-accent dark:bg-white rounded-lg' />} />
     </div>
   );
 }
