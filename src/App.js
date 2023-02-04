@@ -40,7 +40,7 @@ function App() {
       </Routes>
 
       <Footer></Footer>
-      <ScrollToTop smooth component={<MySVG className='p-1 bg-accent dark:bg-white rounded-lg' />} />
+      <ScrollToTop smooth component={<MySVG className='animate-pulse p-1 bg-accent dark:bg-red-500 rounded-md' />} />
     </div>
   );
 }
