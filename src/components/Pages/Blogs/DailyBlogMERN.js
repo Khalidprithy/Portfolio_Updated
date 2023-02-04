@@ -172,8 +172,8 @@ const DailyBlogMERN = () => {
                         <li>
                             Online platform
                             <ul class="pl-5 mt-2 space-y-1 text-base font-normal list-decimal list-inside">
-                                <li>code stackblitz</li>
-                                <li>code sandbox</li>
+                                <li>Code stackblitz</li>
+                                <li>Code sandbox</li>
                                 <li>Browser devtool</li>
                             </ul>
                         </li>
@@ -182,8 +182,29 @@ const DailyBlogMERN = () => {
                         </li>
 
                     </ul>
+                </div>
+                <div>
+                    <h4 class="mb-4 text-xl text-center font-semibold text-gray-900 dark:text-white">JavaScript Data Types</h4>
+                    <ul class="space-y-4 text-lg font-medium text-gray-800 list-disc list-inside dark:text-gray-400">
+                        <li>Variables</li>
+                        <li>Mutable vs Immutable</li>
+                        <li>
+                            Scoping
+                            <ul class="pl-5 mt-2 space-y-1 text-base font-normal list-decimal list-inside">
+                                <li>var</li>
+                                <li>let</li>
+                                <li>const</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Data types
+                            <ul class="pl-5 mt-2 space-y-1 text-base font-normal list-decimal list-inside">
+                                <li>Primitive</li>
+                                <li>Object</li>
+                            </ul>
+                        </li>
 
-
+                    </ul>
                 </div>
 
             </article>
