@@ -26,7 +26,7 @@ const Contact = () => {
                 <h1 className='text-2xl font-semibold m-2'>Contact me</h1>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>Here</p>
-                    <BsFillArrowDownCircleFill className='text-5xl  m-2 text-accent'></BsFillArrowDownCircleFill>
+                    <BsFillArrowDownCircleFill className='text-5xl  m-2 text-accent animate-bounce'></BsFillArrowDownCircleFill>
                 </div>
             </div>
             <div id='contactMe' className="h-fit md:h-96 grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-2 bg-white dark:bg-gray-400 rounded-2xl border-2 shadow-lg w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
@@ -45,8 +45,8 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full md:w-2/3 h-80 flex-shrink-0 mx-auto m-2 shadow-2xl bg-neutral rounded-xl text-white">
-                    <div className="px-4 mt-4">
+                <div className="w-full md:w-2/3 h-80 flex-shrink-0 mx-auto m-2 shadow-2xl bg-neutral rounded-xl text-white relative">
+                    <div className="px-4 mt-4 ">
                         <form ref={form} onSubmit={sendEmail}>
                             <div className='flex my-2'>
                                 <label className='font-bold mr-2'>Name</label>
@@ -58,9 +58,9 @@ const Contact = () => {
                             </div>
                             <div className='flex flex-col my-2'>
                                 <label className='font-bold mr-3 text-left'>Message</label>
-                                <textarea className='rounded-md px-3 py-1 text-black mt-1 h-24' name="message" />
+                                <textarea className='rounded-md px-3 py-1 text-black mt-1 h-32' name="message" />
                             </div>
-                            <input className='btn btn-sm btn-info mb-2 w-1/2 flex' type="submit" value="Send" />
+                            <input className='btn btn-sm btn-accent absolute bottom-4' type="submit" value="Send" />
                         </form>
                     </div>
                 </div>

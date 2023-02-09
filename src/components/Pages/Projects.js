@@ -26,7 +26,7 @@ const Projects = () => {
                     <p className='text-2xl font-semibold m-2'>All Projects</p>
                     <BsFillArrowRightCircleFill
                         onClick={handleNavigate}
-                        className='text-5xl m-2 text-accent cursor-pointer'></BsFillArrowRightCircleFill>
+                        className='text-5xl m-2 text-accent cursor-pointer animate-ping hover:animate-pulse'></BsFillArrowRightCircleFill>
                 </div>
             </div>
             <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">

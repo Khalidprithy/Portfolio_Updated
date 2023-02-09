@@ -12,7 +12,7 @@ const Banner = () => {
 
     return (
         <div className='m-2 my-5'>
-            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-10 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 ">
+            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-10 bg-neutral rounded-2xl w-full md:w-10/12 mx-auto ease-in-out duration-500 ">
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white p-2">
                         <p className='text-xl font-semibold'>Hello There</p>
@@ -20,7 +20,7 @@ const Banner = () => {
                         <p className="py-6 px-2 text-sm md:text-base lg:text-lg">MERN stack Developer. I have experience working with HTML5, CSS3, JavaScript, ES6, Bootstrap, Tailwind, Node.js, and MongoDB. I can work with Figma and Adobe XD. I have built a few Full-stack applications. At this moment, I am seeking a professional working environment to help build real-life applications and grow as a web developer</p>
                         <a
                             href='#contactMe'
-                            className="btn btn-accent text-white">Hire Me</a>
+                            className="btn btn-accent text-white animate-pulse">Hire Me</a>
                         <button
                             onClick={handleLearnMore}
                             className="btn btn-info text-white ml-2">Learn More</button>
