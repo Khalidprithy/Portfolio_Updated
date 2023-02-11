@@ -43,7 +43,7 @@ function App() {
           <Route path='/daily_blog' element={<DailyBlogMERN />}></Route>
         </Routes>
 
-        <ScrollToTop smooth component={<MySVG className='animate-pulse p-1 bg-accent dark:bg-red-500 rounded-md' />} />
+        <ScrollToTop smooth component={<MySVG className='animate-pulse p-1 bg-success dark:bg-red-500 rounded-md' />} />
         <Footer></Footer>
       </PerfectScrollbar>
     </div>

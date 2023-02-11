@@ -14,7 +14,7 @@ const Experience = () => {
                 <h1 className='text-2xl font-semibold m-2'>Experience</h1>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>Here</p>
-                    <BsFillArrowDownCircleFill className='text-5xl m-2 text-accent ease-out duration-300 animate-bounce'></BsFillArrowDownCircleFill>
+                    <BsFillArrowDownCircleFill className='text-5xl m-2 text-accent ease-out duration-300 motion-safe:animate-bounce'></BsFillArrowDownCircleFill>
                 </div>
             </div>
 
