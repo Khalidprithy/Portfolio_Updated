@@ -136,9 +136,9 @@ const Projects = () => {
                             <li>Only HTML Tailwind CSS</li>
                             <li>Responsive and Dark mode</li>
                         </ul>
-                        <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
+                        <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-2 pt-6 mx-auto">
                             <a href='https://thehomestudio.netlify.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-white hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite className='block md:hidden lg:block'></CgWebsite> Live Site</a>
-                            <a href='https://github.com/Khalidprithy/HTML-Tailwind-One-page' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Github repo</a>
+                            <a href='https://github.com/Khalidprithy/HTML-Tailwind-One-page' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Github Repo</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,6 @@ const Projects = () => {
                     </PerfectScrollbar>
                 </div>
             </div>
-
         </div>
     );
 };
