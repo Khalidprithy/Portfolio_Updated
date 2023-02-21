@@ -3,7 +3,7 @@ import { AiFillHtml5, AiFillApi, AiFillGithub } from 'react-icons/ai';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
 import { FaNpm } from 'react-icons/fa';
 import { DiBootstrap, DiReact, DiNodejs, DiMongodb, DiFirebase } from 'react-icons/di';
-import { SiTailwindcss, SiVisualstudiocode, SiHeroku, SiNetlify, SiPostman, SiExpress, SiFirebase } from 'react-icons/si';
+import { SiTailwindcss, SiVisualstudiocode, SiTensorflow, SiHeroku, SiNetlify, SiPostman, SiExpress, SiFirebase, SiGraphql, SiPostgresql, SiInsomnia } from 'react-icons/si';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io';
 
 
@@ -35,7 +35,9 @@ const Summary = () => {
                     <DiBootstrap className='text-4xl hover:text-error ease-out duration-300'></DiBootstrap>
                     <SiTailwindcss className='text-4xl hover:text-error ease-out duration-300'></SiTailwindcss>
                     <DiReact className='text-4xl hover:text-error ease-out duration-300'></DiReact>
+                    <SiGraphql className='text-4xl hover:text-error ease-out duration-300'></SiGraphql>
                     <FaNpm className='text-4xl hover:text-error ease-out duration-300'></FaNpm>
+                    <SiTensorflow className='text-4xl hover:text-error ease-out duration-300'></SiTensorflow>
                 </div>
             </div>
             <div
@@ -48,8 +50,11 @@ const Summary = () => {
                     <DiNodejs className='text-4xl hover:text-error ease-out duration-300'></DiNodejs>
                     <SiExpress className='text-4xl hover:text-error ease-out duration-300'></SiExpress>
                     <DiMongodb className='text-4xl hover:text-error ease-out duration-300'></DiMongodb>
+                    <SiPostgresql className='text-4xl hover:text-error ease-out duration-300'></SiPostgresql>
+                    <SiGraphql className='text-4xl hover:text-error ease-out duration-300'></SiGraphql>
                     <SiFirebase className='text-4xl hover:text-error ease-out duration-300'></SiFirebase>
                     <SiPostman className='text-4xl hover:text-error ease-out duration-300'></SiPostman>
+                    <SiInsomnia className='text-4xl hover:text-error ease-out duration-300'></SiInsomnia>
                     <AiFillApi className='text-4xl hover:text-error ease-out duration-300'></AiFillApi>
                 </div>
             </div>

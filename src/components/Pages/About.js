@@ -4,16 +4,22 @@ import profileImg from '../../images/profile.jpg'
 const About = () => {
     return (
         <div className='m-2 my-10'>
-            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center pt-0 md:pt-10 bg-neutral rounded-2xl w-full md:w-8/12 hover:w-10/12 mx-auto ease-in-out duration-500 mb-4">
-                <div className="text-center my-4 mx-auto order-2 md:order-1">
-                    <div className="max-w-md text-white p-2">
-                        <p className='text-xl font-semibold'>Hello There</p>
-                        <h1 className="text-6xl font-bold text-center">I'm <br /> Khalid Bin Alam</h1>
-                        <h4 className='text-base md:text-lg mt-2 font-semibold text-gray-400'>MERN Stack Developer</h4>
-                        <p className='text-sm md:text-base mt-4'>I'm a Full Stack Developer with a passion for building creative and intuitive web applications. My expertise lies in the MERN stack and I have a solid understanding of JavaScript, ES6, and its various frameworks and libraries. I have experience using popular front-end frameworks such as Tailwind CSS and Bootstrap, as well as Material UI for creating user-friendly and responsive interfaces. With a strong attention to detail, I ensure that all my projects meet the highest standards of quality and performance. I'm always eager to learn new technologies and take on challenging projects, and I look forward to collaborating with you on your next project</p>
-                    </div>
+            <div className="h-fit bg-neutral rounded-2xl w-full md:w-10/12 mx-auto ease-in-out duration-500 mb-4">
+
+                <div className=" text-white p-2 md:p-10">
+                    <h1 className="text-6xl font-bold text-center">I'm <br /> Khalid Bin Alam</h1>
+                    {/* <h4 className='text-base md:text-lg mt-2 font-semibold text-gray-400'>Frontend Engineer</h4> */}
+                    <p className='text-sm md:text-base mt-4 text-left'>As a Frontend Engineer with more than a year of experience, I am passionate about creating visually appealing and user-friendly web applications using the latest technologies and design trends. I specialize in developing robust React.js applications while also continuously improving my skills in Back-end development. My ultimate goal is to create immersive user experiences that exceed client expectations and help them achieve their business objectives.
+                        <br />
+                        <br />
+                        I discovered my passion for designing and building projects while working on DIY projects during my free time. This led me to explore various web development technologies, programming languages, and frameworks. Over time, I developed expertise in HTML, CSS, JavaScript, Bootstrap, Tailwind, React.js, Node.js, Express.js, MongoDB, Firebase, and Heroku. Additionally, I have basic knowledge of Python, C++, and Data Structures and am interested in learning Django.
+                        <br />
+                        <br />
+                        My specialties include responsive design and problem-solving, and I enjoy working collaboratively with cross-functional teams. I have extensive experience in creating visually appealing UIs and integrating them with Back-end systems to ensure a seamless user experience. I also have experience in developing interactive dashboards, custom-designed cards, and authentication and authorization systems.
+                        <br />
+                        <br />
+                        Looking to the future, I find mobile application development particularly fascinating and am already exploring React Native. I am excited to continue learning and growing in my field while creating innovative solutions for clients. If you're interested in collaborating on a project or learning more about my experience, please don't hesitate to get in touch.</p>
                 </div>
-                <img src={profileImg} alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-full mx-auto order-1 md:order-2 m-10" />
             </div>
             <div className="h-fit flex justify-center items-center bg-white border-4 border-neutral rounded-2xl w-full md:w-8/12 mx-auto ease-in-out duration-500 ">
                 <h1 className='text-center text-4xl py-4'>Services I Provide</h1>
