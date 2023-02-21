@@ -26,16 +26,16 @@ const Experience = () => {
                     <img className='w-16 hidden rounded-full ring-2 ring-orange-400 m-2 md:block' src={SimmiIcon} alt="" />
                     <div className='text-left'>
                         <h1 className='text-xl md:text-3xl text-orange-400 ease-in-out duration-1000'>Simmi Foundation</h1>
-                        <h4 className='text-sm md:text-base font-medium text-gray-300'>ReactJS Developer</h4>
+                        <h4 className='text-sm md:text-base font-medium text-gray-300'>Frontend Engineer</h4>
                     </div>
                 </div>
                 <div>
                     <div className={` ${simmiFoundation ? "hidden" : "block text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500"} `}>
-                        <p>Oct 2022 - Present </p>
+                        <p>Feb 2022 - Jan 2023 · 1 yr </p>
                         <p>Haryana, India · Remote</p>
                     </div>
                     <div className={` ${simmiFoundation ? "hidden lg:block  text-center p-2 gap-4 ease-in-out duration-500" : "hidden"} `}>
-                        <p className='text-sm mx-6'>I am working as a ReactJS developer with a team of 8 developers. I am responsible for the design and development of web applications using React.js. I work closely with project managers to define project scope and timelines and ensure that we deliver high-quality and well-designed products on schedule as a team.</p>
+                        <p className='text-sm mx-6'>I worked as a Frontend Lead Engineer with a team of 8 developers. I am responsible for the design and development of web applications using React.js. I work closely with project managers to define project scope and timelines and ensure that we deliver high-quality and well-designed products on schedule as a team.</p>
                     </div>
                 </div>
 
@@ -54,7 +54,7 @@ const Experience = () => {
                 </div>
                 <div>
                     <div className={` ${starticField ? "hidden" : "block text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500"} `}>
-                        <p>Nov 2022 - Dec 2022 · 2 mos</p>
+                        <p>Nov 2021 - Jan 2022 · 3 mos</p>
                         <p>New Delhi, India · Remote</p>
                     </div>
                     <div className={` ${starticField ? "hidden lg:block  text-center p-2 gap-4 ease-in-out duration-500" : "hidden"} `}>

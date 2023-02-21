@@ -29,7 +29,7 @@ const Projects = () => {
                         className='text-5xl m-2 text-accent cursor-pointer animate-ping hover:animate-pulse'></BsFillArrowRightCircleFill>
                 </div>
             </div>
-            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
+            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-lg lg:rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
                 <div className="text-center my-4 order-2 md:order-1 mx-1 md:mx-auto">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
@@ -53,7 +53,7 @@ const Projects = () => {
                     </PerfectScrollbar>
                 </div>
             </div>
-            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
+            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-lg lg:rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
                 <div className='h-[450px] md:h-[500px] lg:h-[600px] overflow-auto overflow-x-hidden shadow-2xl rounded-md mx-auto order-1 md:order-1'>
                     <PerfectScrollbar>
                         <img src={BloomingBeauty} alt="" className="p-1 rounded-lg" />
@@ -77,7 +77,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
+            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-lg lg:rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
                 <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
@@ -101,7 +101,7 @@ const Projects = () => {
                     </PerfectScrollbar>
                 </div>
             </div>
-            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
+            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-lg lg:rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
                 <div className='h-[450px] md:h-[500px] lg:h-[600px] overflow-auto overflow-x-hidden shadow-2xl rounded-md mx-auto order-1 md:order-1'>
                     <PerfectScrollbar>
                         <img src={Todo} alt="" className="p-1 rounded-lg" />
@@ -125,7 +125,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
+            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-lg lg:rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
                 <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>Frontend</p>

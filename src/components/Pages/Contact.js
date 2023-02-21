@@ -32,7 +32,7 @@ const Contact = () => {
 
             <div id='contactMe' className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center lg:p-2 rounded-2xl w-full md:w-10/12 mx-auto ease-in-out duration-500 bg-white dark:bg-gray-400 border-2 shadow-lg ">
                 <div className="text-center p-4 text-black lg:text-left mx-auto">
-                    <h1 className="text-5xl font-bold">Let's get in touch</h1>
+                    <h1 className="text-4xl lg:text-5xl font-bold">Let's get in touch</h1>
                     <p className="py-6">Feel free to contact me to discuss about any kind of Front-end Back-end projects. <br /> I am open learn and try something new.</p>
                     <div>
                         <div className="text pl-3">
@@ -61,7 +61,7 @@ const Contact = () => {
                                 <label className='font-bold mr-3 text-left'>Message</label>
                                 <textarea className='rounded-md px-3 py-1 text-black mt-1 h-32' name="message" />
                             </div>
-                            <input className='btn btn-sm btn-accent absolute bottom-4' type="submit" value="Send" />
+                            <input className='btn btn-sm btn-accent rounded-md absolute bottom-4' type="submit" value="Send" />
                         </form>
                     </div>
                 </div>

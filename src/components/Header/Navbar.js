@@ -16,8 +16,8 @@ const Navbar = () => {
                 className="flex items-center justify-between bg-neutral mb-3 mx-auto h-24 w-12/12 md:w-2/3 lg:1/2 hover:w-full ease-in-out duration-500 rounded-xl text-white">
                 <div className=" text-white">
                     <div className="dropdown">
-                        <Link to='/' tabIndex="0" className="text-2xl md:text-4xl font-semibold text-accent px-2 md:px-10 ml-1 flex items-center gap-1">Dev.Kbin <BsGear className='animate-spin text-green-500' /></Link>
-                        <ul tabIndex="1" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-accent rounded-box w-48">
+                        <Link to='/' tabIndex="0" className="text-2xl md:text-4xl font-semibold text-accent px-2 md:px-6 ml-1 flex items-center gap-1">Dev.Kbin <BsGear className='animate-spin text-green-500 block md:hidden lg:block' /></Link>
+                        <ul tabIndex="1" className="menu menu-compact dropdown-content mt-10 ml-6 p-2 shadow bg-accent rounded-lg w-48">
                             <Link to='/'><p className='text-left py-2 mx-2 text-white font-semibold'>Home</p></Link>
                             <Link to='/projects'><p className='text-left py-2 mx-2 text-white font-semibold'>Projects</p></Link>
                             <Link to='/about'><p className='text-left py-2 mx-2 text-white font-semibold'>About</p></Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
                     </a>
                     <a href='https://www.instagram.com/mdkhalidbinalam/' target="_blank" rel="noreferrer"> <AiFillInstagram className='text-3xl md:text-4xl lg:text-5xl text-red-400'></AiFillInstagram>
                     </a>
-                    <a href='https://drive.google.com/file/d/1gNC3eMyc6kcoQaB-vq8Xb-hLbAKXI-1d/view?usp=sharing' rel="noreferrer" className="btn btn-sm text-base-100 border-0 rounded-md bg-red-400 hover:bg-red-600 mr-2" target="_blank" download>Resume</a>
+                    <a href='https://drive.google.com/file/d/1Bx9P9fVtH3oUjVyncWaTeX_tH3KfAtKA/view?usp=sharing' rel="noreferrer" className="btn btn-sm text-base-100 border-0 rounded-md bg-red-400 hover:bg-red-600 mr-2" target="_blank" download>Resume</a>
                 </div>
             </div>
         </div>

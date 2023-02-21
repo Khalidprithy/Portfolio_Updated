@@ -8,7 +8,7 @@ const ShowProject = ({ project }) => {
 
     return (
         <div className='flex flex-col md:flex-row mx-auto bg-neutral rounded-md text-white relative'>
-            <div className='w-full md:w-4/12 h-[400px] md:h-[500px] lg:h-[600px] overflow-auto overflow-x-hidden shadow-2xl rounded-md mx-auto order-1 md:order-2'>
+            <div className='w-full md:w-4/12 max-h-[500px] overflow-auto overflow-x-hidden shadow-2xl rounded-md mx-auto order-1 md:order-2'>
                 <PerfectScrollbar>
                     <img src={project.images[0]} alt="" className="p-1 rounded-lg" />
                 </PerfectScrollbar>

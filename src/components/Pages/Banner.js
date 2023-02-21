@@ -17,7 +17,7 @@ const Banner = () => {
                 <div className="text-center mx-2 my-4 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white p-2">
                         <p className='text-xl font-semibold'>Hello There</p>
-                        <h1 className="text-5xl font-bold text-center">I'm <br /> Khalid Bin Alam</h1>
+                        <h1 className="text-3xl md:text-5xl font-bold text-center">I'm <br /> Khalid Bin Alam</h1>
                         <TypeAnimation
                             // Same String at the start will only be typed once, initially
                             sequence={[
@@ -28,6 +28,10 @@ const Banner = () => {
                                 'ReactJS Developer',
                                 1500,
                                 'Full Stack Developer',
+                                1500,
+                                'Web Application Developer',
+                                1500,
+                                'Software Engineer',
                                 1500,
                             ]}
                             speed={40} // Custom Speed from 1-99 - Default Speed: 40
