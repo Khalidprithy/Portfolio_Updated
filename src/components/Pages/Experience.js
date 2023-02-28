@@ -21,47 +21,57 @@ const Experience = () => {
             <div
                 onMouseEnter={() => setSimmiFoundation(true)}
                 onMouseLeave={() => setSimmiFoundation(false)}
-                className='flex items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto hover:w-10/12 h-32 rounded-xl ease-in-out duration-500 mb-4 px-4'>
-                <div className='flex items-center justify-center px-6'>
-                    <img className='w-16 hidden rounded-full ring-2 ring-orange-400 m-2 md:block' src={SimmiIcon} alt="" />
-                    <div className='text-left'>
-                        <h1 className='text-xl md:text-3xl text-orange-400 ease-in-out duration-1000'>Simmi Foundation</h1>
-                        <h4 className='text-sm md:text-base font-medium text-gray-300'>Frontend Engineer</h4>
+                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-24 hover:h-80 rounded-xl ease-in-out duration-500 mb-4 py-2 px-4'>
+                <div className='w-full flex items-center justify-between'>
+                    <div className='flex items-center justify-center px-6'>
+                        <img className='w-16 hidden rounded-full ring-2 ring-orange-400 m-2 md:block' src={SimmiIcon} alt="" />
+                        <div className='text-left '>
+                            <h1 className='text-xl md:text-3xl text-orange-400 ease-in-out duration-1000'>Simmi Foundation</h1>
+                            <h4 className='text-sm md:text-base font-medium text-gray-300'>Frontend Engineer</h4>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div className={` ${simmiFoundation ? "hidden" : "block text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500"} `}>
+                    <div className='text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500'>
                         <p>Feb 2022 - Jan 2023 · 1 yr </p>
                         <p>Haryana, India · Remote</p>
                     </div>
-                    <div className={` ${simmiFoundation ? "hidden lg:block  text-center p-2 gap-4 ease-in-out duration-500" : "hidden"} `}>
-                        <p className='text-sm mx-6'>I worked as a Frontend Lead Engineer with a team of 8 developers. I am responsible for the design and development of web applications using React.js. I work closely with project managers to define project scope and timelines and ensure that we deliver high-quality and well-designed products on schedule as a team.</p>
-                    </div>
                 </div>
-
+                <div className={` ${simmiFoundation ? "text-left p-2 transition ease-in duration-500 delay-500" : "hidden"} `}>
+                    <p className=''>I worked as a Frontend Lead Engineer with a team of 8 developers. I am responsible for the design and development of web applications using React.js. I work closely with project managers to define project scope and timelines and ensure that we deliver high-quality and well-designed products on schedule as a team.</p>
+                    <h4 className='text-base text-green-400 font-semibold'>Key Responsibilities</h4>
+                    <ul className='text-sm list-disc ml-6'>
+                        <li> Design and develop an interactive dashboard with charts and dynamic data. </li>
+                        <li>Develop different cards for product, team, marketing, and other pages. </li>
+                        <li>Maintain the whole design aesthetic and responsiveness for different devices.</li>
+                    </ul>
+                </div>
             </div>
 
             <div
                 onMouseEnter={() => setStarticField(true)}
                 onMouseLeave={() => setStarticField(false)}
-                className='flex items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto hover:w-10/12 h-32 rounded-xl ease-in-out duration-500 mb-4 px-4'>
-                <div className='flex items-center justify-center px-6'>
-                    <img className='w-16 hidden rounded-full ring-2 ring-sky-600 m-2 md:block' src={StarticIcon} alt="" />
-                    <div className='text-left '>
-                        <h1 className='text-xl md:text-3xl text-sky-600 ease-in-out duration-1000'>Startic Field</h1>
-                        <h4 className='text-sm md:text-base font-medium text-gray-300'>Frontend Developer</h4>
+                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-24 hover:h-80 rounded-xl ease-in-out duration-500 mb-4 py-2 px-4'>
+                <div className='w-full flex items-center justify-between'>
+                    <div className='flex items-center justify-center px-6'>
+                        <img className='w-16 hidden rounded-full ring-2 ring-sky-600 m-2 md:block' src={StarticIcon} alt="" />
+                        <div className='text-left '>
+                            <h1 className='text-xl md:text-3xl text-sky-600 ease-in-out duration-1000'>Startic Field</h1>
+                            <h4 className='text-sm md:text-base font-medium text-gray-300'>Frontend Developer</h4>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div className={` ${starticField ? "hidden" : "block text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500"} `}>
+                    <div className='text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500'>
                         <p>Nov 2021 - Jan 2022 · 3 mos</p>
                         <p>New Delhi, India · Remote</p>
                     </div>
-                    <div className={` ${starticField ? "hidden lg:block  text-center p-2 gap-4 ease-in-out duration-500" : "hidden"} `}>
-                        <p className='text-sm mx-6'>My role as a front-end developer was to design and develop modern good pages for a SAAS product. I have worked with technologies like ReactJS, NextJS Tailwind CSS, and more.</p>
-                    </div>
                 </div>
-
+                <div className={` ${starticField ? "text-left p-2 transition ease-in duration-500 delay-500" : "hidden"} `}>
+                    <p className=''>My role as a front-end developer was to design and develop modern good pages for a SAAS product. I have worked with technologies like ReactJS, NextJS Tailwind CSS, and more.</p>
+                    <h4 className='text-base text-green-400 font-semibold'>Key Responsibilities</h4>
+                    <ul className='text-sm list-disc ml-6'>
+                        <li> Design and develop an interactive dashboard with charts and dynamic data. </li>
+                        <li>Develop different cards for product, team, marketing, and other pages. </li>
+                        <li>Maintain the whole design aesthetic and responsiveness for different devices.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     );
