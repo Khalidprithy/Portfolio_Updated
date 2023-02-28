@@ -21,7 +21,7 @@ const Experience = () => {
             <div
                 onMouseEnter={() => setSimmiFoundation(true)}
                 onMouseLeave={() => setSimmiFoundation(false)}
-                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-24 hover:h-80 rounded-xl ease-in-out duration-500 mb-4 py-2 px-4'>
+                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-24 hover:md:h-80 hover:lg:h-72 rounded-xl ease-in-out duration-500 mb-4 py-2 px-4'>
                 <div className='w-full flex items-center justify-between'>
                     <div className='flex items-center justify-center px-6'>
                         <img className='w-16 hidden rounded-full ring-2 ring-orange-400 m-2 md:block' src={SimmiIcon} alt="" />
@@ -35,7 +35,7 @@ const Experience = () => {
                         <p>Haryana, India · Remote</p>
                     </div>
                 </div>
-                <div className={` ${simmiFoundation ? "text-left p-2 transition ease-in duration-500 delay-500" : "hidden"} `}>
+                <div className={` ${simmiFoundation ? "text-left p-2 transition ease-in duration-500 delay-500 hidden md:block" : "hidden"} `}>
                     <p className='text-sm lg:text-base'>I worked as a Frontend Lead Engineer with a team of 8 developers. I am responsible for the design and development of web applications using React.js. I work closely with project managers to define project scope and timelines and ensure that we deliver high-quality and well-designed products on schedule as a team.</p>
                     <h4 className='text-base text-green-400 font-semibold'>Key Responsibilities</h4>
                     <ul className='text-sm list-disc ml-6'>
@@ -49,7 +49,7 @@ const Experience = () => {
             <div
                 onMouseEnter={() => setStarticField(true)}
                 onMouseLeave={() => setStarticField(false)}
-                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-24 hover:md:h-80 hover:lg:h-96  rounded-xl ease-in-out duration-500 mb-4 py-2 px-4'>
+                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-24 hover:md:h-80 hover:lg:h-72 rounded-xl ease-in-out duration-500 mb-4 py-2 px-4'>
                 <div className='w-full flex items-center justify-between'>
                     <div className='flex items-center justify-center px-6'>
                         <img className='w-16 hidden rounded-full ring-2 ring-sky-600 m-2 md:block' src={StarticIcon} alt="" />
@@ -63,7 +63,7 @@ const Experience = () => {
                         <p>New Delhi, India · Remote</p>
                     </div>
                 </div>
-                <div className={` ${starticField ? "text-left p-2 transition ease-in duration-500 delay-500" : "hidden"} `}>
+                <div className={` ${starticField ? "text-left p-2 transition ease-in duration-500 delay-500 hidden md:block" : "hidden"} `}>
                     <p className='text-sm lg:text-base'>As a front-end developer, my primary responsibility was to design and develop web pages that were not only aesthetically pleasing but also highly functional and user-friendly for a software-as-a-service (SAAS) product. This involved understanding the product's requirements, target audience, and business objectives to create a web experience that met those needs.</p>
                     <h4 className='text-base text-green-400 font-semibold'>Key Responsibilities</h4>
                     <ul className='text-sm list-disc ml-6'>
