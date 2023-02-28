@@ -1,0 +1,539 @@
+[
+    {
+        "_id": "634019a49acff49993fdcd82",
+        "index": 0,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the difference between the equality operators == and ===?",
+        "answer": "Triple equals (===) checks for strict equality, which means both the type and value must be the same. Double equals (==) on the other hand first performs type coercion so that both operands are of the same type and then applies strict comparison.\r\n",
+        "points": [
+            "Whenever possible, use triple equals to test equality because loose equality == can have unintuitive results.",
+            "Type coercion means the values are converted into the same type.",
+            "Mention of falsy values and their comparison."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a433f4646b3693d96f",
+        "index": 1,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the difference between the postfix i++ and prefix ++i increment operators?",
+        "answer": "Both increment the variable value by 1. The difference is what they evaluate to.\r\n",
+        "points": [
+            "The postfix increment operator evaluates to the value before it was incremented.",
+            "The prefix increment operator evaluates to the value after it was incremented."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4d6c0e3c6a01d3fce",
+        "index": 2,
+        "image": "http://placehold.it/32x32",
+        "question": "In which states can a Promise be?",
+        "answer": "A Promise is in one of these states:\r\n",
+        "points": [
+            "pending: initial state, neither fulfilled nor rejected",
+            "fulfilled: meaning that the operation completed successfully",
+            "rejected: meaning that the operation failed."
+        ],
+        "images": [],
+        "bulletPoint": [],
+        "summary": "A pending promise can either be fulfilled with a value, or rejected with a reason (error). When either of these options happens, the associated handlers queued up by a promise's then method are called."
+    },
+    {
+        "_id": "634019a43e6252073cbc6ad0",
+        "index": 3,
+        "image": "http://placehold.it/32x32",
+        "question": "How do you compare two objects in JavaScript?",
+        "answer": "Even though two different objects can have the same properties with equal values, they are not considered equal when compared using == or ===. This is because they are being compared by their reference (location in memory), unlike primitive values which are compared by value.\r\n",
+        "points": [
+            "In order to test if two objects are equal in structure, a helper function is required. It will iterate through the own properties of each object to test if they have the same values, including nested objects. Optionally, the prototypes of the objects may also be tested for equivalence by passing true as the 3rd argument."
+        ],
+        "images": [],
+        "bulletPoint": [],
+        "summary": "Note: this technique does not attempt to test equivalence of data structures other than plain objects, arrays, functions, dates and primitive values."
+    },
+    {
+        "_id": "634019a4ded8216ae34cf774",
+        "index": 4,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the DOM?",
+        "answer": "The DOM (Document Object Model) is a cross-platform API that treats HTML and XML documents as a tree structure consisting of nodes. These nodes (such as elements and text nodes) are objects that can be programmatically manipulated and any visible changes made to them are reflected live in the document. In a browser, this API is available to JavaScript where DOM nodes can be manipulated to change their styles, contents, placement in the document, or interacted with through event listeners\r\n",
+        "points": [
+            "The DOM was designed to be independent of any particular programming language, making the structural representation of the document available from a single, consistent API.",
+            "The DOM is constructed progressively in the browser as a page loads, which is why scripts are often placed at the bottom of a page, in the <head> with a defer attribute, or inside a DOMContentLoaded event listener. Scripts that manipulate DOM nodes should be run after the DOM has been constructed to avoid errors.",
+            "document.getElementById() and document.querySelector() are common functions for selecting DOM nodes.",
+            "Setting the innerHTML property to a new value runs the string through the HTML parser, offering an easy way to append dynamic HTML content to a node."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4ca58421b78ecaa50",
+        "index": 5,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the difference between an expression and a statement in JavaScript?",
+        "answer": "There are two main syntactic categories in JavaScript: expressions and statements. A third one is both together, referred to as an expression statement. They are roughly summarized as:\r\n",
+        "points": [
+            "Expression: produces a value",
+            "Statement: performs an action",
+            "Expression statement: produces a value and performs an action"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4b1be04f90a284790",
+        "index": 6,
+        "image": "http://placehold.it/32x32",
+        "question": "What are truthy and falsy values in JavaScript?",
+        "answer": "A value is either truthy or falsy depending on how it is evaluated in a Boolean context. Falsy means false-like and truthy means true-like. Essentially, they are values that are coerced to true or false when performing certain operations. There are 6 falsy values in JavaScript. They are:\r\n",
+        "points": [
+            "false",
+            "undefined",
+            "null",
+            "null",
+            "NaN",
+            "0 (both +0 and -0)"
+        ],
+        "images": [],
+        "bulletPoint": [],
+        "summary": "Every other value is considered truthy."
+    },
+    {
+        "_id": "634019a4d8906c80e14b088c",
+        "index": 7,
+        "image": "http://placehold.it/32x32",
+        "question": "How do you clone an object in JavaScript?",
+        "answer": "Using the object spread operator ..., the object's own enumerable properties can be copied into the new object. This creates a shallow clone of the object. With this technique, prototypes are ignored. In addition, nested objects are not cloned, but rather their references get copied, so nested objects still refer to the same objects as the original. Deep-cloning is much more complex in order to effectively clone any type of object (Date, RegExp, Function, Set, etc) that may be nested within the object",
+        "points": [
+            "JSON.parse(JSON.stringify(obj)) can be used to deep-clone a simple object, but it is CPU-intensive and only accepts valid JSON (therefore it strips functions and does not allow circular references).",
+            "Object.assign({}, obj) is another alternative.",
+            "Object.keys(obj).reduce((acc, key) => (acc[key] = obj[key], acc), {}) is another more verbose alternative that shows the concept in greater depth.",
+            "JavaScript passes objects by reference, meaning that nested objects get their references copied, instead of their values",
+            "The same method can be used to merge two objects."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a44eb1c14d69023c79",
+        "index": 8,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the difference between the array methods map() and forEach()?",
+        "answer": "Both methods iterate through the elements of an array. map() maps each element to a new element by invoking the callback function on each element and returning a new array. On the other hand, forEach() invokes the callback function for each element but does not return a new array. forEach() is generally used when causing a side effect on each iteration, whereas map() is a common functional programming technique.",
+        "points": [
+            "Use forEach() if you need to iterate over an array and cause mutations to the elements without needing to return values to generate a new array.",
+            "map() is the right choice to keep data immutable where each value of the original array is mapped to a new array."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4d162f33bf26ef84f",
+        "index": 9,
+        "image": "http://placehold.it/32x32",
+        "question": "How does hoisting work in JavaScript?",
+        "answer": "Hoisting is a JavaScript mechanism where variable and function declarations are put into memory during the compile phase. This means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.",
+        "points": [
+            "Hoisting is JavaScript’s default behavior of moving declarations to the top",
+            "Functions declarations are hoisted before variable declarations"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4987cf22b08a4c573",
+        "index": 10,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the difference between lexical scoping and dynamic scoping?",
+        "answer": "Lexical scoping refers to when the location of a function's definition determines which variables you have access to. On the other hand, dynamic scoping uses the location of the function's invocation to determine which variables are available.",
+        "points": [
+            "Lexical scoping is also known as static scoping.",
+            "Lexical scoping in JavaScript allows for the concept of closures.",
+            "Most languages use lexical scoping because it tends to promote source code that is more easily understood."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a448c50b157f784990",
+        "index": 11,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the difference between null and undefined?",
+        "answer": "In JavaScript, two values discretely represent nothing - undefined and null. The concrete difference between them is that null is explicit, while undefined is implicit. When a property does not exist or a variable has not been given a value, the value is undefined. null is set as the value to explicitly indicate “no value”. In essence, undefined is used when the nothing is not known, and null is used when the nothing is known.",
+        "points": [
+            "typeof undefined evaluates to 'undefined'.",
+            "typeof null evaluates 'object'. However, it is still a primitive value and this is considered an implementation bug in JavaScript.",
+            "undefined == null evaluates to true."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4f7ca8bf84efb73ff",
+        "index": 12,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the difference between a parameter and an argument?",
+        "answer": "Parameters are the variable names of the function definition, while arguments are the values given to a function when it is invoked.",
+        "points": [
+            "arguments is an array-like object containing information about the arguments supplied to an invoked function.",
+            "myFunction.length describes the arity of a function (how many parameters it has, regardless of how many arguments it is supplied)."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4f06581e537c06dc5",
+        "index": 13,
+        "image": "http://placehold.it/32x32",
+        "question": "Does JavaScript pass by value or by reference?",
+        "answer": "JavaScript always passes by value. However, with objects, the value is a reference to the object.",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a42eb0c1c7ec52ba12",
+        "index": 14,
+        "image": "http://placehold.it/32x32",
+        "question": "What are Promises?",
+        "answer": "The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value. An example can be the following snippet, which after 100ms prints out the result string to the standard output. Also, note the catch, which can be used for error handling. Promises are chainable.",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4c1f7c6361e1242e0",
+        "index": 15,
+        "image": "http://placehold.it/32x32",
+        "question": "How does prototypal inheritance differ from classical inheritance?",
+        "answer": "In the classical inheritance paradigm, object instances inherit their properties and functions from a class, which acts as a blueprint for the object. Object instances are typically created using a constructor and the new keyword. In the prototypal inheritance paradigm, object instances inherit directly from other objects and are typically created using factory functions or Object.create().",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4b52c0fe9a96ee894",
+        "index": 16,
+        "image": "http://placehold.it/32x32",
+        "question": "Are semicolons required in JavaScript? ",
+        "answer": "",
+        "points": [
+            "Semicolons are usually optional in JavaScript but have edge cases where they are required.",
+            "If you don't use semicolons, tools like Prettier will insert semicolons for you in the places where they are required on save in a text editor to prevent errors. Sometimes. Due to JavaScript's automatic semicolon insertion, the interpreter places semicolons after most statements. This means semicolons can be omitted in most cases."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4470cc616afb22cb4",
+        "index": 17,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the difference between synchronous and asynchronous code in JavaScript? ",
+        "answer": "Synchronous means each operation must wait for the previous one to complete. Asynchronous means an operation can occur while another operation is still being processed. In JavaScript, all code is synchronous due to the single-threaded nature of it. However, asynchronous operations not part of the program (such as XMLHttpRequest or setTimeout) are processed outside of the main thread because they are controlled by native code (browser APIs), but callbacks part of the program will still be executed synchronously.",
+        "points": [
+            "JavaScript has a concurrency model based on an 'event loop'.",
+            "Functions like alert block the main thread so that no user input is registered until the user closes it"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4a4ec25e92946736e",
+        "index": 18,
+        "image": "http://placehold.it/32x32",
+        "question": "What are JavaScript data types?",
+        "answer": "The latest ECMAScript standard defines seven data types, six of them being primitive: Boolean, Null, Undefined, Number, String, Symbol and one non-primitive data type: Object.",
+        "points": [
+            "Mention of newly added Symbol data type",
+            "Array, Date and function are all of type object",
+            "Functions in JavaScript are objects with the capability of being callable"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a41afc8460beea06c9",
+        "index": 19,
+        "image": "http://placehold.it/32x32",
+        "question": "What are the differences between var, let, const and no keyword statements?",
+        "answer": "Eiusmod commodo qui ea laboris ut exercitation dolore officia adipisicing pariatur. Ad commodo do mollit ullamco sint aliquip non sit excepteur. Reprehenderit non nostrud duis sint non commodo irure nisi. Aliqua adipisicing irure amet ex qui aliqua consequat nisi sunt nulla laboris velit aliquip aliquip. Sunt excepteur elit fugiat elit et. Cillum eiusmod elit amet laborum dolore occaecat culpa ullamco exercitation exercitation velit. Non culpa sit nisi in nisi duis.\r\n",
+        "points": [
+            "No keyword: When no keyword exists before a variable assignment, it is either assigning a global variable if one does not exist, or reassigns an already declared variable. In non-strict mode, if the variable has not yet been declared, it will assign the variable as a property of the global object (window in browsers). In strict mode, it will throw an error to prevent unwanted global variables from being created.",
+            "var: var was the default statement to declare a variable until ES2015. It creates a function-scoped variable that can be reassigned and redeclared. However, due to its lack of block scoping, it can cause issues if the variable is being reused in a loop that contains an asynchronous callback because the variable will continue to exist outside of the block scope.",
+            "let: let was introduced in ES2015 and is the new preferred way to declare variables that will be reassigned later. Trying to redeclare a variable again will throw an error. It is block-scoped so that using it in a loop will keep it scoped to the iteration.",
+            "const: const was introduced in ES2015 and is the new preferred default way to declare all variables if they won't be reassigned later, even for objects that will be mutated (as long as the reference to the object does not change). It is block-scoped and cannot be reassigned",
+            "All declarations are hoisted to the top of their scope.",
+            "However, with let and const there is a concept called the temporal dead zone (TDZ). While the declarations are still hoisted, there is a period between entering scope and being declared where they cannot be accessed.",
+            "Show a common issue with using var and how let can solve it, as well as a solution that keeps var.",
+            "var should be avoided whenever possible and prefer const as the default declaration statement for all variables unless they will be reassigned later, then use let if so."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a40270f7605038495a",
+        "index": 20,
+        "image": "http://placehold.it/32x32",
+        "question": "What is a closure? Can you give a useful example of one?",
+        "answer": "A closure is a function defined inside another function and has access to its lexical scope even when it is executing outside its lexical scope. The closure has access to variables in three scopes: • Variables declared in its own scope, • Variables declared in the scope of the parent function, • Variables declared in the global scope. In JavaScript, all functions are closures because they have access to the outer scope, but most functions don't utilise the usefulness of closures: the persistence of state. Closures are also sometimes called stateful functions because of this. In addition, closures are the only way to store private data that can't be accessed from the outside in JavaScript. They are the key to the UMD (Universal Module Definition) pattern, which is frequently used in libraries that only expose a public API but keep the implementation details private, preventing name collisions with other libraries or the user's own code.",
+        "points": [
+            "Closures are useful because they let you associate data with a function that operates on that data",
+            "A closure can substitute an object with only a single method.",
+            "Closures can be used to emulate private properties and methods."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a41cdae8a26a82436d",
+        "index": 21,
+        "image": "http://placehold.it/32x32",
+        "question": "What is context?",
+        "answer": "Context provides a way to pass data through the component tree without having to pass props down manually at every level. For example, authenticated user, locale preference, UI theme need to be accessed in the application by many components.",
+        "points": [
+            "Context provides a way to pass data through a tree of React components, without having to manually pass props.",
+            "Context is designed to share data that is considered global for a tree of React components"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4c75a1588e428f368",
+        "index": 22,
+        "image": "http://placehold.it/32x32",
+        "question": "What is functional programming?",
+        "answer": "Functional programming is a paradigm in which programs are built in a declarative manner using pure functions that avoid shared state and mutable data. Functions that always return the same value for the same input and don't produce side effects are the pillar of functional programming. Many programmers consider this to be the best approach to software development as it reduces bugs and cognitive load.",
+        "points": [
+            "Cleaner, more concise development experience",
+            "Simple function composition",
+            "Features of JavaScript that enable functional programming (.map, .reduce etc.)",
+            "JavaScript is multi-paradigm programming language (Object-Oriented Programming and Functional Programming live in harmony)"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a42f02deec31b14e92",
+        "index": 23,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the only value not equal to itself in JavaScript?",
+        "answer": "NaN (Not-a-Number) is the only value not equal to itself when comparing with any of the comparison operators. NaN is often the result of meaningless math computations, so two NaN values make no sense to be considered equal.",
+        "points": [
+            "The difference between isNaN() and Number.isNaN()",
+            "const isNaN = x => x !== x"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4f95e2bdf91546eb6",
+        "index": 24,
+        "image": "http://placehold.it/32x32",
+        "question": "What is recursion and when is it useful?",
+        "answer": "Refs provide a way to access DOM nodes or React elements created in the render method. Refs should be used sparringly, but there are some good use cases for refs, such as:",
+        "points": [
+            "Refs are used to return a reference to an element.",
+            "Refs shouldn't be overused.",
+            "You can create a ref using React.createRef() and attach to elements via the ref attribute."
+        ],
+        "images": [],
+        "bulletPoint": [
+            {
+                "id": 0,
+                "name": "Managing focus, text selection, or media playback."
+            },
+            {
+                "id": 1,
+                "name": "Triggering imperative animations "
+            },
+            {
+                "id": 2,
+                "name": "Integrating with third-party DOM libraries."
+            }
+        ],
+        "summary": "Refs are created using React.createRef() method and attached to React elements via the ref attribute. In order to use refs throughout the component, assign the ref to the instance property within the constructor:"
+    },
+    {
+        "_id": "634019a4a3aef655a50aa106",
+        "index": 25,
+        "image": "http://placehold.it/32x32",
+        "question": "What is a virtual DOM and why is it used in libraries/frameworks?",
+        "answer": "The virtual DOM (VDOM) is a representation of the real DOM in the form of plain JavaScript objects. These objects have properties to describe the real DOM nodes they represent: the node name, its attributes, and child nodes. The library/framework uses the virtual DOM as a means to improve performance. When the state of an application changes, the real DOM needs to be updated to reflect it. However, changing real DOM nodes is costly compared to recalculating the virtual DOM. The previous virtual DOM can be compared to the new virtual DOM very quickly in comparison.",
+        "points": [
+            "Why accessing the DOM can be so costly."
+        ],
+        "images": [],
+        "bulletPoint": [],
+        "summary": "Once the changes between the old VDOM and new VDOM have been calculated by the diffing engine of the framework, the real DOM can be patched efficiently in the least time possible to match the new state of the application."
+    },
+    {
+        "_id": "634019a435409c7c1d416923",
+        "index": 26,
+        "image": "http://placehold.it/32x32",
+        "question": "What is break and continue statements?",
+        "answer": "",
+        "points": [
+            "Break statement exits from the current loop.",
+            "Break statement exits from the current loop."
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a430fb7ea776f7e0a7",
+        "index": 27,
+        "image": "http://placehold.it/32x32",
+        "question": "Enumerate the differences between Java and JavaScript?",
+        "answer": "Java is a complete programming language. In contrast, JavaScript is a coded program that can be introduced to HTML pages. These two languages are not at all inter-dependent and are designed for different intent. Java is an object-oriented programming (OOPS) or structured programming languages like C++ or C, whereas JavaScript is a client-side scripting language.",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a45ca3135b28f07d3f",
+        "index": 28,
+        "image": "http://placehold.it/32x32",
+        "question": "What are JavaScript Data Types?",
+        "answer": "Following are the JavaScript Data types:",
+        "points": [
+            "Number",
+            "String",
+            "String",
+            "Object",
+            "Undefined"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4e936340b705e6be7",
+        "index": 29,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the use of isNaN function?",
+        "answer": "isNan function returns true if the argument is not a number; otherwise, it is false.",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4a6c4160d2c9f2e88",
+        "index": 30,
+        "image": "http://placehold.it/32x32",
+        "question": "What is negative Infinity?",
+        "answer": "Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4669def4fdd6a8a57",
+        "index": 31,
+        "image": "http://placehold.it/32x32",
+        "question": "What are undeclared and undefined variables?",
+        "answer": "Undeclared variables are those that do not exist in a program and are not declared. If the program tries to read the value of an undeclared variable, then a runtime error is encountered. Undefined variables are those that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a496703af8b76ee384",
+        "index": 32,
+        "image": "http://placehold.it/32x32",
+        "question": "What are all the looping structures in JavaScript?",
+        "answer": "Following are looping structures in Javascript:",
+        "points": [
+            "For",
+            "While",
+            "Do-While loops"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4c997a5c59dd36c6c",
+        "index": 33,
+        "image": "http://placehold.it/32x32",
+        "question": "What are all the types of Pop up boxes available in JavaScript?",
+        "answer": "Sit nisi mollit fugiat elit eiusmod. Cillum officia eu et deserunt. Aliquip deserunt excepteur culpa aliqua in. Proident labore irure ex dolore ad nisi minim. Exercitation voluptate labore reprehenderit culpa do ipsum eiusmod labore in non irure.\r\n",
+        "points": [
+            "Alert",
+            "Confirm",
+            "Prompt"
+        ],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4abc41d52ece907aa",
+        "index": 34,
+        "image": "http://placehold.it/32x32",
+        "question": "What are JavaScript Cookies?",
+        "answer": "Cookies are the small test files stored in a computer, and they get created when the user visits the websites to store information that they need. Examples could be User Name details and shopping cart information from previous visits",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a43af3a319e24fa0d1",
+        "index": 35,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the use of the Push method in JavaScript?",
+        "answer": "The push method is used to add or append one or more elements to an Array end. Using this method, we can append multiple elements by passing multiple arguments.",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a420361a66f34b9c76",
+        "index": 36,
+        "image": "http://placehold.it/32x32",
+        "question": "What is the unshift method in JavaScript?",
+        "answer": "Unshift method is like the push method, which works at the beginning of the array. This method is used to prepend one or more elements to the beginning of the array",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a4f33ccdc95d31b7fb",
+        "index": 37,
+        "image": "http://placehold.it/32x32",
+        "question": "What is event bubbling?",
+        "answer": "JavaScript allows DOM elements to be nested inside each other. In such a case, if the handler of the child is clicked, the handler of the parent will also work as if it were clicked too.",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a40de9702c96cfff96",
+        "index": 38,
+        "image": "http://placehold.it/32x32",
+        "question": "Why you should not use innerHTML in JavaScript?",
+        "answer": "innerHTML content is refreshed every time and thus is slower. There is no scope for validation in innerHTML. Therefore, it is easier to insert rogue code in the document and make the web page unstable.",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a475faa1d7bc7b6921",
+        "index": 39,
+        "image": "http://placehold.it/32x32",
+        "question": "What are Cookies in JavaScript?",
+        "answer": "A cookie is a piece of data stored on your computer to be accessed by your browser. You also might have enjoyed the benefits of cookies knowingly or unknowingly. Have you ever saved your Facebook password so that you do not have to type it every time you try to login? If yes, then you are using cookies. Cookies are saved as key/value pairs.",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    },
+    {
+        "_id": "634019a40a2dfa38948f0645",
+        "index": 40,
+        "image": "http://placehold.it/32x32",
+        "question": "What is Closure? Give an example",
+        "answer": "Closures are created whenever a variable that is defined outside the current scope is accessed from within some inner scope. It gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created. To use a closure, simply define a function inside another function and expose it.",
+        "points": [],
+        "images": [],
+        "bulletPoint": []
+    }
+]

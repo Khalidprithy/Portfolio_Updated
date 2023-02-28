@@ -1,0 +1,462 @@
+[
+    {
+        "_id": "633a731fd76e3268fcb37f4a",
+        "index": 0,
+        "question": "What is MongoDB?",
+        "answer": "MongoDB is a cross-platform document-based database. Categorized as a NoSQL database, MongoDB avoids the conventional table-oriented relational database structure in support of the JSON-like documents with the dynamic schemas, making the data integration in specific kinds of applications quicker and simpler.  '\\n' MongoDB was developed by a software company “10gen”, in October 2007 as an element of the planned platform as the service product. After that, the company was shifted to a freeware deployment model in 2009, providing sales assistance and other services.",
+        "points": []
+    },
+    {
+        "_id": "633a731fb48460440e6774a1",
+        "index": 1,
+        "question": " What are the features of MongoDB?",
+        "answer": "Following are the important features of MongoDB:",
+        "points": [
+            "A compliant data model in the format of documents.",
+            "consequat",
+            "Agile and extremely scalable database.",
+            "Quicker than traditional databases.",
+            "Demonstrative query language."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 2,
+        "question": "What type of NoSQL database MongoDB is?",
+        "answer": "MongoDB is a document-oriented database. It stores the data in the form of the BSON structure-oriented databases. We store these documents in a collection.",
+        "rating": "Nannie Noel",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 3,
+        "question": "Differentiate MongoDB and MySQL?",
+        "answer": "Despite MySQL and MongoDB being freeware and open source databases, there are several differences between them in terms of a data relationship, transaction, performance speed, querying data, schema design, normalization, etc. The comparison between MongoDB and MySQL is similar to the comparison between Non-relational and Relational databases.",
+        "rating": "Nannie Noel",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 4,
+        "question": "What is the use of MongoDB?",
+        "answer": "Here are some use of MongoDB",
+        "rating": "Nannie Noel",
+        "points": [
+            "Generally, we use MongoDB as the main data store for the operational requirements with live needs. Generally, MongoDB is suitable for 80% of the applications which we develop today. MongoDB is simple to operate and extent in ways that are tough if they are not possible with the relational databases.",
+            "MongoDB stands out in various use cases where the relational databases are not suitable, like applications with semi-structured, structured, along with the big scalability needs or the multi-data center deployments.",
+            "MongoDB cannot be suitable for some applications. For instance, applications that need complex transactions and scan-based applications that access huge subsets of the data largely cannot be suitable for MongoDB.",
+            "Some general uses of MongoDB comprise product catalogs, mobile apps, content management, real-time personalization, and applications providing individual views throughout several systems."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 5,
+        "question": "How do we delete everything from the MongoDB database?",
+        "answer": "By using the following code, we can delete everything from the MongoDB database:",
+        "rating": "Nannie Noel",
+        "points": [
+            "use [database];",
+            "db.dropDatabase();"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 6,
+        "question": " What is the syntax of the skip() method?",
+        "answer": "skip() method syntax is:",
+        "rating": "Nannie Noel",
+        "points": [
+            "db.COLLECTION_NAME.find().limit(NUMBER).skip(NUMBER)"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 7,
+        "question": "How do we delete everything from the MongoDB database?",
+        "answer": "MongoDB is a document-oriented database. It stores the data in the form of the BSON structure-oriented databases. We store these documents in a collection.",
+        "rating": "Nannie Noel",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 8,
+        "question": " What are the datatypes of MongoDB?",
+        "answer": "Following are the datatypes of MongoDB:",
+        "rating": "Nannie Noel",
+        "points": [
+            "Integer",
+            "String",
+            "Boolean",
+            "Array",
+            "Double",
+            "Date",
+            "Timestamp",
+            "Regular Expression"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 9,
+        "question": "When to use MongoDB?",
+        "answer": "You should use MongoDB when you are building internet and business applications that need to evolve quickly and scale elegantly. MongoDB is popular with developers of all kinds who are building scalable applications using agile methodologies.MongoDB is a great choice if one needs to",
+        "rating": "Nannie Noel",
+        "points": [
+            "Support a rapid iterative development.",
+            "Scale to high levels of read and write traffic - MongoDB supports horizontal scaling through Sharding, distributing data across several machines, and facilitating high throughput operations with large sets of data.",
+            "Scale your data repository to a massive size.",
+            "Evolve the type of deployment as the business changes.",
+            "Store, manage and search data with text, geospatial, or time-series dimensions."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 10,
+        "question": "What do you understand by NoSQL databases? Is MongoDB a NoSQL database?",
+        "answer": "At the present time, the internet is loaded with big data, big users, big complexity etc. and also becoming more complex day by day. NoSQL is answer of all these problems, It is not a traditional database management system, not even a relational database management system (RDBMS). NoSQL stands for Not Only SQL. NoSQL is a type of database that can handle and sort all type of unstructured, messy and complicated data. It is just a new way to think about the database.",
+        "rating": "Nannie Noel",
+        "points": [
+            "Yes. MongoDB is a NoSQL database."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 11,
+        "question": " What are the different types of NoSQL databases? ",
+        "answer": "NoSQL database can be classified as 4 basic types:",
+        "rating": "Nannie Noel",
+        "points": [
+            "Key value store NoSQL database",
+            "Document store NoSQL database",
+            "Column store NoSQL database",
+            "Graph base NoSQL databse"
+        ],
+        "summary": "There are many NoSQL databases. MongoDB, Cassandra, CouchBD, Hypertable, Redis, Riak, Neo4j, HBASE, Couchbase, MemcacheDB, Voldemort, RevenDB etc. are the examples of NoSQL databases."
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 12,
+        "question": " What is the difference between MongoDB and MySQL?",
+        "answer": "Although MongoDB and MySQL both are free and open source databases, there is a lot of difference between them in the term of data representation, relationship, transaction, querying data, schema design and definition, performance speed, normalization and many more. To compare MySQL with MongoDB is like a comparison between Relational and Non-relational databases.",
+        "rating": "Nannie Noel",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 13,
+        "question": "What are Indexes in MongoDB?",
+        "answer": "In MondoDB, Indexes are used to execute query efficiently. Without indexes, MongoDB must perform a collection scan, i.e. scan every document in a collection, to select those documents that match the query statement. If an appropriate index exists for a query, MongoDB can use the index to limit the number of documents it must inspect.",
+        "rating": "Nannie Noel",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 14,
+        "question": "What is sharding in MongoDB?",
+        "answer": "In MongoDB, Sharding is a procedure of storing data records across multiple machines. It is a MongoDB approach to meet the demands of data growth. It creates horizontal partition of data in a database or search engine. Each partition is referred as shard or database shard.",
+        "rating": "Nannie Noel",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 15,
+        "question": "What is CRUD in MongoDB?",
+        "answer": "MongoDB supports following CRUD operations:",
+        "rating": "Nannie Noel",
+        "points": [
+            "Create",
+            "Read",
+            "Update",
+            "Delete"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 16,
+        "question": "In which format MongoDB represents document structure?",
+        "answer": "MongoDB uses BSON to represent document structures.",
+        "rating": "Nannie Noel",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 17,
+        "question": "Why are MongoDB data files large in size?",
+        "answer": "MongoDB doesn't follow file system fragmentation and pre allocates data files to reserve space while setting up the server. That's why MongoDB data files are large in size.",
+        "rating": "Nannie Noel",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 18,
+        "question": "What is a storage engine in MongoDB?",
+        "answer": "A storage engine is the part of a database that is used to manage how data is stored on disk.",
+        "rating": "Nannie Noel",
+        "summary": "For example: one storage engine might offer better performance for read-heavy workloads, and another might support a higher-throughput for write operations.",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 19,
+        "question": "What is the difference between MongoDB and CouchDB?",
+        "answer": "Difference between MongoDB and CouchDB:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "MongoDB is faster than CouchDB while CouchDB is safer than MongoDB.",
+            "Triggers are not available in MongoDB while triggers are available in CouchDB.",
+            "MongoDB serializes JSON data to BSON while CouchDB doesn't store data in JSON format."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 20,
+        "question": "Why MongoDB is known as best NoSQL database?",
+        "answer": "MongoDb is the best NoSQL database because, it is:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "Document Oriented",
+            "Rich Query language",
+            "High Performance",
+            "Highly Available",
+            "Easily Scalable"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 21,
+        "question": "Explain the structure of ObjectID in MongoDB.",
+        "answer": "ObjectID is a 12-byte BSON type. These are:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "4 bytes value representing seconds",
+            "3 byte machine identifier",
+            "2 byte process id",
+            "3 byte counter"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 22,
+        "question": "What language you can use with MongoDB?",
+        "answer": "MongoDB client drivers supports all the popular programming languages so there is no issue of language, you can use any language that you want.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 23,
+        "question": "Do the MongoDB databases have schema?",
+        "answer": "Yes. MongoDB databases have dynamic schema. There is no need to define the structure to create collections.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 24,
+        "question": " Which are the storage engines used by MongoDB?",
+        "answer": "MMAPv1 and WiredTiger are two storage engine used by MongoDB.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 25,
+        "question": "How does MongoDB provide concurrency?",
+        "answer": "MongoDB uses reader-writer locks for concurrency. Reader-writer locks allow concurrent readers shared access to a resource, such as a database or collection, but give exclusive access to a single write operation.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 26,
+        "question": "What is a replica set?",
+        "answer": "We can specify the replica as a set of the mongo instances which host a similar data set. In the replica set, one node will be primary, and another one will be secondary. We replicate all the data from the primary to the secondary nodes.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 27,
+        "question": "Explain the primary and secondary replica set?",
+        "answer": "In MongoDB, primary nodes are the nodes that accept writing. Primary nodes are also called master nodes. Replication in MongoDB is a single master. Therefore, only one node will accept the write operations at once.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 28,
+        "question": "Explain Storage Encryption?",
+        "answer": "Storage encryption encodes all the MongoDB data over the storage or over the operating systems for assuring that only authenticated processes will access the safeguarded data.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 29,
+        "question": "What is the purpose of the DB command?",
+        "answer": "We use the “DB” command to get the name of the presently selected database.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 30,
+        "question": "When should we normalize the data in MongoDB?",
+        "answer": "It relies on our objectives. Normalization provides an updated effective data representation. Denormalisation makes data reading effective. Generally, we utilize embedded data models when:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "When we have “contains” relationships between the entities.",
+            "When we have one-to-many relationships between the entities. In the relationships, “many”  or the child documents display in the context of the parent documents.",
+            "When embedding results in duplication of the data yet they will not give enough read performance advantages to prevail the duplication implications.",
+            "For representing more difficult many-to-many relationships.",
+            "For modeling the big hierarchical data sets."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 31,
+        "question": "How do we perform sorting and Explain Project in MongoDB?",
+        "answer": "For finding any data in MongoDB, we use the find() method. The discovery () method returns the collection’s documents over which we invoked this method. We can use the “Where” clause in the MongoDB query in order to restrict the output by using MongoDB projection. Anytime we execute the find() method, MongoDB returns all the documents associated with a particular collection. ",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "db.<collection_name>.find({ }, {<key_Name>:<Flag to display>})"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 32,
+        "question": "What do you know about NoSQL databases? What are the various types of NoSQL databases?",
+        "answer": "NoSQL refers to “Not Only SQL”. NoSQL is a kind of database that handles and sorts all kinds of structured, massive, and difficult data. It is a new method to think about databases. Kinds of NoSQL databases:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "Key-Value",
+            "Graph",
+            "Column Oriented",
+            "Document Oriented"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 33,
+        "question": "How do we remove a document from the collection?",
+        "answer": "By using the remove() method, we remove a document from the collection.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 34,
+        "question": "What are the points we should consider while creating a schema in MongoDB?",
+        "answer": "We must consider the following points while creating a schema:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "Designing the Scheme based on the user requirements.",
+            "Combining the objects into one document, if we have to use them jointly, or else, separate them.",
+            "Perform joins while on write, and not while it is reading.",
+            "For most general application scenarios, maximize the schema.",
+            "Perform complex aggregations in the schema."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 35,
+        "question": "Explain Vertical Scaling and Horizontal Scaling?",
+        "answer": "",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "Vertical Scaling: Vertical Scaling increases storage and CPU resources for expanding the capacity.",
+            "Horizontal Scaling: Horizontal Scaling splits the datasets and circulates the data over multiple shards or servers."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 36,
+        "question": "What are the elements of the Sharded Cluster?",
+        "answer": "Following are the elements of the Sharded Cluster:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "Query routers",
+            "Shards",
+            "Config servers"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 37,
+        "question": "What are the substitutes for MongoDB?",
+        "answer": "Following are the substitutes to MongoDB:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "Hbase",
+            "CouchDB",
+            "Cassandra",
+            "Redis",
+            "Riak"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 38,
+        "question": "Does MongoDB require plenty of RAM?",
+        "answer": "No, MongoDB does not require plenty of RAM. It can run on a small amount of memory. MongoDB dynamically assigns and unassigns RAM according to the needs of other processes.",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": []
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 39,
+        "question": "How do we control the MongoDB Performance?",
+        "answer": "We can control the MongoDB Performance by:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "Locking the Performance",
+            "Identifying the number of connections",
+            "Database Profiling",
+            "Full-time Diagnostic Data Capture"
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 40,
+        "question": "What are the different kinds of Indexes in MongoDB?",
+        "answer": "Following are the different kinds of Indexes in MongoDB:",
+        "rating": "Nannie Noel",
+        "summary": "",
+        "points": [
+            "Default: It is the “_id” that MongoDB creates.",
+            "Compound: It is useful for multiple fields.",
+            "Multi-key: It indexes the array data.",
+            "Single field: It sorts and indexes over a single field.",
+            "Geospatial: It is useful for querying the location data.",
+            "Hashed: It indexes the hashes of the multiple fields."
+        ]
+    },
+    {
+        "_id": "633a731f2d82b38b6953c4aa",
+        "index": 41,
+        "question": " Explain Splitting?",
+        "answer": "Splitting is the background process that we use to store chunks from increasing too large.",
+        "rating": "Nannie Noel",
+        "summary": ""
+    }
+]

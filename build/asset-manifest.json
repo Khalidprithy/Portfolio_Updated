@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.313cefd3.css",
+    "main.js": "/static/js/main.73eea9b8.js",
+    "static/js/787.108d46ac.chunk.js": "/static/js/787.108d46ac.chunk.js",
+    "static/media/TeaTreeMain.png": "/static/media/TeaTreeMain.b8f1e85dded7e8794778.png",
+    "static/media/HotelBookingMain.png": "/static/media/HotelBookingMain.fbc4da0797305658f7c9.png",
+    "static/media/TheHomeStudio.png": "/static/media/TheHomeStudio.2cb67fe781ccf713055f.png",
+    "static/media/BloomingBeautyMain.png": "/static/media/BloomingBeautyMain.ad912ff801e8dcd3aa12.png",
+    "static/media/profile.jpg": "/static/media/profile.c5c0fdf6d5a4e3e40c84.jpg",
+    "static/media/SimmiLogo.png": "/static/media/SimmiLogo.789fbe92ee2e4e3666cd.png",
+    "static/media/Todo.png": "/static/media/Todo.ce57644d3b2dcd772d22.png",
+    "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.f9476a1eaeba825039841c4ea624d331.svg",
+    "main.313cefd3.css.map": "/static/css/main.313cefd3.css.map",
+    "main.73eea9b8.js.map": "/static/js/main.73eea9b8.js.map",
+    "787.108d46ac.chunk.js.map": "/static/js/787.108d46ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.313cefd3.css",
+    "static/js/main.73eea9b8.js"
+  ]
+}
