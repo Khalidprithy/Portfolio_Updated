@@ -49,7 +49,7 @@ const Banner = () => {
                             className="btn btn-info text-white ml-2">Learn More</button>
                     </div>
                 </div>
-                <img src={profileImg} alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-full mx-auto order-1 md:order-2 m-10" />
+                <img src={profileImg} alt="" className="w-2/4 md:w-3/4 shadow-2xl rounded-full ring-green-500 mx-auto order-1 md:order-2 m-10" />
             </div>
         </div>
     );
