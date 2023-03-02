@@ -7,7 +7,7 @@ const About = () => {
             <div className="h-fit bg-neutral rounded-2xl w-full md:w-10/12 mx-auto ease-in-out duration-500 mb-4">
 
                 <div className=" text-white p-2 md:p-10">
-                    <h1 className="text-6xl font-bold text-center">I'm <br /> Khalid Bin Alam</h1>
+                    <h4 className="text-6xl font-bold text-center">I'm <br /> Khalid Bin Alam</h4>
                     {/* <h4 className='text-base md:text-lg mt-2 font-semibold text-gray-400'>Frontend Engineer</h4> */}
                     <p className='text-sm md:text-base mt-4 text-left'>As a Frontend Engineer with more than a year of experience, I am passionate about creating visually appealing and user-friendly web applications using the latest technologies and design trends. I specialize in developing robust React.js applications while also continuously improving my skills in Back-end development. My ultimate goal is to create immersive user experiences that exceed client expectations and help them achieve their business objectives.
                         <br />
@@ -22,19 +22,19 @@ const About = () => {
                 </div>
             </div>
             <div className="h-fit flex justify-center items-center bg-white border-4 border-neutral rounded-2xl w-full md:w-8/12 mx-auto ease-in-out duration-500 ">
-                <h1 className='text-center text-4xl py-4'>Services I Provide</h1>
+                <h4 className='text-center text-4xl py-4'>Services I Provide</h4>
             </div>
             <div className='bg-neutral h-24 rounded-2xl w-full md:w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
-                <h1 className='text-4xl text-center'>Frontend Development</h1>
+                <h4 className='text-4xl text-center'>Frontend Development</h4>
             </div>
             <div className='bg-neutral h-24 rounded-2xl w-full md:w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
-                <h1 className='text-4xl text-center'>React Application</h1>
+                <h4 className='text-4xl text-center'>React Application</h4>
             </div>
             <div className='bg-neutral h-24 rounded-2xl w-full md:w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
-                <h1 className='text-4xl text-center'>Backend Development</h1>
+                <h4 className='text-4xl text-center'>Backend Development</h4>
             </div>
             <div className='bg-neutral h-24 rounded-2xl w-full md:w-8/12 mx-auto mt-4 flex items-center justify-center text-white hover:text-accent'>
-                <h1 className='text-4xl text-center'>MERN Application</h1>
+                <h4 className='text-4xl text-center'>MERN Application</h4>
             </div>
         </div>
     );

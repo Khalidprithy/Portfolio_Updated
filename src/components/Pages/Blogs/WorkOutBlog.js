@@ -18,7 +18,7 @@ const WorkOutBlog = () => {
                                     </div>
                                 </div>
                             </address>
-                            <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-gray-100">The Benefits of Regular Exercise: Why Working Out is Essential for Your Health and Happiness</h1>
+                            <h4 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-gray-100">The Benefits of Regular Exercise: Why Working Out is Essential for Your Health and Happiness</h4>
                         </header>
                         <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
                             <p className='text-gray-600 dark:text-gray-300 mb-2'>

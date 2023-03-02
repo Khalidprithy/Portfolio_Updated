@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="text-center my-4 order-2 md:order-1 mx-1 md:mx-auto">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
-                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-green-400">TeaTree</h1>
+                        <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-green-400">TeaTree</h4>
                         <p className="py-6 px-2">Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs ExpressJs for backend. I found this combination is flexible and productive. It also offers the flexibility to customize in future.</p>
                         <ul className='text-left list-disc list-inside'>
                             <li>Warehouse Management Application for a tea manufacturing company built with React and Tailwind + DaizyUI for frontend and Nodejs Express for the backend.</li>
@@ -47,7 +47,7 @@ const Projects = () => {
                 <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-2">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
-                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-pink-400">BloomingBeauty</h1>
+                        <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-pink-400">BloomingBeauty</h4>
                         <p className="py-6 px-2">This is a react application for a cosmetics e-commerce site to manage their products and sales. Tailwind and daizyUI CSS is used to style the website. Which give user a consistent look and feel. I have added Rechart so that user can easily check and track sells and other business information. Login authentication is added with react firebase hooks. For social login, user can login with google or facebook.</p>
                         <ul className='text-left list-disc list-inside'>
                             <li>Login system is implemented and Social login is available.</li>
@@ -66,7 +66,7 @@ const Projects = () => {
                 <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
-                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-sky-400">HotelView</h1>
+                        <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-sky-400">HotelView</h4>
                         <p className="py-6 px-2">Hotel Booking website. User can visit hotels on different location. Hotel, resort, apartment, cabin data is loaded dynamically. User can see details about a hotel and available rooms. They can book certain rooms and once a room is booked other user no longer will be able to book same room on same date.</p>
                         <ul className='text-left list-disc list-inside'>
                             <li>Website to search and book hotel.</li>
@@ -95,7 +95,7 @@ const Projects = () => {
                 <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-2">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
-                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-teal-400">Todo</h1>
+                        <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-teal-400">Todo</h4>
                         <p className="py-6 px-2">This is a MERN stack Todo application. User can add new todo task, delete it, Update the todo task and also check mark it for completed task. User can also delete all todo tasks. </p>
                         <ul className='text-left list-disc list-inside'>
                             <li>React with Tailwind CSS. DaizyUI and Flowbite.</li>
@@ -114,7 +114,7 @@ const Projects = () => {
                 <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>Frontend</p>
-                        <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-gray-400">A Home Studio</h1>
+                        <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-gray-400">A Home Studio</h4>
                         <p className="py-6 px-2">This is a single page website for a Design studio. I wanted to create a HTML and Tailwind CSS webpage with minimal yet modern looking with no animation. </p>
                         <ul className='text-left list-disc list-inside'>
                             <li>Website for a design studio</li>

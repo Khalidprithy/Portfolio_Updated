@@ -16,33 +16,33 @@ const ShowProject = ({ project }) => {
             {/* <img className='w-72 h-[300px] overflow-scroll rounded-xl mx-auto p-2' src={project.images[0]} alt="" /> */}
             <div className='w-full md:w-8/12 flex flex-col gap-2 p-2'>
                 <div className='flex justify-between my-2'>
-                    <h1 className='text-4xl'>{project.name}</h1>
+                    <h4 className='text-4xl'>{project.name}</h4>
                     <a href={project.links[0].link} target="_blank" rel="noreferrer" className='btn btn-info btn-sm rounded-md'>Visit</a>
                 </div>
                 <h4 className='text-gray-300'>{project.title}</h4>
                 <p className='font-semibold text-primary'>{project.category}</p>
                 <p className='text-sm text-gray-300'>{project.description}</p>
                 <div className='flex flex-wrap gap-1'>
-                    <h1 className='font-semibold'>Frontend: </h1>
+                    <h4 className='font-semibold'>Frontend: </h4>
                     {
                         project.frontend.map(item => <span className='bg-teal-600 text-sm px-2 p-1 rounded hover:bg-red-500'>{item}</span>)
                     }
                 </div>
                 <div className='flex flex-wrap gap-1'>
-                    <h1 className='font-semibold'>Backend: </h1>
+                    <h4 className='font-semibold'>Backend: </h4>
                     {
                         project.backend.map(item => <span className='bg-sky-600 text-sm px-2 p-1 rounded hover:bg-red-500'>{item}</span>)
                     }
                 </div>
                 <div className='hidden lg:block'>
-                    <h1 className='font-semibold'>Features </h1>
+                    <h4 className='font-semibold'>Features </h4>
                     {
                         project.bulletPoint.map(item =>
                             <ul key={item.id} className='text-sm p-1 rounded-lg hover:text-primary mb-2'><span className='font-bold'>{item.id + 1} -</span> {item.name}</ul>
                         )
                     }
                 </div>
-                <h1 className='text-center text-xl font-medium'>Live Site and GitHub links</h1>
+                <h4 className='text-center text-xl font-medium'>Live Site and GitHub links</h4>
                 <div className='flex justify-around gap-2'>
                     {
                         project.links.map(link =>

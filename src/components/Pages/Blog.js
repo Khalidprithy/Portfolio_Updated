@@ -54,7 +54,7 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog0(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>Daily Blog of MERN</h1>
+                    <h4 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>Daily Blog of MERN</h4>
                     <div className={` ${openBlog0 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill
@@ -69,7 +69,7 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog0(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>25 HTML interview Q&A</h1>
+                    <h4 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>25 HTML interview Q&A</h4>
                     <div className={` ${openBlog0 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill
@@ -84,7 +84,7 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog7(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>25 CSS interview Q&A</h1>
+                    <h4 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>25 CSS interview Q&A</h4>
                     <div className={` ${openBlog7 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill
@@ -99,7 +99,7 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog1(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 JavaScript interview Q&A</h1>
+                    <h4 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 JavaScript interview Q&A</h4>
                     <div className={` ${openBlog1 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill
@@ -115,7 +115,7 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog2(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 NodeJS interview Q&A</h1>
+                    <h4 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 NodeJS interview Q&A</h4>
                     <div className={` ${openBlog2 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill
@@ -130,7 +130,7 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog3(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 React interview Q&A</h1>
+                    <h4 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 React interview Q&A</h4>
                     <div className={` ${openBlog3 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill
@@ -145,7 +145,7 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog4(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 MongoDB interview Q&A</h1>
+                    <h4 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>40 MongoDB interview Q&A</h4>
                     <div className={` ${openBlog4 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill
@@ -160,7 +160,7 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog5(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>Why waking up early is the best habit</h1>
+                    <h4 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>Why waking up early is the best habit</h4>
                     <div className={` ${openBlog5 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill
@@ -175,7 +175,7 @@ const Blog = () => {
                     onMouseLeave={() => setOpenBlog6(false)}
                     className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-6/12 mx-auto hover:w-10/12 hover:text-accent h-24 rounded-xl ease-in-out duration-500 mb-4'
                 >
-                    <h1 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>10 benefits of working out</h1>
+                    <h4 className='text-xl md:text-3xl text-center text-white px-4 ease-in-out duration-1000'>10 benefits of working out</h4>
                     <div className={` ${openBlog6 ? "flex justify-between items-center gap-4 ease-in-out duration-500" : "flex items-center gap-1 md:hidden"} `}>
                         <p className='text-xl md:text-2xl font-bold'>View</p>
                         <BsFillArrowRightCircleFill

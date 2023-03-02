@@ -11,7 +11,7 @@ const Experience = () => {
     return (
         <div>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg w-full md:w-8/12 mx-auto h-24 rounded-xl mb-6'>
-                <h1 className='text-2xl font-semibold m-2'>Experience</h1>
+                <h4 className='text-2xl font-semibold m-2'>Experience</h4>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>Here</p>
                     <BsFillArrowDownCircleFill className='text-5xl m-2 text-accent ease-out duration-300 motion-safe:animate-bounce'></BsFillArrowDownCircleFill>
@@ -26,7 +26,7 @@ const Experience = () => {
                     <div className='flex items-center justify-center px-6'>
                         <img className='w-16 hidden rounded-full ring-2 ring-orange-400 m-2 md:block' src={SimmiIcon} alt="" />
                         <div className='text-left '>
-                            <h1 className='text-xl md:text-2xl lg:text-3xl text-orange-400 ease-in-out duration-1000'>Simmi Foundation</h1>
+                            <h4 className='text-xl md:text-2xl lg:text-3xl text-orange-400 ease-in-out duration-1000'>Simmi Foundation</h4>
                             <h4 className='text-sm md:text-base font-medium text-gray-300'>Frontend Engineer</h4>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Experience = () => {
                     <div className='flex items-center justify-center px-6'>
                         <img className='w-16 hidden rounded-full ring-2 ring-sky-600 m-2 md:block' src={StarticIcon} alt="" />
                         <div className='text-left '>
-                            <h1 className='text-xl md:text-2xl lg:text-3xl text-sky-600 ease-in-out duration-1000'>Startic Field</h1>
+                            <h4 className='text-xl md:text-2xl lg:text-3xl text-sky-600 ease-in-out duration-1000'>Startic Field</h4>
                             <h4 className='text-sm md:text-base font-medium text-gray-300'>Frontend Developer</h4>
                         </div>
                     </div>

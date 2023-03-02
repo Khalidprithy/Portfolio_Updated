@@ -16,7 +16,7 @@ const DailyBlogMERN = () => {
                             </div>
                         </div>
                     </address>
-                    <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-gray-100">This is my daily blog of learning MERN</h1>
+                    <h4 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-gray-100">This is my daily blog of learning MERN</h4>
                 </header>
                 <div>
                     <h4 class="mb-4 text-xl text-center font-semibold text-gray-900 dark:text-white">History of JavaScript</h4>

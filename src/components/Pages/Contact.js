@@ -23,7 +23,7 @@ const Contact = () => {
     return (
         <div className='m-2'>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg w-full md:w-8/12 mx-auto h-24 rounded-xl mb-6'>
-                <h1 className='text-2xl font-semibold m-2'>Contact me</h1>
+                <h4 className='text-2xl font-semibold m-2'>Contact me</h4>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>Here</p>
                     <BsFillArrowDownCircleFill className='text-5xl  m-2 text-accent animate-bounce'></BsFillArrowDownCircleFill>
@@ -32,7 +32,7 @@ const Contact = () => {
 
             <div id='contactMe' className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center lg:p-2 rounded-2xl w-full md:w-10/12 mx-auto ease-in-out duration-500 bg-white dark:bg-gray-400 border-2 shadow-lg ">
                 <div className="text-center p-4 text-black lg:text-left mx-auto">
-                    <h1 className="text-4xl lg:text-5xl font-bold">Let's get in touch</h1>
+                    <h4 className="text-4xl lg:text-5xl font-bold">Let's get in touch</h4>
                     <p className="py-6">Feel free to contact me to discuss about any kind of Front-end Back-end projects. <br /> I am open learn and try something new.</p>
                     <div>
                         <div className="text pl-3">

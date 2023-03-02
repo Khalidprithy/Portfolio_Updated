@@ -15,7 +15,7 @@ const ProjectsTab = () => {
     return (
         <div>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg outline-1 w-full md:w-8/12 mx-auto h-24 rounded-xl mb-4'>
-                <h1 className='text-2xl font-semibold m-2'>Top Projects</h1>
+                <h4 className='text-2xl font-semibold m-2'>Top Projects</h4>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>All Projects</p>
                     <BsFillArrowRightCircleFill
@@ -26,7 +26,7 @@ const ProjectsTab = () => {
             <div >
                 <div className="w-full md:w-8/12 mx-auto">
                     <ul
-                        className="flex items-center mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+                        className="flex items-center gap-4 mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
                         role="tablist"
                     >
                         <li className="-mb-px mr-2 mt-2 md:mt-0 last:mr-0 flex-auto text-center w-full md:w-44">
@@ -34,7 +34,7 @@ const ProjectsTab = () => {
                                 className={
                                     "text-base md:text-xl font-bold capitalize px-5 py-5 mb-4 shadow rounded-md block leading-normal " +
                                     (openTab === 1
-                                        ? "text-white bg-gray-700"
+                                        ? "text-white bg-neutral"
                                         : "text-gray-800 bg-white")
                                 }
                                 onClick={e => {
@@ -53,7 +53,7 @@ const ProjectsTab = () => {
                                 className={
                                     "text-base md:text-xl font-bold capitalize px-5 py-5 mb-4 shadow rounded-md block leading-normal " +
                                     (openTab === 2
-                                        ? "text-white bg-gray-700"
+                                        ? "text-white bg-neutral"
                                         : "text-gray-800 bg-white")
                                 }
                                 onClick={e => {
@@ -72,7 +72,7 @@ const ProjectsTab = () => {
                                 className={
                                     "text-base md:text-xl font-bold capitalize px-5 py-5 mb-4 shadow rounded-md block leading-normal " +
                                     (openTab === 3
-                                        ? "text-white bg-gray-700"
+                                        ? "text-white bg-neutral"
                                         : "text-gray-800 bg-white")
                                 }
                                 onClick={e => {

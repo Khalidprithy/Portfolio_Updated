@@ -19,17 +19,17 @@ const ShowReactQa = () => {
                                     </div>
                                 </div>
                             </address>
-                            <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">React interview questions that you may encounter during a job interview</h1>
+                            <h4 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">React interview questions that you may encounter during a job interview</h4>
                         </header>
                         <div className='w-full md:w-11/12 mx-auto'>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">What is React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">What is React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     React is a declarative, efficient, flexible open source front-end JavaScript library developed by Facebook in 2011. It follows the component-based approach for building reusable UI components, especially for single page application. It is used for developing interactive view layer of web and mobile apps. It was created by Jordan Walke, a software engineer at Facebook. It was initially deployed on Facebook's News Feed section in 2011 and later used in its products like WhatsApp & Instagram
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">1. Can you explain the virtual DOM in React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">1. Can you explain the virtual DOM in React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400'>
                                     The virtual DOM (Document Object Model) is a mechanism used by React to optimize the performance of updates to the user interface.
                                     <br />
@@ -41,7 +41,7 @@ const ShowReactQa = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">2. What is the difference between state and props in React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">2. What is the difference between state and props in React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     In React, props and state are both used for storing data that influences the output of a component, but they are used for different purposes and have some key differences.
                                 </p>
@@ -54,7 +54,7 @@ const ShowReactQa = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">3. Can you explain the component lifecycle methods in React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">3. Can you explain the component lifecycle methods in React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     In React, a component goes through several lifecycle stages, and each stage has its own set of lifecycle methods that are called at specific points. These methods give developers the ability to run specific code at specific times during a component's lifecycle. Here are some of the main lifecycle methods in React:
                                 </p>
@@ -75,7 +75,7 @@ const ShowReactQa = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">4. How do you handle forms in React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">4. How do you handle forms in React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     Handling forms in React involves several steps:
                                 </p>
@@ -97,7 +97,7 @@ const ShowReactQa = () => {
                             </div>
 
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">5. What are the features of React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">5. What are the features of React?</h4>
                                 <ul class="list-disc ml-4 text-gray-600 dark:text-gray-400">
 
                                     <li>
@@ -139,7 +139,7 @@ const ShowReactQa = () => {
                             </div>
 
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">6. Can web browsers read JSX directly?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">6. Can web browsers read JSX directly?</h4>
                                 <img className='w-52 lg:w-96 rounded-lg mx-auto' src="https://www.edureka.co/blog/wp-content/uploads/2017/07/ReactJS_02.png" alt="" />
                                 <ul class="list-disc ml-4 text-gray-600 dark:text-gray-400">
                                     <li>Web browsers cannot read JSX directly. This is because they are built to only read regular JS objects and JSX is not a regular JavaScript object </li>
@@ -149,7 +149,7 @@ const ShowReactQa = () => {
                             </div>
 
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">7. Why is there a need for using keys in Lists?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">7. Why is there a need for using keys in Lists?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     Keys are very important in lists for the following reasons:
                                 </p>
@@ -161,7 +161,7 @@ const ShowReactQa = () => {
                             </div>
 
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">8. What are forms in React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">8. What are forms in React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     React employs forms to enable users to interact with web applications.
                                 </p>
@@ -172,7 +172,7 @@ const ShowReactQa = () => {
                                 </ul>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">9. What are the most crucial advantages of using React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">9. What are the most crucial advantages of using React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     Following is a list of the most crucial advantages of using React:
                                 </p>
@@ -196,7 +196,7 @@ const ShowReactQa = () => {
                                 </ul>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">10. What are the biggest limitations of React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">10. What are the biggest limitations of React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     Following is the list of the biggest limitations of React:
                                 </p>
@@ -212,13 +212,13 @@ const ShowReactQa = () => {
                                 </ul>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">11.  Why can't browsers read JSX?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">11.  Why can't browsers read JSX?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     Browsers cannot read JSX directly because they can only understand JavaScript objects, and JSX is not a regular JavaScript object. Thus, we need to transform the JSX file into a JavaScript object using transpilers like Babel and then pass it to the browser.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">12. Why we use JSX?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">12. Why we use JSX?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
 
                                 </p>
@@ -234,7 +234,7 @@ const ShowReactQa = () => {
                                 </ul>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">13. What is Props?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">13. What is Props?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     Props stand for "Properties" in React. They are read-only inputs to components. Props are an object which stores the value of attributes of a tag and work similar to the HTML attributes. It gives a way to pass data from the parent to the child components throughout the application.
                                     <br />
@@ -246,19 +246,19 @@ const ShowReactQa = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">14. What is a State in React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">14. What is a State in React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     The State is an updatable structure which holds the data and information about the component. It may be changed over the lifetime of the component in response to user action or system event. It is the heart of the react component which determines the behavior of the component and how it will render. It must be kept as simple as possible.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">15. How can you update the State of a component?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">15. How can you update the State of a component?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     We can update the State of a component using this.setState() method. This method does not always replace the State immediately. Instead, it only adds changes to the original State. It is a primary method which is used to update the user interface(UI) in response to event handlers and server responses.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">16. What is an event in React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">16. What is an event in React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     An event is an action which triggers as a result of the user action or system generated event like a mouse click, loading of a web page, pressing a key, window resizes, etc. In React, the event handling system is very similar to handling events in DOM elements. The React event handling system is known as Synthetic Event, which is a cross-browser wrapper of the browser's native event.
                                     <br />
@@ -273,28 +273,28 @@ const ShowReactQa = () => {
                                 </ul>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">17. What is the significance of keys in React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">17. What is the significance of keys in React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     A key is a unique identifier. In React, it is used to identify which items have changed, updated, or deleted from the Lists. It is useful when we dynamically created components or when the users alter the lists. It also helps to determine which components in a collection needs to be re-rendered instead of re-rendering the entire set of components every time. It increases application performance.
                                 </p>
 
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">18. When do we prefer to use a class component over a function component?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">18. When do we prefer to use a class component over a function component?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     If a component needs state or lifecycle methods, we should use the class component; otherwise, use the function component. However, after React 16.8, with the addition of Hooks, you could use state, lifecycle methods, and other features that were only available in the class component right in your function component.
                                 </p>
 
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">19. What do you understand by refs in React?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">19. What do you understand by refs in React?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     Refs is the shorthand used for references in React. It is an attribute which helps to store a reference to particular DOM nodes or React elements. It provides a way to access React DOM nodes or React elements and how to interact with it. It is used when we want to change the value of a child component, without making the use of props.
                                 </p>
 
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">20. WWhat is the use of Refs?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">20. WWhat is the use of Refs?</h4>
                                 <p className='text-gray-600 dark:text-gray-400 mb-2'>
                                     The Ref in React is used in the following cases:
                                 </p>

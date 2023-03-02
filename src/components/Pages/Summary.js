@@ -16,7 +16,7 @@ const Summary = () => {
     return (
         <div className='mx-2'>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg w-full md:w-8/12 mx-auto h-24 rounded-xl mb-6'>
-                <h1 className='text-2xl font-semibold m-2'>My Skills</h1>
+                <h4 className='text-2xl font-semibold m-2'>My Skills</h4>
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>Here</p>
                     <BsFillArrowDownCircleFill className='text-5xl m-2 text-accent animate-bounce'></BsFillArrowDownCircleFill>
@@ -27,7 +27,7 @@ const Summary = () => {
                 onMouseLeave={() => setOpenFront(false)}
                 className='flex flex-col md:flex-row items-center justify-around bg-neutral text-white w-full md:w-8/12 mx-auto hover:w-10/12 h-32 rounded-xl ease-in-out duration-500 mb-4'
             >
-                <h1 className='text-5xl text-center text-info px-4 ease-in-out duration-1000 animate-pulse'>Frontend</h1>
+                <h4 className='text-5xl text-center text-info px-4 ease-in-out duration-1000 animate-pulse'>Frontend</h4>
                 <div className={` ${openFront ? "hidden md:flex justify-between gap-4 ease-in-out duration-500" : "flex md:hidden"} `}>
                     <div className="tooltip tooltip-info" data-tip="HTML5">
 
@@ -73,7 +73,7 @@ const Summary = () => {
                 onMouseLeave={() => setOpenBack(false)}
                 className='flex flex-col md:flex-row  items-center justify-around bg-neutral text-white w-full md:w-8/12 mx-auto hover:w-10/12 h-32 rounded-xl ease-in-out duration-500 mb-4'
             >
-                <h1 className='text-5xl text-center text-accent px-4 ease-in-out duration-1000 animate-pulse'>Backend</h1>
+                <h4 className='text-5xl text-center text-accent px-4 ease-in-out duration-1000 animate-pulse'>Backend</h4>
                 <div className={` ${openBack ? "hidden md:flex justify-between gap-4 ease-in-out duration-500" : "flex md:hidden"} `}>
                     <div className="tooltip tooltip-accent" data-tip="NodeJS">
 
@@ -118,7 +118,7 @@ const Summary = () => {
                 onMouseLeave={() => setOpenTools(false)}
                 className='flex flex-col md:flex-row  items-center justify-around bg-neutral text-white w-full md:w-8/12 mx-auto hover:w-10/12 h-32 rounded-xl ease-in-out duration-500 mb-4'
             >
-                <h1 className='text-5xl text-center text-success px-4 ease-in-out duration-1000 animate-pulse'>Tools</h1>
+                <h4 className='text-5xl text-center text-success px-4 ease-in-out duration-1000 animate-pulse'>Tools</h4>
                 <div className={` ${openTools ? "hidden md:flex justify-between gap-4 ease-in-out duration-500" : "flex md:hidden"} `}>
                     <div className="tooltip tooltip-success" data-tip="VS Code">
 

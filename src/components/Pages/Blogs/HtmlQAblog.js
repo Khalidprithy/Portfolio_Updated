@@ -18,11 +18,11 @@ const HtmlQAblog = () => {
                                     </div>
                                 </div>
                             </address>
-                            <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-gray-100">HTML interview questions that you may encounter during a job interview</h1>
+                            <h4 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-gray-100">HTML interview questions that you may encounter during a job interview</h4>
                         </header>
                         <div className='w-full md:w-11/12 mx-auto'>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">1. Can you explain the difference between responsive and adaptive design?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">1. Can you explain the difference between responsive and adaptive design?</h4>
                                 <p className='text-gray-600 dark:text-gray-300'>
                                     Responsive design is a method of designing websites so that they automatically adjust to the size of the user's screen.
                                     <br />
@@ -30,37 +30,37 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">2. How do you optimize the performance of a website?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">2. How do you optimize the performance of a website?</h4>
                                 <p className='text-gray-600 dark:text-gray-300'>
                                     Some ways to optimize the performance of a website include minifying code, compressing images, using a content delivery network (CDN), and reducing the number of HTTP requests.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">3. Can you describe how you would set up a development environment on a new machine?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">3. Can you describe how you would set up a development environment on a new machine?</h4>
                                 <p className='text-gray-600 dark:text-gray-300'>
                                     A development environment typically includes a text editor or integrated development environment (IDE), a web browser, and a local web server. I can set up the development environment by installing necessary softwares such as text editor(Visual studio code, Sublime etc), browser(chrome, Firefox etc) and web server(XAMPP, WAMP etc)
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">4. Can you explain how browser rendering works?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">4. Can you explain how browser rendering works?</h4>
                                 <p className='text-gray-600 dark:text-gray-300'>
                                     The browser rendering process involves several steps, including parsing the HTML and CSS, constructing the Document Object Model (DOM), and painting the pixels to the screen.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">5. How do you stay current with new technologies and industry developments?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">5. How do you stay current with new technologies and industry developments?</h4>
                                 <p className='text-gray-600 dark:text-gray-300'>
                                     I stay current with new technologies and industry developments by reading articles, blogs and tutorials online, attending conferences and meetups, participating in online communities, and experimenting with new technologies on my own.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">6. Can you give an example of a project you have worked on, and explain your role in it?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">6. Can you give an example of a project you have worked on, and explain your role in it?</h4>
                                 <p className='text-gray-600 dark:text-gray-300'>
                                     One example of a project I have worked on is a MERN stack project where I have used React as a frontend framework and tailwind css for styling. I have also used react router v6 for routing and implemented authentication, layout, and an admin panel. I have also projected routes for the application. My role in the project was to develop the frontend and work closely with the backend developer to ensure smooth integration. Some of the challenges I faced included implementing complex authentication flows and optimizing the performance of the application. Through this project, I have learned how to work with a variety of frontend technologies and how to approach challenges in a systematic way
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">7. Differentiate between ordered list and unordered list</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">7. Differentiate between ordered list and unordered list</h4>
                                 <p className='text-gray-600 dark:text-gray-300'>
                                     An ordered list is a list of items in which the items are arranged in a specific order, usually using numbers or letters to indicate the order. An unordered list is a list of items in which the items are arranged in no particular order, usually using bullet points or other symbols to indicate that they are a list.
                                     <br />
@@ -75,7 +75,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">8. What are Semantic tags in HTML?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">8. What are Semantic tags in HTML?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     Semantic tags in HTML are tags that provide additional information about the meaning and structure of the content they enclose. These tags help search engines and other software to understand the content of a web page better. Some examples of semantic tags in HTML include:
                                 </p>
@@ -106,7 +106,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">9. How semantic tags improve SEO performance?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">9. How semantic tags improve SEO performance?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     Semantic tags in HTML can improve SEO (Search Engine Optimization) in a few ways:
                                 </p>
@@ -127,7 +127,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">10. How to create nested webpage in HTML?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">10. How to create nested webpage in HTML?</h4>
                                 <p className='text-gray-600 dark:text-gray-300'>
                                     If the user needs embedded content in the website used Nested web pages concepts. It's a page within a page. Use a nested Web page when you want to represent information from another page to your website.
                                     <br />
@@ -139,7 +139,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">11. Difference between frame and frameset. Which is better?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">11. Difference between frame and frameset. Which is better?</h4>
                                 <p className='text-gray-600 dark:text-gray-300'>
                                     Both iframes and framesets are used to embed another HTML document within a web page, but there are some key differences between the two.
                                     <br />
@@ -163,7 +163,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">12. Which HTML tags don’t have an end tag?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">12. Which HTML tags don’t have an end tag?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     In HTML, some tags don't require an end tag because they don't contain any content. These are called void or self-closing tags. Here are a few examples of HTML tags that don't have an end tag:
                                 </p>
@@ -190,7 +190,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">13. When are comments used in HTML?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">13. When are comments used in HTML?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     Comments in HTML are used to provide notes or explanations about the code that are not displayed in the final webpage. They are a way to communicate with other developers or to document the code for future reference.
                                     Comments are typically used to:
@@ -210,7 +210,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">14. What is the purpose of using alternative texts in images?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">14. What is the purpose of using alternative texts in images?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     The purpose of using alternative text (alt text) in images is to provide a text description of the image for users who are unable to see the image. Alt text is used to make images accessible to people with visual impairments who use screen readers to access web content. It also provides a text alternative for the image when the image fails to load or in case the user has chosen to disable images in their browser.
                                     <br />
@@ -222,7 +222,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">15. How are active links different from normal links?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">15. How are active links different from normal links?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     Active links and normal links are both used to create hyperlinks in HTML, but they differ in how they are displayed and interact with the user.
                                     <br />
@@ -243,7 +243,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">16. What are the entities in HTML?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">16. What are the entities in HTML?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     Active links and normal links are both used to create hyperlinks in HTML, but they differ in how they are displayed and interact with the user.
                                     <br />
@@ -264,8 +264,8 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">17.
-                                    Explain The Key Differences Between LocalStorage And SessionStorage Objects.?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">17.
+                                    Explain The Key Differences Between LocalStorage And SessionStorage Objects.?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     LocalStorage and SessionStorage are both JavaScript objects that are used to store key-value pairs of data on the client-side. Both LocalStorage and SessionStorage are similar in functionality, but there are some key differences between them.
                                 </p>
@@ -284,7 +284,7 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">18. What is difference between HTML and XHTML?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">18. What is difference between HTML and XHTML?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     HTML (Hypertext Markup Language) and XHTML (Extensible Hypertext Markup Language) are both used to create web pages, but there are some key differences between the two.
                                     <br />
@@ -305,20 +305,20 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">19. What is a style sheet?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">19. What is a style sheet?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     A style sheet is a document that contains instructions for how to present the layout, colors, fonts, and other visual elements of a website or application. Style sheets are typically written in a language called CSS (Cascading Style Sheets), which is used to describe the layout and presentation of documents written in markup languages such as HTML and XML. Style sheets can be linked to a web page or application by using a link element in the HTML or XML source code. They allow developers to separate the presentation of a website or application from its structure and content, making it easier to maintain and update the visual design.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">20. What is a marquee?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">20. What is a marquee?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     A marquee is a type of HTML element that can be used to create a scrolling text or image on a web page. The text or image is displayed in a box called the "marquee" and scrolls horizontally or vertically across the web page. The behavior and appearance of the marquee can be controlled using various attributes such as the direction of scrolling, the speed of scrolling, and the behavior when the text or image reaches the end of the marquee. Marquees are generally considered to be an outdated feature of web design as they can be distracting to users and can affect the accessibility of the website. Alternative ways of displaying such information include using CSS animations or JavaScript.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">21.
-                                    How many types of CSS can be included in HTML?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">21.
+                                    How many types of CSS can be included in HTML?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     There are three main types of CSS that can be included in HTML:
                                 </p>
@@ -338,8 +338,8 @@ const HtmlQAblog = () => {
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">22.
-                                    Which type of video formats are supported by HTML5?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">22.
+                                    Which type of video formats are supported by HTML5?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     HTML 5 supports three types of video format:
                                 </p>
@@ -350,8 +350,8 @@ const HtmlQAblog = () => {
                                 </ul>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">23.
-                                    Is audio tag supported in HTML 5?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">23.
+                                    Is audio tag supported in HTML 5?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     Yes. It is used to add sound or music files on the web page. There are three supported file formats for HTML 5 audio tag.
                                 </p>
@@ -362,43 +362,43 @@ const HtmlQAblog = () => {
                                 </ul>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">24.
-                                    What is the difference between progress and meter tag?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">24.
+                                    What is the difference between progress and meter tag?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     The progress tag is used to represent the progress of the task only while the meter tag is used to measure data within a given range
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">25.
-                                    What is the use of details and summary tag?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">25.
+                                    What is the use of details and summary tag?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     The details tag is used to specify some additional details on the web page. It can be viewed or hidden on demand. The summary tag is used with details tag.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">25.
-                                    If I do not put !DOCTYPE html will HTML 5 work?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">25.
+                                    If I do not put !DOCTYPE html will HTML 5 work?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly..
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">26.
-                                    What is HTML?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">26.
+                                    What is HTML?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     HTML is the short form of Hypertext Markup Language. HTML is used to design and display pages on the web. It makes the text content more attractive and dynamic. We can create tables, add images, videos, links in our text. We can also add animation to our page to make it more attractive. Every HTML page starts with  &lt;html&gt; tag and end with &lt;html/&gt; tag. It has two main parts head section and body section.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">27.
-                                    What is the advantage of grouping several checkboxes together?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">27.
+                                    What is the advantage of grouping several checkboxes together?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     The checkboxes don’t affect one another. But, grouping these checkboxes together help to organize them. Checkbox buttons can have their name and do not need to belong to a group. A single web page can have many different groups of checkboxes.
                                 </p>
                             </div>
                             <div className='shadow-sm rounded-lg p-2 mb-4 border hover:border-neutral dark:border-gray-600 dark:hover:border-gray-200'>
-                                <h1 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">27.
-                                    What is Cell Spacing and Cell Padding?</h1>
+                                <h4 class="mb-4 text-xl font-bold leading-tight text-gray-700 lg:mb-6 lg:text-xl dark:text-white">27.
+                                    What is Cell Spacing and Cell Padding?</h4>
                                 <p className='text-gray-600 dark:text-gray-300 mb-2'>
                                     Cell Spacing is referred to as the space or gap between the two cells of the same table. Whereas, Cell Padding is referred to as the gap or space between the content of the cell and cell wall or cell border
                                 </p>
