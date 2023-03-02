@@ -2,8 +2,9 @@ import React from 'react';
 import Banner from './Banner';
 import Contact from './Contact';
 import Experience from './Experience';
-import Projects from './Projects';
+import ProjectsTab from './ProjectsTab';
 import Summary from './Summary';
+// import Projects from './Projects';
 
 const Home = () => {
     return (
@@ -11,7 +12,8 @@ const Home = () => {
             <Banner></Banner>
             <Experience />
             <Summary></Summary>
-            <Projects></Projects>
+            <ProjectsTab />
+            {/* <Projects></Projects> */}
             <Contact></Contact>
         </div>
     );
