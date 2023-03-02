@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import FullStackProjects from './Projects/FullStackProjects';
 import FrontendProjects from './Projects/FrontendProjects';
+import BackendProjects from './Projects/BackendProjects';
 
 const ProjectsTab = () => {
     const [openTab, setOpenTab] = React.useState(1);
@@ -97,7 +98,7 @@ const ProjectsTab = () => {
                                 <FrontendProjects />
                             </div>
                             <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-
+                                <BackendProjects />
                             </div>
                         </div>
                     </div>
