@@ -20,7 +20,7 @@ const ProjectsTab = () => {
                     <p className='text-2xl font-semibold m-2'>All Projects</p>
                     <BsFillArrowRightCircleFill
                         onClick={handleNavigate}
-                        className='text-5xl m-2 text-accent cursor-pointer animate-ping hover:animate-pulse'></BsFillArrowRightCircleFill>
+                        className='text-5xl m-2 text-accent cursor-pointer animate-none md:animate-ping hover:animate-pulse'></BsFillArrowRightCircleFill>
                 </div>
             </div>
             <div >
