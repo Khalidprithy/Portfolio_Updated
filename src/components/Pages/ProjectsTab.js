@@ -26,13 +26,13 @@ const ProjectsTab = () => {
             <div >
                 <div className="w-full md:w-8/12 mx-auto">
                     <ul
-                        className="flex items-center gap-4 mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
+                        className="flex items-center gap-4 mb-0 list-none pt-3 pb-4 flex-row"
                         role="tablist"
                     >
-                        <li className="-mb-px mt-2 md:mt-0 last:mr-0 flex-auto text-center w-full md:w-44">
+                        <li className="mt-2 md:mt-0 last:mr-0 flex-auto text-center w-full md:w-44">
                             <a
                                 className={
-                                    "text-base md:text-xl font-bold capitalize px-5 py-5 mb-4 shadow rounded-md block leading-normal " +
+                                    "text-base md:text-xl font-bold capitalize px-1 md:px-5 py-2 md:py-5 mb-4 shadow rounded-md block leading-normal " +
                                     (openTab === 1
                                         ? "text-white bg-neutral "
                                         : "text-gray-800 bg-white border-2 border-gray-900")
@@ -48,10 +48,10 @@ const ProjectsTab = () => {
                                 Full-stack
                             </a>
                         </li>
-                        <li className="-mb-px mt-2 md:mt-0 last:mr-0 flex-auto text-center w-full md:w-44">
+                        <li className="mt-2 md:mt-0 last:mr-0 flex-auto text-center w-full md:w-44">
                             <a
                                 className={
-                                    "text-base md:text-xl font-bold capitalize px-5 py-5 mb-4 shadow rounded-md block leading-normal " +
+                                    "text-base md:text-xl font-bold capitalize px-1 md:px-5 py-2 md:py-5 mb-4 shadow rounded-md block leading-normal " +
                                     (openTab === 2
                                         ? "text-white bg-neutral "
                                         : "text-gray-800 bg-white border-2 border-gray-900")
@@ -67,10 +67,10 @@ const ProjectsTab = () => {
                                 Frontend
                             </a>
                         </li>
-                        <li className="-mb-px mt-2 md:mt-0 last:mr-0 flex-auto text-center w-full md:w-44">
+                        <li className="mt-2 md:mt-0 last:mr-0 flex-auto text-center w-full md:w-44">
                             <a
                                 className={
-                                    "text-base md:text-xl font-bold capitalize px-5 py-5 mb-4 shadow rounded-md block leading-normal " +
+                                    "text-base md:text-xl font-bold capitalize px-1 md:px-5 py-2 md:py-5 mb-4 shadow rounded-md block leading-normal " +
                                     (openTab === 3
                                         ? "text-white bg-neutral "
                                         : "text-gray-800 bg-white border-2 border-gray-900")
