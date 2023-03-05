@@ -8,7 +8,7 @@ import Summary from './Summary';
 
 const Home = () => {
     return (
-        <div className='mx-2'>
+        <div className='mx-2 border border-red-600'>
             <Banner></Banner>
             <Experience />
             <Summary></Summary>
