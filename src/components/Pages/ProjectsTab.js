@@ -15,9 +15,9 @@ const ProjectsTab = () => {
     return (
         <div>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg outline-1 w-full md:w-8/12 mx-auto h-24 rounded-xl mb-4'>
-                <h4 className='text-2xl font-semibold m-2'>Top Projects</h4>
+                <h4 className='text-xl md:text-2xl font-semibold m-2'>Top Projects</h4>
                 <div className='flex items-center'>
-                    <p className='text-2xl font-semibold m-2'>All Projects</p>
+                    <p className='text-xl md:text-2xl font-semibold m-2'>All Projects</p>
                     <BsFillArrowRightCircleFill
                         onClick={handleNavigate}
                         className='text-5xl m-2 text-accent cursor-pointer animate-none md:animate-ping hover:animate-pulse'></BsFillArrowRightCircleFill>

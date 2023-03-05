@@ -31,40 +31,40 @@ const Summary = () => {
                 <div className={` ${openFront ? "hidden md:flex justify-between gap-4 ease-in-out duration-500" : "flex md:hidden"} `}>
                     <div className="tooltip tooltip-info" data-tip="HTML5">
 
-                        <AiFillHtml5 className='text-4xl hover:text-error ease-out duration-300'></AiFillHtml5>
+                        <AiFillHtml5 className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></AiFillHtml5>
                     </div>
                     <div className="tooltip tooltip-info" data-tip="CSS3">
 
-                        <IoLogoCss3 className='text-4xl hover:text-error ease-out duration-300'></IoLogoCss3>
+                        <IoLogoCss3 className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></IoLogoCss3>
                     </div>
                     <div className="tooltip tooltip-info" data-tip="JavaScript">
 
-                        <IoLogoJavascript className='text-4xl hover:text-error ease-out duration-300'></IoLogoJavascript>
+                        <IoLogoJavascript className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></IoLogoJavascript>
                     </div>
                     <div className="tooltip tooltip-info" data-tip="Bootstrap">
 
-                        <DiBootstrap className='text-4xl hover:text-error ease-out duration-300'></DiBootstrap>
+                        <DiBootstrap className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></DiBootstrap>
 
                     </div>
                     <div className="tooltip tooltip-info" data-tip="Tailwind CSS">
 
-                        <SiTailwindcss className='text-4xl hover:text-error ease-out duration-300'></SiTailwindcss>
+                        <SiTailwindcss className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiTailwindcss>
                     </div>
                     <div className="tooltip tooltip-info" data-tip="ReactJS">
 
-                        <DiReact className='text-4xl hover:text-error ease-out duration-300'></DiReact>
+                        <DiReact className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></DiReact>
                     </div>
                     <div className="tooltip tooltip-info" data-tip="GraphQL">
 
-                        <SiGraphql className='text-4xl hover:text-error ease-out duration-300'></SiGraphql>
+                        <SiGraphql className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiGraphql>
                     </div>
                     <div className="tooltip tooltip-info" data-tip="NPM">
 
-                        <FaNpm className='text-4xl hover:text-error ease-out duration-300'></FaNpm>
+                        <FaNpm className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></FaNpm>
                     </div>
                     <div className="tooltip tooltip-info" data-tip="Tensorflow">
 
-                        <SiTensorflow className='text-4xl hover:text-error ease-out duration-300'></SiTensorflow>
+                        <SiTensorflow className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiTensorflow>
                     </div>
                 </div>
             </div>
@@ -77,39 +77,39 @@ const Summary = () => {
                 <div className={` ${openBack ? "hidden md:flex justify-between gap-4 ease-in-out duration-500" : "flex md:hidden"} `}>
                     <div className="tooltip tooltip-accent" data-tip="NodeJS">
 
-                        <DiNodejs className='text-4xl hover:text-error ease-out duration-300'></DiNodejs>
+                        <DiNodejs className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></DiNodejs>
                     </div>
                     <div className="tooltip tooltip-accent" data-tip="ExpressJS">
 
-                        <SiExpress className='text-4xl hover:text-error ease-out duration-300'></SiExpress>
+                        <SiExpress className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiExpress>
                     </div>
                     <div className="tooltip tooltip-accent" data-tip="MongoDB">
 
-                        <DiMongodb className='text-4xl hover:text-error ease-out duration-300'></DiMongodb>
+                        <DiMongodb className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></DiMongodb>
                     </div>
                     <div className="tooltip tooltip-accent" data-tip="PostgresSQL">
 
-                        <SiPostgresql className='text-4xl hover:text-error ease-out duration-300'></SiPostgresql>
+                        <SiPostgresql className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiPostgresql>
                     </div>
                     <div className="tooltip tooltip-accent" data-tip="GraphQL">
 
-                        <SiGraphql className='text-4xl hover:text-error ease-out duration-300'></SiGraphql>
+                        <SiGraphql className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiGraphql>
                     </div>
                     <div className="tooltip tooltip-accent" data-tip="Firebase">
 
-                        <SiFirebase className='text-4xl hover:text-error ease-out duration-300'></SiFirebase>
+                        <SiFirebase className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiFirebase>
                     </div>
                     <div className="tooltip tooltip-accent" data-tip="Postman">
 
-                        <SiPostman className='text-4xl hover:text-error ease-out duration-300'></SiPostman>
+                        <SiPostman className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiPostman>
                     </div>
                     <div className="tooltip tooltip-accent" data-tip="Insomnia">
 
-                        <SiInsomnia className='text-4xl hover:text-error ease-out duration-300'></SiInsomnia>
+                        <SiInsomnia className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiInsomnia>
                     </div>
                     <div className="tooltip tooltip-accent" data-tip="REST API">
 
-                        <AiFillApi className='text-4xl hover:text-error ease-out duration-300'></AiFillApi>
+                        <AiFillApi className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></AiFillApi>
                     </div>
                 </div>
             </div>
@@ -122,27 +122,27 @@ const Summary = () => {
                 <div className={` ${openTools ? "hidden md:flex justify-between gap-4 ease-in-out duration-500" : "flex md:hidden"} `}>
                     <div className="tooltip tooltip-success" data-tip="VS Code">
 
-                        <SiVisualstudiocode className='text-4xl hover:text-error ease-out duration-300'></SiVisualstudiocode>
+                        <SiVisualstudiocode className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiVisualstudiocode>
                     </div>
                     <div className="tooltip tooltip-success" data-tip="GitHub">
 
-                        <AiFillGithub className='text-4xl hover:text-error ease-out duration-300'></AiFillGithub>
+                        <AiFillGithub className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></AiFillGithub>
                     </div>
                     <div className="tooltip tooltip-success" data-tip="Heroku">
 
-                        <SiHeroku className='text-4xl hover:text-error ease-out duration-300'></SiHeroku>
+                        <SiHeroku className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiHeroku>
                     </div>
                     <div className="tooltip tooltip-success" data-tip="Netlify">
 
-                        <SiNetlify className='text-4xl hover:text-error ease-out duration-300'></SiNetlify>
+                        <SiNetlify className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiNetlify>
                     </div>
                     <div className="tooltip tooltip-success" data-tip="Figma">
 
-                        <FaFigma className='text-4xl hover:text-error ease-out duration-300'></FaFigma>
+                        <FaFigma className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></FaFigma>
                     </div>
                     <div className="tooltip tooltip-success" data-tip="Adobe XD">
 
-                        <SiAdobexd className='text-4xl hover:text-error ease-out duration-300'></SiAdobexd>
+                        <SiAdobexd className='text-2xl md:text-4xl hover:text-error m-1 ease-out duration-300'></SiAdobexd>
                     </div>
                 </div>
             </div>
