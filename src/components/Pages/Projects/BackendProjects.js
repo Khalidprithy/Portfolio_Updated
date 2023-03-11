@@ -45,7 +45,7 @@ const BackendProjects = () => {
                     <h3 className='text-left text-green-400 mt-4'> <span className='font-semibold text-white'>Technologies used:</span> Node.js, Express.js, Mongoose, JSON Web Token (jsonwebtoken), dotenv, cookie-parser, bcrypt </h3>
                 </div>
                 <div className='absolute top-2 right-2'>
-                    <a href='https://github.com/Khalidprithy/BackendDeveloper' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 w-32 mx-auto bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Github</a>
+                    <a href='https://github.com/Khalidprithy/Node-MongoDB-Authentication' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 w-32 mx-auto bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Github</a>
                 </div>
             </div>
 
