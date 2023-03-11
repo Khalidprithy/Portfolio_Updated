@@ -3,7 +3,7 @@ import { AiFillGithub } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
 import TeaTree from '../../../images/project/TeaTreeMain.png'
 import BloomingBeauty from '../../../images/project/BloomingBeautyMain.png'
-import HotelView from '../../../images/project/HotelBookingMain.png'
+import QuickNote from '../../../images/project/QuickNote.png'
 import Todo from '../../../images/project/Todo.png'
 import PerfectScrollbar from 'react-perfect-scrollbar'
 import 'react-perfect-scrollbar/dist/css/styles.css';
@@ -64,23 +64,24 @@ const FullStackProjects = () => {
                 <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-1">
                     <div className="max-w-md text-white">
                         <p className='text-xl font-semibold'>MERN Stack</p>
-                        <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-sky-400">HotelView</h4>
-                        <p className="py-6 px-2">Hotel Booking website. User can visit hotels on different location. Hotel, resort, apartment, cabin data is loaded dynamically. User can see details about a hotel and available rooms. They can book certain rooms and once a room is booked other user no longer will be able to book same room on same date.</p>
+                        <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-sky-700">QuickNote</h4>
+                        <p className="py-6 px-2">QuickNote is a simple and intuitive note-taking application that enables users to create, edit, and manage notes with ease. This application is perfect for individuals who want to keep track of their ideas, to-do lists, and important information.</p>
                         <ul className='text-left list-disc list-inside'>
-                            <li>Website to search and book hotel.</li>
-                            <li>I used JWT for user safety and login system</li>
-                            <li>Booking system has used</li>
+                            <li>QuickNote enables users to add notes with just a few clicks. Users can create notes on-the-go, save them in the application, and access them whenever they want.</li>
+                            <li>Users can easily delete notes that are no longer needed. QuickNote offers a delete confirmation modal to ensure that users do not accidentally delete important notes.</li>
+                            <li>QuickNote enables users to make changes to their notes whenever they want. Users can edit the content of their notes or change the title of the note.</li>
+                            <li>Users can pin their most important notes to the top of the list for quick access. Unpinned notes will be listed below the pinned notes.</li>
                         </ul>
                         <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
-                            <a href='https://hotel-booking-3b5e8.web.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-white hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite className='block md:hidden lg:block'></CgWebsite> Live Site</a>
-                            <a href='https://github.com/Khalidprithy/hotel-booking-frontend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
-                            <a href='https://github.com/Khalidprithy/hotel-booking-backend' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
+                            <a href='https://quickn.netlify.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-white hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite className='block md:hidden lg:block'></CgWebsite> Live Site</a>
+                            <a href='https://github.com/Khalidprithy/NoteKeeper' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Client</a>
+                            <a href='https://github.com/Khalidprithy/Todo_Curd_Server' className="flex items-center border justify-center gap-2 rounded-md font-bold h-8 bg-slate-200 text-black hover:bg-opacity-50" target="_blank" rel="noreferrer"> <AiFillGithub></AiFillGithub>Server</a>
                         </div>
                     </div>
                 </div>
                 <div className='h-[450px] md:h-[500px] lg:h-[600px] overflow-auto overflow-x-hidden shadow-2xl rounded-md mx-auto order-1 md:order-2'>
                     <PerfectScrollbar>
-                        <img src={HotelView} alt="" className="p-1 rounded-lg" />
+                        <img src={QuickNote} alt="" className="p-1 rounded-lg" />
                     </PerfectScrollbar>
                 </div>
             </div>
