@@ -34,7 +34,7 @@ const ProjectsTab = () => {
                                 className={
                                     "text-base md:text-xl font-bold capitalize px-1 md:px-5 py-2 md:py-5 mb-4 shadow rounded-md block leading-normal " +
                                     (openTab === 1
-                                        ? "text-white bg-neutral "
+                                        ? "text-white bg-neutral border-2 border-green-600 shadow-md shadow-green-400 "
                                         : "text-gray-800 bg-white border-2 border-gray-900")
                                 }
                                 onClick={e => {
@@ -53,7 +53,7 @@ const ProjectsTab = () => {
                                 className={
                                     "text-base md:text-xl font-bold capitalize px-1 md:px-5 py-2 md:py-5 mb-4 shadow rounded-md block leading-normal " +
                                     (openTab === 2
-                                        ? "text-white bg-neutral "
+                                        ? "text-white bg-neutral border-2 border-green-600 shadow-md shadow-green-400 "
                                         : "text-gray-800 bg-white border-2 border-gray-900")
                                 }
                                 onClick={e => {
@@ -72,7 +72,7 @@ const ProjectsTab = () => {
                                 className={
                                     "text-base md:text-xl font-bold capitalize px-1 md:px-5 py-2 md:py-5 mb-4 shadow rounded-md block leading-normal " +
                                     (openTab === 3
-                                        ? "text-white bg-neutral "
+                                        ? "text-white bg-neutral border-2 border-green-600 shadow-md shadow-green-400 "
                                         : "text-gray-800 bg-white border-2 border-gray-900")
                                 }
                                 onClick={e => {
