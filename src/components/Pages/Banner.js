@@ -1,7 +1,7 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
-import { useNavigate } from 'react-router-dom'
-import profileImg from '../../images/profile.jpg'
+import profileImg from '../../images/profile.jpg';
 
 const Banner = () => {
     const navigate = useNavigate()
@@ -9,7 +9,6 @@ const Banner = () => {
     const handleLearnMore = () => {
         navigate('/about')
     }
-
 
     return (
         <div className='m-2 my-5'>

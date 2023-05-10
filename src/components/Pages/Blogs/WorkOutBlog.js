@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../../../images/profile.jpg'
+import profileImg from '../../../images/profile.jpg';
 
 const WorkOutBlog = () => {
     return (
@@ -12,7 +12,7 @@ const WorkOutBlog = () => {
                                 <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
                                     <img class="mr-4 w-16 h-16 rounded-full" src={profileImg} alt="Khalid" />
                                     <div>
-                                        <a href="#" rel="author" class="text-xl font-bold text-gray-900 dark:text-white">Khalid Bin Alam</a>
+                                        <a href="/" rel="author" class="text-xl font-bold text-gray-900 dark:text-white">Khalid Bin Alam</a>
                                         <p class="text-base font-light text-gray-500 dark:text-gray-300">MERN Stack Developer</p>
                                         <p class="text-base font-light text-gray-500 dark:text-gray-300"><time pubdate datetime="2022-02-08" title="February 8th, 2022">Jan. 22, 2022</time></p>
                                     </div>

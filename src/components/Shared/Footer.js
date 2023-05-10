@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
     return (

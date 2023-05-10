@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Blog = () => {
 
-    const [openDailyBlog, setOpenDailyBlog] = useState(false);
+    // const [openDailyBlog, setOpenDailyBlog] = useState(false);
     const [openBlog0, setOpenBlog0] = useState(false);
     const [openBlog1, setOpenBlog1] = useState(false);
     const [openBlog2, setOpenBlog2] = useState(false);

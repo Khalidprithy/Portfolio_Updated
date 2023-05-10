@@ -1,13 +1,13 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
-import TeaTree from '../../images/project/TeaTreeMain.png'
-import BloomingBeauty from '../../images/project/BloomingBeautyMain.png'
-import HotelView from '../../images/project/HotelBookingMain.png'
-import HomeStudio from '../../images/project/TheHomeStudio.png'
-import Todo from '../../images/project/Todo.png'
-import PerfectScrollbar from 'react-perfect-scrollbar'
+import PerfectScrollbar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
+import BloomingBeauty from '../../images/project/BloomingBeautyMain.png';
+import HotelView from '../../images/project/HotelBookingMain.png';
+import TeaTree from '../../images/project/TeaTreeMain.png';
+import HomeStudio from '../../images/project/TheHomeStudio.png';
+import Todo from '../../images/project/Todo.png';
 
 const Projects = () => {
 

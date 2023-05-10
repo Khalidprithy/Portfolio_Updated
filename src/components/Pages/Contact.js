@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
 import toast from 'react-hot-toast';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
 
-import { HiOutlineMail, HiLocationMarker, HiPhone } from 'react-icons/hi';
+import { HiLocationMarker, HiOutlineMail, HiPhone } from 'react-icons/hi';
 
 const Contact = () => {
 

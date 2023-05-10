@@ -1,8 +1,7 @@
-import React from 'react';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
+import React, { useState } from 'react';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { BsGear } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 

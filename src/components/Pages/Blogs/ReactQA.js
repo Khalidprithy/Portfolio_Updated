@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import ShowReactQa from './ShowReactQa';
 
 const ReactQA = () => {
-
 
     return (
         <div className='m-2'>

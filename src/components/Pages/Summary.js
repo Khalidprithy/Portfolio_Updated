@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { AiFillHtml5, AiFillApi, AiFillGithub } from 'react-icons/ai';
+import { AiFillApi, AiFillGithub, AiFillHtml5 } from 'react-icons/ai';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
-import { FaNpm, FaFigma } from 'react-icons/fa';
-import { DiBootstrap, DiReact, DiNodejs, DiMongodb } from 'react-icons/di';
-import { SiTailwindcss, SiVisualstudiocode, SiTensorflow, SiHeroku, SiNetlify, SiPostman, SiExpress, SiFirebase, SiGraphql, SiPostgresql, SiInsomnia, SiAdobexd } from 'react-icons/si';
+import { DiBootstrap, DiMongodb, DiNodejs, DiReact } from 'react-icons/di';
+import { FaFigma, FaNpm } from 'react-icons/fa';
 import { IoLogoCss3, IoLogoJavascript } from 'react-icons/io';
+import { SiAdobexd, SiExpress, SiFirebase, SiGraphql, SiHeroku, SiInsomnia, SiNetlify, SiPostgresql, SiPostman, SiTailwindcss, SiTensorflow, SiVisualstudiocode } from 'react-icons/si';
 
 
 const Summary = () => {

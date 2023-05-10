@@ -1,6 +1,8 @@
+import PerfectScrollbar from 'react-perfect-scrollbar';
+import 'react-perfect-scrollbar/dist/css/styles.css';
 import { Route, Routes } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
-import './App.css';
+import { ReactComponent as MySVG } from "./arrow.svg";
 import Navbar from './components/Header/Navbar';
 import About from './components/Pages/About';
 import AllProjects from './components/Pages/AllProjects';
@@ -16,10 +18,6 @@ import WakeUpBlog from './components/Pages/Blogs/WakeUpBlog';
 import WorkOutBlog from './components/Pages/Blogs/WorkOutBlog';
 import Home from './components/Pages/Home';
 import Footer from './components/Shared/Footer';
-import { ReactComponent as MySVG } from "./arrow.svg";
-import PerfectScrollbar from 'react-perfect-scrollbar'
-import 'react-perfect-scrollbar/dist/css/styles.css';
-
 
 
 function App() {
@@ -42,7 +40,6 @@ function App() {
           <Route path='/work_out' element={<WorkOutBlog />}></Route>
           <Route path='/daily_blog' element={<DailyBlogMERN />}></Route>
         </Routes>
-
         <ScrollToTop smooth component={<MySVG className='animate-pulse p-1 bg-success dark:bg-red-500 rounded-md' />} />
         <Footer></Footer>
       </PerfectScrollbar>

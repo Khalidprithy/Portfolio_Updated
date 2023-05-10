@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
-import SimmiIcon from '../../images/SimmiLogo.png'
-import StarticIcon from '../../images/starticLogo.jpg'
+import React from 'react';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
+import SimmiIcon from '../../images/SimmiLogo.png';
+import RootDev from '../../images/rootdev.jpg';
+import StarticIcon from '../../images/starticLogo.jpg';
 
 const Experience = () => {
 
@@ -13,6 +14,32 @@ const Experience = () => {
                 <div className='flex items-center'>
                     <p className='text-2xl font-semibold m-2'>Here</p>
                     <BsFillArrowDownCircleFill className='text-5xl m-2 text-accent ease-out duration-300 motion-safe:animate-bounce'></BsFillArrowDownCircleFill>
+                </div>
+            </div>
+
+            <div
+                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-auto rounded-xl transition-all ease-in-out duration-500 mb-4 py-2 px-2 md:px-4'>
+                <div className='w-full flex items-center justify-between'>
+                    <div className='flex items-center justify-center px-2 md:px-6'>
+                        <img className='w-16 hidden rounded-full ring-2 ring-red-600 m-2 md:block' src={RootDev} alt="" />
+                        <div className='text-left '>
+                            <h4 className='text-lg md:text-2xl lg:text-3xl ease-in-out duration-1000 uppercase'><span className='text-red-500'>Root</span>Devs.</h4>
+                            <h4 className='text-sm md:text-base font-medium text-gray-200'>Junior Software Engineer</h4>
+                        </div>
+                    </div>
+                    <div className='text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500'>
+                        <p className='text-sm md:text-base'>June 2023 - Current </p>
+                        <p className='text-sm md:text-base'>Dhaka, Bangladesh</p>
+                    </div>
+                </div>
+                <div className={`text-left p-2 `}>
+                    <p className='text-sm lg:text-base'>I am a Junior Software Engineer currently employed at RootDevs, where I work as a full-stack developer as part of the Web Application Development team. Together, we utilize NextJS and NodeJS to create software solutions that provide users with a seamless and enjoyable experience.</p>
+                    <h4 className='text-base text-green-400 font-semibold'>Key Responsibilities</h4>
+                    <ul className='text-sm list-disc ml-6'>
+                        <li> Develop and maintain the NodeJS server and backend of the Web Application team's software solutions</li>
+                        <li> Collaborate with the full-stack developer to contribute to the application's frontend development </li>
+                        <li> Write reusable, flexible, and high-quality code to ensure the reliability and longevity of our products.</li>
+                    </ul>
                 </div>
             </div>
 

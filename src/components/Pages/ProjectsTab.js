@@ -1,9 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
-import FullStackProjects from './Projects/FullStackProjects';
-import FrontendProjects from './Projects/FrontendProjects';
+import { useNavigate } from 'react-router-dom';
 import BackendProjects from './Projects/BackendProjects';
+import FrontendProjects from './Projects/FrontendProjects';
+import FullStackProjects from './Projects/FullStackProjects';
 
 const ProjectsTab = () => {
     const [openTab, setOpenTab] = React.useState(1);
