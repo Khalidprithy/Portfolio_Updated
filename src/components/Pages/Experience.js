@@ -5,8 +5,6 @@ import RootDev from '../../images/rootdev.jpg';
 import StarticIcon from '../../images/starticLogo.jpg';
 
 const Experience = () => {
-
-
     return (
         <div>
             <div className='flex items-center justify-between bg-white text-black border-2 shadow-lg w-full md:w-8/12 mx-auto h-24 rounded-xl mb-6'>
@@ -17,8 +15,8 @@ const Experience = () => {
                 </div>
             </div>
 
-            <div
-                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-auto rounded-xl transition-all ease-in-out duration-500 mb-4 py-2 px-2 md:px-4'>
+            {/* Experience 1 */}
+            <div className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-auto rounded-xl transition-all ease-in-out duration-500 mb-4 py-2 px-2 md:px-4'>
                 <div className='w-full flex items-center justify-between'>
                     <div className='flex items-center justify-center px-2 md:px-6'>
                         <img className='w-16 hidden rounded-full ring-2 ring-red-600 m-2 md:block' src={RootDev} alt="" />
@@ -33,18 +31,18 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className={`text-left p-2 `}>
-                    <p className='text-sm lg:text-base'>I am an Software Engineer currently employed at RootDev, where I work as a full-stack developer as part of the Web Application Development team. Together, we utilize NextJS and NodeJS to create software solutions that provide users with a seamless and enjoyable experience.</p>
+                    <p className='text-sm lg:text-base'>I am a Software Engineer currently employed at RootDevs, where I work as a full-stack developer as part of the Web Application Development team. Together, we utilize NextJS and NodeJS to create software solutions that provide users with a seamless and enjoyable experience.</p>
                     <h4 className='text-base text-green-400 font-semibold'>Key Responsibilities</h4>
                     <ul className='text-sm list-disc ml-6'>
-                        <li> Develop and maintain the NodeJS server and backend of the Web Application team's software solutions</li>
-                        <li> Collaborate with the full-stack developer to contribute to the application's frontend development </li>
-                        <li> Write reusable, flexible, and high-quality code to ensure the reliability and longevity of our products.</li>
+                        <li>Develop and maintain the NodeJS server and backend of the Web Application team's software solutions</li>
+                        <li>Collaborate with the full-stack developer to contribute to the application's frontend development</li>
+                        <li>Write reusable, flexible, and high-quality code to ensure the reliability and longevity of our products.</li>
                     </ul>
                 </div>
             </div>
 
-            <div
-                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-auto rounded-xl transition-all ease-in-out duration-500 mb-4 py-2 px-2 md:px-4'>
+            {/* Experience 2 */}
+            <div className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-auto rounded-xl transition-all ease-in-out duration-500 mb-4 py-2 px-2 md:px-4'>
                 <div className='w-full flex items-center justify-between'>
                     <div className='flex items-center justify-center px-2 md:px-6'>
                         <img className='w-16 hidden rounded-full ring-2 ring-orange-400 m-2 md:block' src={SimmiIcon} alt="" />
@@ -59,18 +57,18 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className={`text-left p-2 `}>
-                    <p className='text-sm lg:text-base'>I worked as a Frontend Lead Engineer with a team of 8 developers. I am responsible for the design and development of web applications using React.js. I work closely with project managers to define project scope and timelines and ensure that we deliver high-quality and well-designed products on schedule as a team.</p>
+                    <p className='text-sm lg:text-base'>I worked as a Frontend Lead Engineer with a team of 8 developers. I was responsible for the design and development of web applications using React.js. I worked closely with project managers to define project scope and timelines and ensured that we delivered high-quality and well-designed products on schedule as a team.</p>
                     <h4 className='text-base text-green-400 font-semibold'>Key Responsibilities</h4>
                     <ul className='text-sm list-disc ml-6'>
-                        <li> Designed and developed the website layout and structure for both the client and admin sites. </li>
-                        <li> Authentication authorization system for client and admin panel. </li>
-                        <li> Maintain React best practices and assisted in code reviews to write clean and flexible code.</li>
+                        <li>Designed and developed the website layout and structure for both the client and admin sites.</li>
+                        <li>Implemented authentication and authorization systems for client and admin panels.</li>
+                        <li>Maintained React best practices and participated in code reviews to ensure clean and flexible code.</li>
                     </ul>
                 </div>
             </div>
 
-            <div
-                className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-auto rounded-xl transition-all ease-in-out duration-500 mb-4 py-2 px-2 md:px-4'>
+            {/* Experience 3 */}
+            <div className='flex flex-col items-center justify-between bg-neutral text-white w-full md:w-8/12 mx-auto h-auto rounded-xl transition-all ease-in-out duration-500 mb-4 py-2 px-2 md:px-4'>
                 <div className='w-full flex items-center justify-between'>
                     <div className='flex items-center justify-center px-2 md:px-6'>
                         <img className='w-16 hidden rounded-full ring-2 ring-sky-600 m-2 md:block' src={StarticIcon} alt="" />
@@ -89,14 +87,11 @@ const Experience = () => {
                     <p className='text-sm lg:text-base'>As a front-end developer, my primary responsibility was to design and develop web pages that were not only aesthetically pleasing but also highly functional and user-friendly for a software-as-a-service (SAAS) product. This involved understanding the product's requirements, target audience, and business objectives to create a web experience that met those needs.</p>
                     <h4 className='text-base text-green-400 font-semibold'>Key Responsibilities</h4>
                     <ul className='text-sm list-disc ml-6'>
-                        <li> Design and develop an interactive dashboard with charts and dynamic data. </li>
-                        <li>Develop different cards for product, team, marketing, and other pages. </li>
-                        <li>Maintain the whole design aesthetic and responsiveness for different devices.</li>
+                        <li>Designed and developed an interactive dashboard with charts and dynamic data.</li>
+                        <li>Developed different cards for product, team, marketing, and other pages.</li>
+                        <li>Maintained the design aesthetic and ensured responsiveness for different devices.</li>
                     </ul>
                 </div>
-
-
-
             </div>
         </div>
     );
