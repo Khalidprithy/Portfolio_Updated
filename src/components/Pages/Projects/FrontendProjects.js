@@ -1,10 +1,10 @@
 import React from 'react';
-import PerfectScrollbar from 'react-perfect-scrollbar'
-import 'react-perfect-scrollbar/dist/css/styles.css';
-import HomeStudio from '../../../images/project/TheHomeStudio.png'
-import Saitama from '../../../images/project/Saitama.png'
 import { AiFillGithub } from 'react-icons/ai';
 import { CgWebsite } from 'react-icons/cg';
+import PerfectScrollbar from 'react-perfect-scrollbar';
+import 'react-perfect-scrollbar/dist/css/styles.css';
+import Saitama from '../../../images/project/Saitama.png';
+import HomeStudio from '../../../images/project/TheHomeStudio.png';
 
 const FrontendProjects = () => {
     return (
@@ -15,7 +15,7 @@ const FrontendProjects = () => {
                         <p className='text-xl font-semibold'>Frontend</p>
                         <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-gray-400">A Home Studio</h4>
                         <p className="py-6 px-2">This is a single page website for a Design studio. I wanted to create a HTML and Tailwind CSS webpage with minimal yet modern looking with no animation. </p>
-                        <ul className='text-left list-disc list-inside'>
+                        <ul className='text-left list-disc list-inside ml-3 text-gray-400'>
                             <li>Website for a design studio</li>
                             <li>Only HTML Tailwind CSS</li>
                             <li>Responsive and Dark mode</li>
@@ -43,7 +43,7 @@ const FrontendProjects = () => {
                         <p className='text-xl font-semibold'>Frontend</p>
                         <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-yellow-400">Backend Portfolio</h4>
                         <p className="py-6 px-2">This is a single page portfolio for a Backend Developer. The goal was to create a simple portfolio to highlight his skills experience and projects where anyone can view everything at one glance. </p>
-                        <ul className='text-left list-disc list-inside'>
+                        <ul className='text-left list-disc list-inside ml-3 text-gray-400'>
                             <li>Portfolio for a backend developer.</li>
                             <li>A slider to showcase all the skills</li>
                             <li>Popup modal for contact info</li>

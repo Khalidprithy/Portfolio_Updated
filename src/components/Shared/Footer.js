@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 const Footer = () => {
     return (
         <div className='mx-1 md:mx-4 pb-1'>
-            <footer className="flex items-center justify-between bg-neutral m-3 mx-auto h-24 w-12/12 md:w-2/3 lg:1/2 hover:w-full ease-in-out duration-500 rounded-xl text-white px-0 md:px-20">
+            <footer className="flex items-center justify-between bg-neutral m-3 mx-auto h-24 w-12/12 md:w-2/3 hover:w-full ease-in-out duration-500 rounded-xl text-white px-0 md:px-20 shadow-lg shadow-red-500">
 
                 <div className="items-center grid-flow-col mx-2">
                     <p className='text-white text-xl mx:text-2xl'>Copyright © Dev.Kbin</p>

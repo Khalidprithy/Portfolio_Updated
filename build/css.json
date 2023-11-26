@@ -1,310 +1,310 @@
 [
-    {
-        "_id": "6340056269ba2f21b6fdde9c",
-        "index": 0,
-        "image": "http://placehold.it/32x32",
-        "question": "What is the Box model in CSS? Which CSS properties are a part of it?",
-        "answer": "A rectangle box is wrapped around every HTML element. The box model is used to determine the height and width of the rectangular box. The CSS Box consists of Width and height (or in the absence of that, default values and the content inside), padding, borders, margin.\r\n",
-        "points": [
-            "Content:  Actual Content of the box where the text or image is placed.",
-            "Padding: Area surrounding the content (Space between the border and content).",
-            "Border: Area surrounding the padding",
-            "Margin: Area surrounding the border"
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562814c9f15cb5d1fa1",
-        "index": 1,
-        "image": "http://placehold.it/32x32",
-        "question": "What are the advantages of using CSS?",
-        "answer": "The main advantages of CSS are given below:\r\n",
-        "points": [
-            "Separation of content from presentation - CSS provides a way to present the same content in multiple presentation formats in mobile or desktop or laptop.",
-            "Easy to maintain - CSS, built effectively can be used to change the look and feel complete by making small changes. To make a global change, simply change the style, and all elements in all the web pages will be updated automatically",
-            "Bandwidth - Used effectively, the style sheets will be stored in the browser cache and they can be used on multiple pages, without having to download again."
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "634005629becb9455f67e85e",
-        "index": 2,
-        "image": "http://placehold.it/32x32",
-        "question": "What are the limitations of CSS?",
-        "answer": "Disadvantages of CSS are given below:\r\n",
-        "points": [
-            "Browser Compatibility: Some style selectors are supported and some are not. We have to determine which style is supported or not using the @support selector)",
-            "Cross Browser issue: Some selectors behave differently in a different browser).",
-            "There is no parent selector: Currently, Using CSS, you can’t select a parent tag."
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "634005625cd55399f928bff0",
-        "index": 3,
-        "image": "http://placehold.it/32x32",
-        "question": "What are the different types of Selectors in CSS?",
-        "answer": "A CSS selector is the part of a CSS ruleset that actually selects the content you want to style. Different types of selectors are listed below.\r\n",
-        "points": [
-            "Universal Selector: The universal selector works like a wildcard character, selecting all elements on a page. In the given example, the provided styles will get applied to all the elements on the page",
-            "Element Type Selector: This selector matches one or more HTML elements of the same name. In the given example, the provided styles will get applied to all the ul elements on the page.",
-            "ID Selector: This selector matches any HTML element that has an ID attribute with the same value as that of the selector. In the given example, the provided styles will get applied to all the elements having ID as a container on the page",
-            "Class Selector: The class selector also matches all elements on the page that have their class attribute set to the same value as the class.  In the given example, the provided styles will get applied to all the elements having ID as the box on the page.",
-            "Descendant Combinator: The descendant selector or, more accurately, the descendant combinator lets you combine two or more selectors so you can be more specific in your selection method.",
-            "Child Combinator: A selector that uses the child combinator is similar to a selector that uses a descendant combinator, except it only targets immediate child elements.",
-            "General Sibling Combinator: A selector that uses a general sibling combinator to match elements based on sibling relationships. The selected elements are beside each other in the HTML.",
-            "Attribute Selector: The attribute selector targets elements based on the presence and/or value of HTML attributes, and is declared using square brackets."
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "634005629f6fa899f46733e9",
-        "index": 4,
-        "image": "http://placehold.it/32x32",
-        "question": "What is a CSS Preprocessor?",
-        "answer": "A CSS Preprocessor is a tool used to extend the basic functionality of default vanilla CSS through its own scripting language. It helps us to use complex logical syntax like – variables, functions, mixins, code nesting, and inheritance to name a few, supercharging your vanilla CSS.\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562c4799b9ae32c97fa",
-        "index": 5,
-        "image": "http://placehold.it/32x32",
-        "question": "What are Sass, Less, and Stylus?",
-        "answer": "",
-        "points": [
-            "SASS: Sass is the acronym for “Syntactically Awesome Style Sheets”. SASS can be written in two different syntaxes using SASS or SCSS",
-            "LESS: LESS is an acronym for “Leaner Stylesheets”. LESS is easy to add to any javascript projects by using NPM or less.js file. It uses the extension .less.",
-            "Stylus: Stylus offers a great deal of flexibility in writing syntax, supports native CSS as well as allows omission of brackets, colons, and semicolons. It doesn’t use @ or $ for defining variables."
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562ca879d31dc26e987",
-        "index": 6,
-        "image": "http://placehold.it/32x32",
-        "question": "What is VH/VW (viewport height/ viewport width) in CSS?",
-        "answer": "It’s a CSS unit used to measure the height and width in percentage with respect to the viewport. It is used mainly in responsive design techniques. The measure VH is equal to 1/100 of the height of the viewport. If the height of the browser is 1000px, 1vh is equal to 10px. Similarly, if the width is 1000px, then 1 vw is equal to 10px\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562e63abdf3d69b4279",
-        "index": 7,
-        "image": "http://placehold.it/32x32",
-        "question": " What is the difference between inline, inline-block, and block?",
-        "answer": "",
-        "points": [
-            "Block Element: The block elements always start on a new line. They will also take space for an entire row or width. List of block elements are <div>, <p>.",
-            "Inline Elements: Inline elements don't start on a new line, they appear on the same line as the content and tags beside them. Some examples of inline elements are <a>, <span> , <strong>, and <img> tags. ",
-            "Inline Block Elements: Inline-block elements are similar to inline elements, except they can have padding and margins and set height and width values"
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "6340056267e6980a2466a80e",
-        "index": 8,
-        "image": "http://placehold.it/32x32",
-        "question": "Is it important to test the webpage in different browsers?",
-        "answer": "It’s most important to test a website in different browsers when you’re first designing it, or when making major changes. However, it’s also important to repeat these tests periodically, since browsers go through a lot of updates and changes.\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562123c328ac3ceb32d",
-        "index": 9,
-        "image": "http://placehold.it/32x32",
-        "question": "What are Pseudo elements and Pseudo classes?",
-        "answer": "Pseudo-elements allows us to create items that do not normally exist in the document tree, for example ::after.\r\n Pseudo-classes select regular elements but under certain conditions like when the user is hovering over the link.",
-        "points": [
-            "::before",
-            "::after",
-            "::first-letter",
-            "::first-line",
-            "::selection"
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "6340056268a8af959e0adf52",
-        "index": 10,
-        "image": "http://placehold.it/32x32",
-        "question": "How do you specify units in the CSS?. What are the different ways to do it?",
-        "answer": "There are different ways to specify units in CSS like px, em, pt, percentage (%). px(Pixel) gives fine-grained control and maintains alignment because 1 px or multiple of 1 px is guaranteed to look sharp. px is not cascade. em maintains relative size. you can have responsive fonts. Em, will cascade 1em is equal to the current font-size of the element or the browser default. If u sent font-size to 16px then 1em = 16px. The common practice is to set default body font-size to 62.5% (equal to 10px).\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562bd7883da453fa8db",
-        "index": 11,
-        "image": "http://placehold.it/32x32",
-        "question": "Does margin-top or margin-bottom have an effect on inline elements",
-        "answer": "No, it doesn’t affect the inline elements. Inline elements flow with the contents of the page\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "6340056286c8e382a08ec86b",
-        "index": 12,
-        "image": "http://placehold.it/32x32",
-        "question": "Can you name the four types of @media properties?",
-        "answer": "The four types of @media properties are:\r\n",
-        "points": [
-            "All → It’s the default property. Used for all media-type devices",
-            "Screen → Used for computer screen, mobile screen.",
-            "Print → Used for printers.",
-            "Speech → Used for screen readers"
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562c00d9db662ae809b",
-        "index": 13,
-        "image": "http://placehold.it/32x32",
-        "question": "What is the grid system?",
-        "answer": "CSS Grid Layout is the most powerful layout system available in CSS. It is said to be a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "6340056229fa9940ad654652",
-        "index": 14,
-        "image": "http://placehold.it/32x32",
-        "question": "What are the different ways to hide the element using CSS?",
-        "answer": "\r\n",
-        "points": [
-            "Using display property(display: none). It’s not available for screen readers. The element will not exist in the DOM if display: none is used.",
-            "Using visibility property(visibility: hidden), will take up the space of the element. It will be available to screen reader users. The element will actually be present in the DOM, but not shown on the screen",
-            "Using position property (position: absolute). Make it available outside the screen"
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "634005626e2a4ab6c59c10df",
-        "index": 15,
-        "image": "http://placehold.it/32x32",
-        "question": "What does the :root pseudo-class refer to?",
-        "answer": "The :root selector allows you to target the highest-level “parent” element in the DOM, or document tree. It is defined in the CSS Selectors Level 3 specification\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562f28a426453053032",
-        "index": 16,
-        "image": "http://placehold.it/32x32",
-        "question": "What does Accessibility (a11y) mean?",
-        "answer": "Accessibility refers to how software or hardware combinations are designed to make a system accessible to persons with disabilities, such as visual impairment, hearing loss, or limited dexterity.\r\n",
-        "points": [
-            "For example, a website developed with accessibility in mind might have text-to-speech capabilities. In the USA public websites have to have accessible compliance. It’s defined in 508 compliance. It gives the guidelines and best practices for all website users that should be met with key areas of accessibility"
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "634005627c7d12bd94ebcd56",
-        "index": 17,
-        "image": "http://placehold.it/32x32",
-        "question": "Difference between CSS grid vs flexbox?",
-        "answer": "Aliqua commodo excepteur exercitation minim occaecat ea. Incididunt adipisicing tempor velit dolore nulla qui enim nostrud ad laboris sit. Pariatur nulla incididunt nulla amet ipsum labore. Ullamco mollit quis enim eiusmod elit dolore sint occaecat anim incididunt anim.\r\n",
-        "points": [
-            "CSS Grid Layout is a two-dimensional system, meaning it can handle both columns and rows. Grid layout is intended for larger-scale layouts which aren’t linear in design.",
-            "Flexbox is largely a one-dimensional system (either in a column or a row). Flexbox layout is most appropriate to the components of an application"
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "634005628b60c55324eead8a",
-        "index": 18,
-        "image": "http://placehold.it/32x32",
-        "question": "How does Calc work?",
-        "answer": "The CSS3 calc() function allows us to perform mathematical operations on property values. Instead of declaring, for example, static pixel values for an element's width, we can use calc() to specify that the width is the result of the addition of two or more numeric values.\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562a5e6938ff997f571",
-        "index": 19,
-        "image": "http://placehold.it/32x32",
-        "question": "What do CSS Custom properties variables mean?",
-        "answer": "Custom properties (sometimes referred to as CSS variables or cascading variables) are defined by users that contain specific values to be reused throughout a document. The value is set using -- notion. And the values are accessed using the var() function.\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562ea343d5d0648ba65",
-        "index": 20,
-        "image": "http://placehold.it/32x32",
-        "question": "What is the difference between CSS variables and preprocessor(SASS, LESS, Stylus) variables?",
-        "answer": "\r\n",
-        "points": [
-            "CSS variables can be used without the need for a preprocessor. Currently, all the major browsers support the CSS variables. ",
-            "CSS variable cascade. But the preprocessor variables don’t cascade.",
-            "CSS variable can be accessed and manipulated in javascript."
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "6340056295625eaa96c85b69",
-        "index": 21,
-        "image": "http://placehold.it/32x32",
-        "question": "What does * { box-sizing: border-box; } do? What are its advantages?",
-        "answer": "Exercitation nisi esse consectetur id adipisicing cupidatat do ex ut. Magna exercitation cupidatat sit aute non ut adipisicing culpa veniam aliqua. Esse velit nisi aliquip nulla sit duis ullamco aliqua adipisicing dolore nisi amet quis eiusmod. Nisi anim qui veniam ad aliqua ea amet.\r\n",
-        "points": [
-            "It makes every element in the document include the padding and border in the element’s inner dimension for the height and width computation.  ",
-            "In box-sizing: border-box, The height of an element is now calculated by the content's height + vertical padding + vertical border width.",
-            "The width of an element is now calculated by the content's width + horizontal padding + horizontal border width"
-        ],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "634005625a374052d9b094bc",
-        "index": 22,
-        "image": "http://placehold.it/32x32",
-        "question": "What does !important mean in CSS?",
-        "answer": "The style is having the important will have the highest precedence and it overrides the cascaded property.\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "63400562fc37f6e6ebd55351",
-        "index": 23,
-        "image": "http://placehold.it/32x32",
-        "question": "What is specificity? How to calculate specificity?",
-        "answer": "A process of determining which CSS rule will be applied to an element. It actually determines which rules will take precedence. Inline style usually wins then ID then the class value (or pseudo-class or attribute selector), the universal selector (*) has no specificity. ID selectors have a higher specificity than attribute selectors.\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    },
-    {
-        "_id": "634005627dc5387e3ad472d5",
-        "index": 24,
-        "image": "http://placehold.it/32x32",
-        "question": "What are the advantages of using translate() instead of absolute position?",
-        "answer": "Translate() does not cause the browser to trigger repaint and layout and instead only acts on the compositor. The absolute position triggers the repaint or DOM reflow. So, translate() gives better performance\r\n",
-        "points": [],
-        "images": [],
-        "bulletPoint": []
-    }
+   {
+      "_id": "6340056269ba2f21b6fdde9c",
+      "index": 0,
+      "image": "http://placehold.it/32x32",
+      "question": "What is the Box model in CSS? Which CSS properties are a part of it?",
+      "answer": "A rectangle box is wrapped around every HTML element. The box model is used to determine the height and width of the rectangular box. The CSS Box consists of Width and height (or in the absence of that, default values and the content inside), padding, borders, margin.\r\n",
+      "points": [
+         "Content:  Actual Content of the box where the text or image is placed.",
+         "Padding: Area surrounding the content (Space between the border and content).",
+         "Border: Area surrounding the padding",
+         "Margin: Area surrounding the border"
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562814c9f15cb5d1fa1",
+      "index": 1,
+      "image": "http://placehold.it/32x32",
+      "question": "What are the advantages of using CSS?",
+      "answer": "The main advantages of CSS are given below:\r\n",
+      "points": [
+         "Separation of content from presentation - CSS provides a way to present the same content in multiple presentation formats in mobile or desktop or laptop.",
+         "Easy to maintain - CSS, built effectively can be used to change the look and feel complete by making small changes. To make a global change, simply change the style, and all elements in all the web pages will be updated automatically",
+         "Bandwidth - Used effectively, the style sheets will be stored in the browser cache and they can be used on multiple pages, without having to download again."
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "634005629becb9455f67e85e",
+      "index": 2,
+      "image": "http://placehold.it/32x32",
+      "question": "What are the limitations of CSS?",
+      "answer": "Disadvantages of CSS are given below:\r\n",
+      "points": [
+         "Browser Compatibility: Some style selectors are supported and some are not. We have to determine which style is supported or not using the @support selector)",
+         "Cross Browser issue: Some selectors behave differently in a different browser).",
+         "There is no parent selector: Currently, Using CSS, you can’t select a parent tag."
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "634005625cd55399f928bff0",
+      "index": 3,
+      "image": "http://placehold.it/32x32",
+      "question": "What are the different types of Selectors in CSS?",
+      "answer": "A CSS selector is the part of a CSS ruleset that actually selects the content you want to style. Different types of selectors are listed below.\r\n",
+      "points": [
+         "Universal Selector: The universal selector works like a wildcard character, selecting all elements on a page. In the given example, the provided styles will get applied to all the elements on the page",
+         "Element Type Selector: This selector matches one or more HTML elements of the same name. In the given example, the provided styles will get applied to all the ul elements on the page.",
+         "ID Selector: This selector matches any HTML element that has an ID attribute with the same value as that of the selector. In the given example, the provided styles will get applied to all the elements having ID as a container on the page",
+         "Class Selector: The class selector also matches all elements on the page that have their class attribute set to the same value as the class.  In the given example, the provided styles will get applied to all the elements having ID as the box on the page.",
+         "Descendant Combinator: The descendant selector or, more accurately, the descendant combinator lets you combine two or more selectors so you can be more specific in your selection method.",
+         "Child Combinator: A selector that uses the child combinator is similar to a selector that uses a descendant combinator, except it only targets immediate child elements.",
+         "General Sibling Combinator: A selector that uses a general sibling combinator to match elements based on sibling relationships. The selected elements are beside each other in the HTML.",
+         "Attribute Selector: The attribute selector targets elements based on the presence and/or value of HTML attributes, and is declared using square brackets."
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "634005629f6fa899f46733e9",
+      "index": 4,
+      "image": "http://placehold.it/32x32",
+      "question": "What is a CSS Preprocessor?",
+      "answer": "A CSS Preprocessor is a tool used to extend the basic functionality of default vanilla CSS through its own scripting language. It helps us to use complex logical syntax like – variables, functions, mixins, code nesting, and inheritance to name a few, supercharging your vanilla CSS.\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562c4799b9ae32c97fa",
+      "index": 5,
+      "image": "http://placehold.it/32x32",
+      "question": "What are Sass, Less, and Stylus?",
+      "answer": "",
+      "points": [
+         "SASS: Sass is the acronym for “Syntactically Awesome Style Sheets”. SASS can be written in two different syntaxes using SASS or SCSS",
+         "LESS: LESS is an acronym for “Leaner Stylesheets”. LESS is easy to add to any javascript projects by using NPM or less.js file. It uses the extension .less.",
+         "Stylus: Stylus offers a great deal of flexibility in writing syntax, supports native CSS as well as allows omission of brackets, colons, and semicolons. It doesn’t use @ or $ for defining variables."
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562ca879d31dc26e987",
+      "index": 6,
+      "image": "http://placehold.it/32x32",
+      "question": "What is VH/VW (viewport height/ viewport width) in CSS?",
+      "answer": "It’s a CSS unit used to measure the height and width in percentage with respect to the viewport. It is used mainly in responsive design techniques. The measure VH is equal to 1/100 of the height of the viewport. If the height of the browser is 1000px, 1vh is equal to 10px. Similarly, if the width is 1000px, then 1 vw is equal to 10px\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562e63abdf3d69b4279",
+      "index": 7,
+      "image": "http://placehold.it/32x32",
+      "question": " What is the difference between inline, inline-block, and block?",
+      "answer": "",
+      "points": [
+         "Block Element: The block elements always start on a new line. They will also take space for an entire row or width. List of block elements are <div>, <p>.",
+         "Inline Elements: Inline elements don't start on a new line, they appear on the same line as the content and tags beside them. Some examples of inline elements are <a>, <span> , <strong>, and <img> tags. ",
+         "Inline Block Elements: Inline-block elements are similar to inline elements, except they can have padding and margins and set height and width values"
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "6340056267e6980a2466a80e",
+      "index": 8,
+      "image": "http://placehold.it/32x32",
+      "question": "Is it important to test the webpage in different browsers?",
+      "answer": "It’s most important to test a website in different browsers when you’re first designing it, or when making major changes. However, it’s also important to repeat these tests periodically, since browsers go through a lot of updates and changes.\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562123c328ac3ceb32d",
+      "index": 9,
+      "image": "http://placehold.it/32x32",
+      "question": "What are Pseudo elements and Pseudo classes?",
+      "answer": "Pseudo-elements allows us to create items that do not normally exist in the document tree, for example ::after.\r\n Pseudo-classes select regular elements but under certain conditions like when the user is hovering over the link.",
+      "points": [
+         "::before",
+         "::after",
+         "::first-letter",
+         "::first-line",
+         "::selection"
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "6340056268a8af959e0adf52",
+      "index": 10,
+      "image": "http://placehold.it/32x32",
+      "question": "How do you specify units in the CSS?. What are the different ways to do it?",
+      "answer": "There are different ways to specify units in CSS like px, em, pt, percentage (%). px(Pixel) gives fine-grained control and maintains alignment because 1 px or multiple of 1 px is guaranteed to look sharp. px is not cascade. em maintains relative size. you can have responsive fonts. Em, will cascade 1em is equal to the current font-size of the element or the browser default. If u sent font-size to 16px then 1em = 16px. The common practice is to set default body font-size to 62.5% (equal to 10px).\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562bd7883da453fa8db",
+      "index": 11,
+      "image": "http://placehold.it/32x32",
+      "question": "Does margin-top or margin-bottom have an effect on inline elements",
+      "answer": "No, it doesn’t affect the inline elements. Inline elements flow with the contents of the page\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "6340056286c8e382a08ec86b",
+      "index": 12,
+      "image": "http://placehold.it/32x32",
+      "question": "Can you name the four types of @media properties?",
+      "answer": "The four types of @media properties are:\r\n",
+      "points": [
+         "All → It’s the default property. Used for all media-type devices",
+         "Screen → Used for computer screen, mobile screen.",
+         "Print → Used for printers.",
+         "Speech → Used for screen readers"
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562c00d9db662ae809b",
+      "index": 13,
+      "image": "http://placehold.it/32x32",
+      "question": "What is the grid system?",
+      "answer": "CSS Grid Layout is the most powerful layout system available in CSS. It is said to be a 2-dimensional system, meaning it can handle both columns and rows, unlike flexbox which is largely a 1-dimensional system\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "6340056229fa9940ad654652",
+      "index": 14,
+      "image": "http://placehold.it/32x32",
+      "question": "What are the different ways to hide the element using CSS?",
+      "answer": "\r\n",
+      "points": [
+         "Using display property(display: none). It’s not available for screen readers. The element will not exist in the DOM if display: none is used.",
+         "Using visibility property(visibility: hidden), will take up the space of the element. It will be available to screen reader users. The element will actually be present in the DOM, but not shown on the screen",
+         "Using position property (position: absolute). Make it available outside the screen"
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "634005626e2a4ab6c59c10df",
+      "index": 15,
+      "image": "http://placehold.it/32x32",
+      "question": "What does the :root pseudo-class refer to?",
+      "answer": "The :root selector allows you to target the highest-level “parent” element in the DOM, or document tree. It is defined in the CSS Selectors Level 3 specification\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562f28a426453053032",
+      "index": 16,
+      "image": "http://placehold.it/32x32",
+      "question": "What does Accessibility (a11y) mean?",
+      "answer": "Accessibility refers to how software or hardware combinations are designed to make a system accessible to persons with disabilities, such as visual impairment, hearing loss, or limited dexterity.\r\n",
+      "points": [
+         "For example, a website developed with accessibility in mind might have text-to-speech capabilities. In the USA public websites have to have accessible compliance. It’s defined in 508 compliance. It gives the guidelines and best practices for all website users that should be met with key areas of accessibility"
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "634005627c7d12bd94ebcd56",
+      "index": 17,
+      "image": "http://placehold.it/32x32",
+      "question": "Difference between CSS grid vs flexbox?",
+      "answer": "Aliqua commodo excepteur exercitation minim occaecat ea. Incididunt adipisicing tempor velit dolore nulla qui enim nostrud ad laboris sit. Pariatur nulla incididunt nulla amet ipsum labore. Ullamco mollit quis enim eiusmod elit dolore sint occaecat anim incididunt anim.\r\n",
+      "points": [
+         "CSS Grid Layout is a two-dimensional system, meaning it can handle both columns and rows. Grid layout is intended for larger-scale layouts which aren’t linear in design.",
+         "Flexbox is largely a one-dimensional system (either in a column or a row). Flexbox layout is most appropriate to the components of an application"
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "634005628b60c55324eead8a",
+      "index": 18,
+      "image": "http://placehold.it/32x32",
+      "question": "How does Calc work?",
+      "answer": "The CSS3 calc() function allows us to perform mathematical operations on property values. Instead of declaring, for example, static pixel values for an element's width, we can use calc() to specify that the width is the result of the addition of two or more numeric values.\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562a5e6938ff997f571",
+      "index": 19,
+      "image": "http://placehold.it/32x32",
+      "question": "What do CSS Custom properties variables mean?",
+      "answer": "Custom properties (sometimes referred to as CSS variables or cascading variables) are defined by users that contain specific values to be reused throughout a document. The value is set using -- notion. And the values are accessed using the var() function.\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562ea343d5d0648ba65",
+      "index": 20,
+      "image": "http://placehold.it/32x32",
+      "question": "What is the difference between CSS variables and preprocessor(SASS, LESS, Stylus) variables?",
+      "answer": "\r\n",
+      "points": [
+         "CSS variables can be used without the need for a preprocessor. Currently, all the major browsers support the CSS variables. ",
+         "CSS variable cascade. But the preprocessor variables don’t cascade.",
+         "CSS variable can be accessed and manipulated in javascript."
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "6340056295625eaa96c85b69",
+      "index": 21,
+      "image": "http://placehold.it/32x32",
+      "question": "What does * { box-sizing: border-box; } do? What are its advantages?",
+      "answer": "Exercitation nisi esse consectetur id adipisicing cupidatat do ex ut. Magna exercitation cupidatat sit aute non ut adipisicing culpa veniam aliqua. Esse velit nisi aliquip nulla sit duis ullamco aliqua adipisicing dolore nisi amet quis eiusmod. Nisi anim qui veniam ad aliqua ea amet.\r\n",
+      "points": [
+         "It makes every element in the document include the padding and border in the element’s inner dimension for the height and width computation.  ",
+         "In box-sizing: border-box, The height of an element is now calculated by the content's height + vertical padding + vertical border width.",
+         "The width of an element is now calculated by the content's width + horizontal padding + horizontal border width"
+      ],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "634005625a374052d9b094bc",
+      "index": 22,
+      "image": "http://placehold.it/32x32",
+      "question": "What does !important mean in CSS?",
+      "answer": "The style is having the important will have the highest precedence and it overrides the cascaded property.\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "63400562fc37f6e6ebd55351",
+      "index": 23,
+      "image": "http://placehold.it/32x32",
+      "question": "What is specificity? How to calculate specificity?",
+      "answer": "A process of determining which CSS rule will be applied to an element. It actually determines which rules will take precedence. Inline style usually wins then ID then the class value (or pseudo-class or attribute selector), the universal selector (*) has no specificity. ID selectors have a higher specificity than attribute selectors.\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   },
+   {
+      "_id": "634005627dc5387e3ad472d5",
+      "index": 24,
+      "image": "http://placehold.it/32x32",
+      "question": "What are the advantages of using translate() instead of absolute position?",
+      "answer": "Translate() does not cause the browser to trigger repaint and layout and instead only acts on the compositor. The absolute position triggers the repaint or DOM reflow. So, translate() gives better performance\r\n",
+      "points": [],
+      "images": [],
+      "bulletPoint": []
+   }
 ]

@@ -39,7 +39,7 @@ const Banner = () => {
                             repeat={Infinity} // Repeat this Animation Sequence infinitely
                         />
 
-                        <p className="py-6 px-2 text-sm md:text-base lg:text-lg">As a one-year experienced web developer, I am proficient in HTML5, CSS3, JavaScript, ES6, Bootstrap, Tailwind, Node.js, and MongoDB. I have built full-stack applications and am familiar with design tools like Figma and Adobe XD. I am eager to work in a professional environment where I can continue to build real-life applications and collaborate with experienced developers to grow my skills and deliver high-quality solutions.</p>
+                        <p className="py-6 px-2 text-sm md:text-base lg:text-lg text-gray-200">As a one-year experienced web developer, I am proficient in HTML5, CSS3, JavaScript, ES6, Bootstrap, Tailwind, Node.js, and MongoDB. I have built full-stack applications and am familiar with design tools like Figma and Adobe XD. I am eager to work in a professional environment where I can continue to build real-life applications and collaborate with experienced developers to grow my skills and deliver high-quality solutions.</p>
                         <a
                             href='https://www.upwork.com/freelancers/~0159f5abc1728b3bb0' target="_blank" rel="noreferrer"
                             className="btn btn-accent text-white animate-pulse">Hire Me</a>

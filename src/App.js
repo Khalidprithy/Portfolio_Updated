@@ -1,9 +1,12 @@
+import React from 'react';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import { Route, Routes } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
-import { ReactComponent as MySVG } from "./arrow.svg";
+import { ReactComponent as ScrollToTopIcon } from './arrow.svg';
 import Navbar from './components/Header/Navbar';
+import Footer from './components/Shared/Footer';
+
 import About from './components/Pages/About';
 import AllProjects from './components/Pages/AllProjects';
 import Blog from './components/Pages/Blog';
@@ -17,31 +20,31 @@ import ReactQA from './components/Pages/Blogs/ReactQA';
 import WakeUpBlog from './components/Pages/Blogs/WakeUpBlog';
 import WorkOutBlog from './components/Pages/Blogs/WorkOutBlog';
 import Home from './components/Pages/Home';
-import Footer from './components/Shared/Footer';
-
 
 function App() {
   return (
     <div className='bg-white dark:bg-gray-700 pt-3 overflow-auto'>
       <PerfectScrollbar>
-        <Navbar></Navbar>
-        <Routes>
-          <Route path='/' element={<Home></Home>}></Route>
-          <Route path='/projects' element={<AllProjects></AllProjects>}></Route>
-          <Route path='/about' element={<About></About>}></Route>
-          <Route path='/blog' element={<Blog></Blog>}></Route>
-          <Route path='/html_qa' element={<HtmlQA></HtmlQA>}></Route>
-          <Route path='/css_qa' element={<CssQA></CssQA>}></Route>
-          <Route path='/javascript_qa' element={<JavaScriptQA></JavaScriptQA>}></Route>
-          <Route path='/react_qa' element={<ReactQA></ReactQA>}></Route>
-          <Route path='/mongo_qa' element={<MongoQA></MongoQA>}></Route>
-          <Route path='/node_qa' element={<NodeQA></NodeQA>}></Route>
-          <Route path='/wake_up' element={<WakeUpBlog />}></Route>
-          <Route path='/work_out' element={<WorkOutBlog />}></Route>
-          <Route path='/daily_blog' element={<DailyBlogMERN />}></Route>
-        </Routes>
-        <ScrollToTop smooth component={<MySVG className='animate-pulse p-1 bg-success dark:bg-red-500 rounded-md' />} />
-        <Footer></Footer>
+        <Navbar />
+        <div className='mt-28'>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/projects' element={<AllProjects />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/blog' element={<Blog />} />
+            <Route path='/html_qa' element={<HtmlQA />} />
+            <Route path='/css_qa' element={<CssQA />} />
+            <Route path='/javascript_qa' element={<JavaScriptQA />} />
+            <Route path='/react_qa' element={<ReactQA />} />
+            <Route path='/mongo_qa' element={<MongoQA />} />
+            <Route path='/node_qa' element={<NodeQA />} />
+            <Route path='/wake_up' element={<WakeUpBlog />} />
+            <Route path='/work_out' element={<WorkOutBlog />} />
+            <Route path='/daily_blog' element={<DailyBlogMERN />} />
+          </Routes>
+          <ScrollToTop smooth component={<ScrollToTopIcon className='animate-pulse p-1 bg-success dark:bg-red-500 rounded-md' />} />
+        </div>
+        <Footer />
       </PerfectScrollbar>
     </div>
   );

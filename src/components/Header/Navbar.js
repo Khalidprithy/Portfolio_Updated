@@ -4,18 +4,17 @@ import { BsGear } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-
     const [open, setOpen] = useState(false);
 
     return (
-        <div className='mx-1 md:mx-4'>
+        <div className='fixed top-2 w-full bg-transparent backdrop-blur-sm z-10 px-5'>
             <div
                 onMouseEnter={() => setOpen(true)}
                 onMouseLeave={() => setOpen(false)}
-                className="flex items-center justify-between bg-neutral mb-3 mx-auto h-24 w-12/12 md:w-2/3 lg:1/2 hover:w-full ease-in-out duration-500 rounded-xl text-white">
-                <div className=" text-white">
+                className="flex items-center justify-between bg-neutral mx-auto h-24 md:w-2/3  hover:w-full ease-in-out duration-500 rounded-xl text-white  shadow-lg shadow-red-500">
+                <div className="text-white">
                     <div className="dropdown">
-                        <Link to='/' tabIndex="0" className="text-2xl md:text-4xl font-semibold text-accent px-2 md:px-6 ml-1 flex items-center gap-1">Dev.Kbin <BsGear className='animate-spin text-green-500 block md:hidden lg:block' /></Link>
+                        <Link to='/' tabIndex="0" className="text-2xl md:text-4xl font-semibold text-red-400 px-2 md:px-6 ml-1 flex items-center gap-1">Dev.Kbin <BsGear className='animate-spin text-green-500 block md:hidden lg:block' /></Link>
                         <ul tabIndex="1" className="menu menu-compact dropdown-content mt-10 ml-6 p-2 shadow bg-accent rounded-lg w-48">
                             <Link to='/'><p className='text-left py-2 mx-2 text-white font-semibold'>Home</p></Link>
                             <Link to='/projects'><p className='text-left py-2 mx-2 text-white font-semibold'>Projects</p></Link>

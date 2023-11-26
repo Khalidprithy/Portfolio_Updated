@@ -24,7 +24,7 @@ const Experience = () => {
                         <img className='w-16 hidden rounded-full ring-2 ring-red-600 m-2 md:block' src={RootDev} alt="" />
                         <div className='text-left '>
                             <h4 className='text-lg md:text-2xl lg:text-3xl ease-in-out duration-1000 uppercase'><span className='text-red-500'>Root</span>Devs.</h4>
-                            <h4 className='text-sm md:text-base font-medium text-gray-200'>Junior Software Engineer</h4>
+                            <h4 className='text-sm md:text-base font-medium text-gray-200'>Software Engineer</h4>
                         </div>
                     </div>
                     <div className='text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500'>
@@ -33,7 +33,7 @@ const Experience = () => {
                     </div>
                 </div>
                 <div className={`text-left p-2 `}>
-                    <p className='text-sm lg:text-base'>I am a Junior Software Engineer currently employed at RootDevs, where I work as a full-stack developer as part of the Web Application Development team. Together, we utilize NextJS and NodeJS to create software solutions that provide users with a seamless and enjoyable experience.</p>
+                    <p className='text-sm lg:text-base'>I am an Software Engineer currently employed at RootDev, where I work as a full-stack developer as part of the Web Application Development team. Together, we utilize NextJS and NodeJS to create software solutions that provide users with a seamless and enjoyable experience.</p>
                     <h4 className='text-base text-green-400 font-semibold'>Key Responsibilities</h4>
                     <ul className='text-sm list-disc ml-6'>
                         <li> Develop and maintain the NodeJS server and backend of the Web Application team's software solutions</li>
