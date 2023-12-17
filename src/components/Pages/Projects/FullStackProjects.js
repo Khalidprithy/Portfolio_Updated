@@ -4,6 +4,7 @@ import { CgWebsite } from 'react-icons/cg';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import BloomingBeauty from '../../../images/project/BloomingBeautyMain.png';
+import QrCode from '../../../images/project/QR-Code.jpeg';
 import QuickNote from '../../../images/project/QuickNote.png';
 import TeaTree from '../../../images/project/TeaTreeMain.png';
 import Todo from '../../../images/project/Todo.png';
@@ -12,6 +13,29 @@ import Todo from '../../../images/project/Todo.png';
 const FullStackProjects = () => {
     return (
         <div className='m-2 mb-4'>
+            <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-lg lg:rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
+                <div className='h-[450px] md:h-[500px] lg:h-[600px] overflow-auto overflow-x-hidden shadow-2xl rounded-md mx-auto order-1 md:order-1'>
+                    <PerfectScrollbar>
+                        <img src={QrCode} alt="" className="p-1 rounded-lg" />
+                    </PerfectScrollbar>
+                </div>
+                <div className="text-center my-4 mx-1 md:mx-auto order-2 md:order-2">
+                    <div className="max-w-md text-white">
+                        <p className='text-xl font-semibold'>MERN Stack</p>
+                        <h4 className="text-3xl md:text-3xl lg:text-4xl font-bold text-center text-sky-400">QR-Code Generator</h4>
+                        <p className="py-6 px-2">This is a SAAS application for dynamic QR code generation. User can create different types of QR code with their desired information including images, audio, video, business information, restaurant menu. They also have the freedom to style the QR code with frames, any colors and as well as several design options. They also have full control over the QR validity security and stats.</p>
+                        <ul className='text-left list-disc list-inside'>
+                            <li>Next.js and tailwind css with formik to handle large dynamic forms.</li>
+                            <li>Next Auth for manual or social login.</li>
+                            <li>Express.js server with MongoDB database.</li>
+                        </ul>
+                        <div className="w-full sm:flex-1 grid gap-4 grid-cols-1 md:grid-cols-3 pt-6 mx-auto">
+                            <a href='https://qr-test-frontend.vercel.app/' className="flex items-center border border-green-700 justify-center gap-2 rounded-md font-bold h-8 bg-gray-700 text-white hover:bg-opacity-50" target="_blank" rel="noreferrer"> <CgWebsite className='block md:hidden lg:block'></CgWebsite> Live Site</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="h-fit grid grid-cols-1 md:grid-cols-2 justify-center items-center p-2 bg-neutral rounded-lg lg:rounded-2xl w-full md:w-11/12 lg:w-10/12 mx-auto ease-in-out duration-500 mb-4">
                 <div className="text-center my-4 order-2 md:order-1 mx-1 md:mx-auto">
                     <div className="max-w-md text-white">
